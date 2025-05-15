@@ -1,0 +1,492 @@
+{
+    "id=001": {
+        "recommend": {
+            "name": "하늘공원 봉안당1",
+            "area": "서울",
+            "sub_area": "강남구",
+            "types": [
+                "봉안당"
+            ],
+            "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/d37a5447f9704.jpg",
+            "detailpage_url": "/22/?id=001",
+            "is_recommended": "Y",
+            "price": "1,500,000",
+            "location": {
+                "lat": 37.4979,
+                "lng": 127.0276
+            }
+        },
+        "banner": {
+            "images": [
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 1"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 2"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 3"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 4"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 5"
+                }
+            ]
+        },
+        "summary": {
+            "title": "에덴추모공원1",
+            "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+            "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+        },
+        "detail": {
+            "images": [
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg"
+            ],
+            "info": {
+                "지역": "경기 용인시1",
+                "운영": "사설",
+                "형태": "봉안당(납골당)",
+                "수용능력": "25,000위",
+                "규모": "2,400평",
+                "주차가능": "2,000대"
+            },
+            "price": {
+                "일반실": "500만원~",
+                "특실": "2000만원~"
+            },
+            "facilities": [
+                {
+                    "name": "주차장",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "매점",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                },
+                {
+                    "name": "유족대기실",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "장애인시설",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                }
+            ],
+            "location": {
+                "lat": 37.176241,
+                "lng": 127.211455
+            }
+        }
+    },
+    "id=002": {
+        "recommend": {
+            "name": "하늘공원 봉안당2",
+            "area": "서울",
+            "sub_area": "강남구",
+            "types": [
+                "봉안당"
+            ],
+            "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/d37a5447f9704.jpg",
+            "detailpage_url": "/22/?id=002",
+            "is_recommended": "Y",
+            "price": "1,500,000",
+            "location": {
+                "lat": 37.4979,
+                "lng": 127.0276
+            }
+        },
+        "banner": {
+            "images": [
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 1"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 2"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 3"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 4"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 5"
+                }
+            ]
+        },
+        "summary": {
+            "title": "에덴추모공원2",
+            "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+            "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+        },
+        "detail": {
+            "images": [
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg"
+            ],
+            "info": {
+                "지역": "경기 용인시2",
+                "운영": "사설",
+                "형태": "봉안당(납골당)",
+                "수용능력": "25,000위",
+                "규모": "2,400평",
+                "주차가능": "2,000대"
+            },
+            "price": {
+                "일반실": "500만원~",
+                "특실": "2000만원~"
+            },
+            "facilities": [
+                {
+                    "name": "주차장",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "매점",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                },
+                {
+                    "name": "유족대기실",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "장애인시설",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                }
+            ],
+            "location": {
+                "lat": 37.176241,
+                "lng": 127.211455
+            }
+        }
+    },
+    "id=003": {
+        "recommend": {
+            "name": "하늘공원 봉안당",
+            "area": "서울",
+            "sub_area": "강남구",
+            "types": [
+                "봉안당"
+            ],
+            "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/d37a5447f9704.jpg",
+            "detailpage_url": "/22/id=001",
+            "is_recommended": "Y",
+            "price": "1,500,000",
+            "location": {
+                "lat": 37.4979,
+                "lng": 127.0276
+            }
+        },
+        "banner": {
+            "images": [
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 1"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 2"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 3"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 4"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 5"
+                }
+            ]
+        },
+        "summary": {
+            "title": "에덴추모공원",
+            "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+            "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+        },
+        "detail": {
+            "images": [
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg"
+            ],
+            "info": {
+                "지역": "경기 용인시",
+                "운영": "사설",
+                "형태": "봉안당(납골당)",
+                "수용능력": "25,000위",
+                "규모": "2,400평",
+                "주차가능": "2,000대"
+            },
+            "price": {
+                "일반실": "500만원~",
+                "특실": "2000만원~"
+            },
+            "facilities": [
+                {
+                    "name": "주차장",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "매점",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                },
+                {
+                    "name": "유족대기실",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "장애인시설",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                }
+            ],
+            "location": {
+                "lat": 37.176241,
+                "lng": 127.211455
+            }
+        }
+    },
+    "id=004": {
+        "recommend": {
+            "name": "하늘공원 봉안당",
+            "area": "서울",
+            "sub_area": "강남구",
+            "types": [
+                "봉안당"
+            ],
+            "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/d37a5447f9704.jpg",
+            "detailpage_url": "/22/id=001",
+            "is_recommended": "Y",
+            "price": "1,500,000",
+            "location": {
+                "lat": 37.4979,
+                "lng": 127.0276
+            }
+        },
+        "banner": {
+            "images": [
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 1"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 2"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 3"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 4"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 5"
+                }
+            ]
+        },
+        "summary": {
+            "title": "에덴추모공원",
+            "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+            "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+        },
+        "detail": {
+            "images": [
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg"
+            ],
+            "info": {
+                "지역": "경기 용인시",
+                "운영": "사설",
+                "형태": "봉안당(납골당)",
+                "수용능력": "25,000위",
+                "규모": "2,400평",
+                "주차가능": "2,000대"
+            },
+            "price": {
+                "일반실": "500만원~",
+                "특실": "2000만원~"
+            },
+            "facilities": [
+                {
+                    "name": "주차장",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "매점",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                },
+                {
+                    "name": "유족대기실",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "장애인시설",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                }
+            ],
+            "location": {
+                "lat": 37.176241,
+                "lng": 127.211455
+            }
+        }
+    },
+    "id=005": {
+        "recommend": {
+            "name": "하늘공원 봉안당",
+            "area": "서울",
+            "sub_area": "강남구",
+            "types": [
+                "봉안당"
+            ],
+            "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/d37a5447f9704.jpg",
+            "detailpage_url": "/22/id=001",
+            "is_recommended": "Y",
+            "price": "1,500,000",
+            "location": {
+                "lat": 37.4979,
+                "lng": 127.0276
+            }
+        },
+        "banner": {
+            "images": [
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 1"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 2"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 3"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 4"
+                },
+                {
+                    "src": "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                    "alt": "배너 이미지 5"
+                }
+            ]
+        },
+        "summary": {
+            "title": "에덴추모공원",
+            "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+            "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+        },
+        "detail": {
+            "images": [
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg",
+                "https://img.cheotjang.com/20230710/aws_eRywXopBjASuWJs.jpg"
+            ],
+            "info": {
+                "지역": "경기 용인시",
+                "운영": "사설",
+                "형태": "봉안당(납골당)",
+                "수용능력": "25,000위",
+                "규모": "2,400평",
+                "주차가능": "2,000대"
+            },
+            "price": {
+                "일반실": "500만원~",
+                "특실": "2000만원~"
+            },
+            "facilities": [
+                {
+                    "name": "주차장",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "매점",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                },
+                {
+                    "name": "유족대기실",
+                    "icon": "/images/facility_parking.png",
+                    "active": true
+                },
+                {
+                    "name": "장애인시설",
+                    "icon": "/images/facility_store.png",
+                    "active": true
+                }
+            ],
+            "location": {
+                "lat": 37.176241,
+                "lng": 127.211455
+            }
+        }
+    }
+}
