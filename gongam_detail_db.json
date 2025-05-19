@@ -805,12 +805,12 @@
         {
           "name": "유족대기실",
           "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
-          "active": true
+          "active": false
         },
         {
           "name": "장애인시설",
           "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
-          "active": true
+          "active": false
         }
       ],
       "location": {
