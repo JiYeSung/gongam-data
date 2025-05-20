@@ -1,931 +1,756 @@
 {
-  "id=001": {
-    "recommend": {
-      "name": "장지1",
-      "area": "대전",
-      "sub_area": "서초구",
-      "types": [
-        "수목장"
-      ],
-      "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
-      "detailpage_url": "/detail/?id=001",
-      "is_recommended": "Y",
-      "price": "2,990,000",
-      "location": {
-        "lat": 37.4979,
-        "lng": 127.0276
-      }
-    },
-    "banner": {
-      "images": [
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
-          "alt": "배너 이미지 1"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
-          "alt": "배너 이미지 2"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
-          "alt": "배너 이미지 3"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
-          "alt": "배너 이미지 4"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
-          "alt": "배너 이미지 5"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/43a31812c11ce.jpg",
-          "alt": "배너 이미지 6"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/bb4eeaa9b6020.jpg",
-          "alt": "배너 이미지 7"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0b7a798d32703.jpg",
-          "alt": "배너 이미지 8"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4d5e04d10474e.jpg",
-          "alt": "배너 이미지 9"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/10b4bbb544253.jpg",
-          "alt": "배너 이미지 10"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c9a85137094f9.jpg",
-          "alt": "배너 이미지 11"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c60014f236112.jpg",
-          "alt": "배너 이미지 12"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/633c2e33dce7a.jpg",
-          "alt": "배너 이미지 13"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5393d77722909.jpg",
-          "alt": "배너 이미지 14"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0f9c65eebd980.jpg",
-          "alt": "배너 이미지 15"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/468bed0ee54ff.jpg",
-          "alt": "배너 이미지 16"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f737e74e844a7.jpg",
-          "alt": "배너 이미지 17"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/1be6379bd279d.jpg",
-          "alt": "배너 이미지 18"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f6bfa47134211.jpg",
-          "alt": "배너 이미지 19"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/182d7ce410978.jpg",
-          "alt": "배너 이미지 20"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/eec38e0a9b91a.jpg",
-          "alt": "배너 이미지 21"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f222b90a57ba3.jpg",
-          "alt": "배너 이미지 22"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/914d88b22f255.jpg",
-          "alt": "배너 이미지 23"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/7d44def861fda.jpg",
-          "alt": "배너 이미지 24"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/60dee053e330e.jpg",
-          "alt": "배너 이미지 25"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c0bd786b27f10.jpg",
-          "alt": "배너 이미지 26"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/dab909bd242b2.jpg",
-          "alt": "배너 이미지 27"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/03def7c9d0b3d.jpg",
-          "alt": "배너 이미지 28"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4ba9a665eaa68.jpg",
-          "alt": "배너 이미지 29"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ba9686c5af3.jpg",
-          "alt": "배너 이미지 30"
-        }
-      ]
+  "001": {
+    "name": "장지1",
+    "area": "대전",
+    "sub_area": "서초구",
+    "types": [
+      "수목장"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "2,990,000",
+    "detailpage_url": "/detail/?id=001",
+    "is_recommended": true,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
     },
     "summary": {
       "title": "장지1",
       "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
-    "detail": {
-      "images": [
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/43a31812c11ce.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/bb4eeaa9b6020.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/0b7a798d32703.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/4d5e04d10474e.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/10b4bbb544253.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c9a85137094f9.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c60014f236112.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/633c2e33dce7a.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/5393d77722909.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/0f9c65eebd980.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/468bed0ee54ff.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/f737e74e844a7.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/1be6379bd279d.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/f6bfa47134211.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/182d7ce410978.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/eec38e0a9b91a.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/f222b90a57ba3.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/914d88b22f255.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/7d44def861fda.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/60dee053e330e.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c0bd786b27f10.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/dab909bd242b2.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/03def7c9d0b3d.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/4ba9a665eaa68.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/70ba9686c5af3.jpg"
-      ],
-      "info": {
-        "지역": "대전 서초구",
-        "운영": "사설",
-        "형태": "봉안당(납골당)",
-        "수용능력": "25,000위",
-        "규모": "2,400평",
-        "주차가능": "2,000대"
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
       },
-      "price": {
-        "일반실": "500만원~",
-        "특실": "2000만원~"
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
       },
-      "facilities": [
-        {
-          "name": "주차장",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
-          "active": true
-        },
-        {
-          "name": "매점",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
-          "active": true
-        },
-        {
-          "name": "유족대기실",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
-          "active": true
-        },
-        {
-          "name": "장애인시설",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
-          "active": true
-        }
-      ],
-      "location": {
-        "lat": 37.176241,
-        "lng": 127.211455
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/43a31812c11ce.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/bb4eeaa9b6020.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0b7a798d32703.jpg",
+        "alt": "배너 이미지 8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4d5e04d10474e.jpg",
+        "alt": "배너 이미지 9"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/10b4bbb544253.jpg",
+        "alt": "배너 이미지 10"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c9a85137094f9.jpg",
+        "alt": "배너 이미지 11"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c60014f236112.jpg",
+        "alt": "배너 이미지 12"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/633c2e33dce7a.jpg",
+        "alt": "배너 이미지 13"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5393d77722909.jpg",
+        "alt": "배너 이미지 14"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0f9c65eebd980.jpg",
+        "alt": "배너 이미지 15"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/468bed0ee54ff.jpg",
+        "alt": "배너 이미지 16"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f737e74e844a7.jpg",
+        "alt": "배너 이미지 17"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/1be6379bd279d.jpg",
+        "alt": "배너 이미지 18"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f6bfa47134211.jpg",
+        "alt": "배너 이미지 19"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/182d7ce410978.jpg",
+        "alt": "배너 이미지 20"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/eec38e0a9b91a.jpg",
+        "alt": "배너 이미지 21"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f222b90a57ba3.jpg",
+        "alt": "배너 이미지 22"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/914d88b22f255.jpg",
+        "alt": "배너 이미지 23"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/7d44def861fda.jpg",
+        "alt": "배너 이미지 24"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/60dee053e330e.jpg",
+        "alt": "배너 이미지 25"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c0bd786b27f10.jpg",
+        "alt": "배너 이미지 26"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/dab909bd242b2.jpg",
+        "alt": "배너 이미지 27"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/03def7c9d0b3d.jpg",
+        "alt": "배너 이미지 28"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4ba9a665eaa68.jpg",
+        "alt": "배너 이미지 29"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ba9686c5af3.jpg",
+        "alt": "배너 이미지 30"
       }
-    }
-  },
-  "id=002": {
-    "recommend": {
-      "name": "장지2",
-      "area": "인천",
-      "sub_area": "용인시",
-      "types": [
-        "공원묘지"
-      ],
-      "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/3c1fdb6ad805c.jpg",
-      "detailpage_url": "/detail/?id=002",
-      "is_recommended": "N",
-      "price": "1,770,000",
-      "location": {
-        "lat": 37.4979,
-        "lng": 127.0276
-      }
+    ],
+    "info": {
+      "지역": "대전 서초구",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
     },
-    "banner": {
-      "images": [
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3c1fdb6ad805c.jpg",
-          "alt": "배너 이미지 1"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/a2734315741f1.jpg",
-          "alt": "배너 이미지 2"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d79dbe1cd9f07.jpg",
-          "alt": "배너 이미지 3"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/535cbaadd58ab.jpg",
-          "alt": "배너 이미지 4"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/ee45cdac12881.jpg",
-          "alt": "배너 이미지 5"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/cb4e73beb3dec.jpg",
-          "alt": "배너 이미지 6"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/789c34d2f7d94.jpg",
-          "alt": "배너 이미지 7"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c78a3bd2783ab.jpg",
-          "alt": "배너 이미지 8"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5699cc1367063.jpg",
-          "alt": "배너 이미지 9"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e2630a249498b.jpg",
-          "alt": "배너 이미지 10"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/721705f4e10c7.jpg",
-          "alt": "배너 이미지 11"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9d4a2dffa5e10.jpg",
-          "alt": "배너 이미지 12"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/08d1f59910c5c.jpg",
-          "alt": "배너 이미지 13"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9ab9ec6b5105b.jpg",
-          "alt": "배너 이미지 14"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/062969b032468.jpg",
-          "alt": "배너 이미지 15"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0bd84e28ce142.jpg",
-          "alt": "배너 이미지 16"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/cdc93407e410a.jpg",
-          "alt": "배너 이미지 17"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/835a9fd0326f5.jpg",
-          "alt": "배너 이미지 18"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9a5c7486d3c08.jpg",
-          "alt": "배너 이미지 19"
-        }
-      ]
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
+        "active": true
+      }
+    ]
+  },
+  "002": {
+    "name": "장지2",
+    "area": "인천",
+    "sub_area": "용인시",
+    "types": [
+      "공원묘지"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/3c1fdb6ad805c.jpg",
+    "price": "1,770,000",
+    "detailpage_url": "/detail/?id=002",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
     },
     "summary": {
       "title": "장지2",
       "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
-    "detail": {
-      "images": [
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/3c1fdb6ad805c.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/a2734315741f1.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/d79dbe1cd9f07.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/535cbaadd58ab.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/ee45cdac12881.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/cb4e73beb3dec.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/789c34d2f7d94.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c78a3bd2783ab.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/5699cc1367063.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/e2630a249498b.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/721705f4e10c7.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/9d4a2dffa5e10.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/08d1f59910c5c.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/9ab9ec6b5105b.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/062969b032468.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/0bd84e28ce142.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/cdc93407e410a.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/835a9fd0326f5.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/9a5c7486d3c08.jpg"
-      ],
-      "info": {
-        "지역": "인천 용인시",
-        "운영": "사설",
-        "형태": "봉안당(납골당)",
-        "수용능력": "25,000위",
-        "규모": "2,400평",
-        "주차가능": "2,000대"
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3c1fdb6ad805c.jpg",
+        "alt": "배너 이미지 1"
       },
-      "price": {
-        "일반실": "500만원~",
-        "특실": "2000만원~"
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/a2734315741f1.jpg",
+        "alt": "배너 이미지 2"
       },
-      "facilities": [
-        {
-          "name": "주차장",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
-          "active": true
-        },
-        {
-          "name": "매점",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
-          "active": true
-        },
-        {
-          "name": "유족대기실",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
-          "active": true
-        },
-        {
-          "name": "장애인시설",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
-          "active": true
-        }
-      ],
-      "location": {
-        "lat": 37.176241,
-        "lng": 127.211455
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d79dbe1cd9f07.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/535cbaadd58ab.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/ee45cdac12881.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/cb4e73beb3dec.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/789c34d2f7d94.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c78a3bd2783ab.jpg",
+        "alt": "배너 이미지 8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5699cc1367063.jpg",
+        "alt": "배너 이미지 9"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e2630a249498b.jpg",
+        "alt": "배너 이미지 10"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/721705f4e10c7.jpg",
+        "alt": "배너 이미지 11"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9d4a2dffa5e10.jpg",
+        "alt": "배너 이미지 12"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/08d1f59910c5c.jpg",
+        "alt": "배너 이미지 13"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9ab9ec6b5105b.jpg",
+        "alt": "배너 이미지 14"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/062969b032468.jpg",
+        "alt": "배너 이미지 15"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0bd84e28ce142.jpg",
+        "alt": "배너 이미지 16"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/cdc93407e410a.jpg",
+        "alt": "배너 이미지 17"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/835a9fd0326f5.jpg",
+        "alt": "배너 이미지 18"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9a5c7486d3c08.jpg",
+        "alt": "배너 이미지 19"
       }
-    }
-  },
-  "id=003": {
-    "recommend": {
-      "name": "장지3",
-      "area": "대전",
-      "sub_area": "분당구",
-      "types": [
-        "공원묘지"
-      ],
-      "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c2413b8a54150.jpg",
-      "detailpage_url": "/detail/?id=003",
-      "is_recommended": "Y",
-      "price": "2,900,000",
-      "location": {
-        "lat": 37.4979,
-        "lng": 127.0276
-      }
+    ],
+    "info": {
+      "지역": "인천 용인시",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
     },
-    "banner": {
-      "images": [
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c2413b8a54150.jpg",
-          "alt": "배너 이미지 1"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5d0ad38d41da1.jpg",
-          "alt": "배너 이미지 2"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9732515997114.jpg",
-          "alt": "배너 이미지 3"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/1d911429747ad.jpg",
-          "alt": "배너 이미지 4"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/a65f883f90260.jpg",
-          "alt": "배너 이미지 5"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/a8c52f03bce2c.jpg",
-          "alt": "배너 이미지 6"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d45c17672c9f2.jpg",
-          "alt": "배너 이미지 7"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/960e473a10cd4.jpg",
-          "alt": "배너 이미지 8"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/b4175b1029bbc.jpg",
-          "alt": "배너 이미지 9"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8240cb3d5c359.jpg",
-          "alt": "배너 이미지 10"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/7320dff6ab859.jpg",
-          "alt": "배너 이미지 11"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/ce71892723187.jpg",
-          "alt": "배너 이미지 12"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/38d0cb7b7d0b6.jpg",
-          "alt": "배너 이미지 13"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/36a69fc07d720.jpg",
-          "alt": "배너 이미지 14"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/6d20bf1ae4e59.jpg",
-          "alt": "배너 이미지 15"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/886298016e7a3.jpg",
-          "alt": "배너 이미지 16"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/22ff5097c8c39.jpg",
-          "alt": "배너 이미지 17"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0e50719c6de13.jpg",
-          "alt": "배너 이미지 18"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5e89b378b0bc9.jpg",
-          "alt": "배너 이미지 19"
-        }
-      ]
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
+        "active": true
+      }
+    ]
+  },
+  "003": {
+    "name": "장지3",
+    "area": "대전",
+    "sub_area": "분당구",
+    "types": [
+      "공원묘지"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c2413b8a54150.jpg",
+    "price": "2,900,000",
+    "detailpage_url": "/detail/?id=003",
+    "is_recommended": true,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
     },
     "summary": {
       "title": "장지3",
       "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
-    "detail": {
-      "images": [
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c2413b8a54150.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/5d0ad38d41da1.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/9732515997114.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/1d911429747ad.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/a65f883f90260.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/a8c52f03bce2c.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/d45c17672c9f2.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/960e473a10cd4.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/b4175b1029bbc.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/8240cb3d5c359.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/7320dff6ab859.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/ce71892723187.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/38d0cb7b7d0b6.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/36a69fc07d720.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/6d20bf1ae4e59.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/886298016e7a3.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/22ff5097c8c39.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/0e50719c6de13.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/5e89b378b0bc9.jpg"
-      ],
-      "info": {
-        "지역": "대전 분당구",
-        "운영": "사설",
-        "형태": "봉안당(납골당)",
-        "수용능력": "25,000위",
-        "규모": "2,400평",
-        "주차가능": "2,000대"
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c2413b8a54150.jpg",
+        "alt": "배너 이미지 1"
       },
-      "price": {
-        "일반실": "500만원~",
-        "특실": "2000만원~"
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5d0ad38d41da1.jpg",
+        "alt": "배너 이미지 2"
       },
-      "facilities": [
-        {
-          "name": "주차장",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
-          "active": true
-        },
-        {
-          "name": "매점",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
-          "active": true
-        },
-        {
-          "name": "유족대기실",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
-          "active": true
-        },
-        {
-          "name": "장애인시설",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
-          "active": true
-        }
-      ],
-      "location": {
-        "lat": 37.176241,
-        "lng": 127.211455
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/9732515997114.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/1d911429747ad.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/a65f883f90260.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/a8c52f03bce2c.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d45c17672c9f2.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/960e473a10cd4.jpg",
+        "alt": "배너 이미지 8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/b4175b1029bbc.jpg",
+        "alt": "배너 이미지 9"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8240cb3d5c359.jpg",
+        "alt": "배너 이미지 10"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/7320dff6ab859.jpg",
+        "alt": "배너 이미지 11"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/ce71892723187.jpg",
+        "alt": "배너 이미지 12"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/38d0cb7b7d0b6.jpg",
+        "alt": "배너 이미지 13"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/36a69fc07d720.jpg",
+        "alt": "배너 이미지 14"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/6d20bf1ae4e59.jpg",
+        "alt": "배너 이미지 15"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/886298016e7a3.jpg",
+        "alt": "배너 이미지 16"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/22ff5097c8c39.jpg",
+        "alt": "배너 이미지 17"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0e50719c6de13.jpg",
+        "alt": "배너 이미지 18"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/5e89b378b0bc9.jpg",
+        "alt": "배너 이미지 19"
       }
-    }
-  },
-  "id=004": {
-    "recommend": {
-      "name": "장지4",
-      "area": "인천",
-      "sub_area": "서초구",
-      "types": [
-        "봉안당"
-      ],
-      "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/e91359f39bb30.jpg",
-      "detailpage_url": "/detail/?id=004",
-      "is_recommended": "Y",
-      "price": "1,860,000",
-      "location": {
-        "lat": 37.4979,
-        "lng": 127.0276
-      }
+    ],
+    "info": {
+      "지역": "대전 분당구",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
     },
-    "banner": {
-      "images": [
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e91359f39bb30.jpg",
-          "alt": "배너 이미지 1"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/94eec329989c9.jpg",
-          "alt": "배너 이미지 2"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/7c805737a080f.jpg",
-          "alt": "배너 이미지 3"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0ea6b47e60194.jpg",
-          "alt": "배너 이미지 4"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/05c8ed71038b7.jpg",
-          "alt": "배너 이미지 5"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/1b873cd916cac.jpg",
-          "alt": "배너 이미지 6"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/58d3bee3ed2d8.jpg",
-          "alt": "배너 이미지 7"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c62de1e5648fd.jpg",
-          "alt": "배너 이미지 8"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/aa50117ba9bec.jpg",
-          "alt": "배너 이미지 9"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/aa86fbfe1488e.jpg",
-          "alt": "배너 이미지 10"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8476517ee3a74.jpg",
-          "alt": "배너 이미지 11"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/aca5ff84dbbb2.jpg",
-          "alt": "배너 이미지 12"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c2fe238e766a7.jpg",
-          "alt": "배너 이미지 13"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8fde6a6e7d308.jpg",
-          "alt": "배너 이미지 14"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3e5700e45e2a4.jpg",
-          "alt": "배너 이미지 15"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/dfd1bbd6c30ff.jpg",
-          "alt": "배너 이미지 16"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/af2953121523e.jpg",
-          "alt": "배너 이미지 17"
-        }
-      ]
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
+        "active": true
+      }
+    ]
+  },
+  "004": {
+    "name": "장지4",
+    "area": "인천",
+    "sub_area": "서초구",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/e91359f39bb30.jpg",
+    "price": "1,860,000",
+    "detailpage_url": "/detail/?id=004",
+    "is_recommended": true,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
     },
     "summary": {
       "title": "장지4",
       "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
-    "detail": {
-      "images": [
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/e91359f39bb30.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/94eec329989c9.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/7c805737a080f.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/0ea6b47e60194.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/05c8ed71038b7.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/1b873cd916cac.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/58d3bee3ed2d8.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c62de1e5648fd.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/aa50117ba9bec.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/aa86fbfe1488e.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/8476517ee3a74.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/aca5ff84dbbb2.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c2fe238e766a7.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/8fde6a6e7d308.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/3e5700e45e2a4.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/dfd1bbd6c30ff.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/af2953121523e.jpg"
-      ],
-      "info": {
-        "지역": "인천 서초구",
-        "운영": "사설",
-        "형태": "봉안당(납골당)",
-        "수용능력": "25,000위",
-        "규모": "2,400평",
-        "주차가능": "2,000대"
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e91359f39bb30.jpg",
+        "alt": "배너 이미지 1"
       },
-      "price": {
-        "일반실": "500만원~",
-        "특실": "2000만원~"
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/94eec329989c9.jpg",
+        "alt": "배너 이미지 2"
       },
-      "facilities": [
-        {
-          "name": "주차장",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
-          "active": true
-        },
-        {
-          "name": "매점",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
-          "active": true
-        },
-        {
-          "name": "유족대기실",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
-          "active": true
-        },
-        {
-          "name": "장애인시설",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
-          "active": true
-        }
-      ],
-      "location": {
-        "lat": 37.176241,
-        "lng": 127.211455
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/7c805737a080f.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0ea6b47e60194.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/05c8ed71038b7.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/1b873cd916cac.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/58d3bee3ed2d8.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c62de1e5648fd.jpg",
+        "alt": "배너 이미지 8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/aa50117ba9bec.jpg",
+        "alt": "배너 이미지 9"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/aa86fbfe1488e.jpg",
+        "alt": "배너 이미지 10"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8476517ee3a74.jpg",
+        "alt": "배너 이미지 11"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/aca5ff84dbbb2.jpg",
+        "alt": "배너 이미지 12"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c2fe238e766a7.jpg",
+        "alt": "배너 이미지 13"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8fde6a6e7d308.jpg",
+        "alt": "배너 이미지 14"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3e5700e45e2a4.jpg",
+        "alt": "배너 이미지 15"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/dfd1bbd6c30ff.jpg",
+        "alt": "배너 이미지 16"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/af2953121523e.jpg",
+        "alt": "배너 이미지 17"
       }
-    }
-  },
-  "id=005": {
-    "recommend": {
-      "name": "하늘공원 봉안당5",
-      "area": "서울",
-      "sub_area": "강남구",
-      "types": [
-        "수목장"
-      ],
-      "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/86179ae8818ad.jpg",
-      "detailpage_url": "/detail/?id=005",
-      "is_recommended": "N",
-      "price": "2,410,000",
-      "location": {
-        "lat": 37.4979,
-        "lng": 127.0276
-      }
+    ],
+    "info": {
+      "지역": "인천 서초구",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
     },
-    "banner": {
-      "images": [
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/86179ae8818ad.jpg",
-          "alt": "배너 이미지 1"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/68c26c53c0892.jpg",
-          "alt": "배너 이미지 2"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/b2ed6f4509b7c.jpg",
-          "alt": "배너 이미지 3"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8348d087d3438.jpg",
-          "alt": "배너 이미지 4"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0db72e9718601.jpg",
-          "alt": "배너 이미지 5"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/58a13aebb1a11.jpg",
-          "alt": "배너 이미지 6"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/2ccaf3b8b99a7.jpg",
-          "alt": "배너 이미지 7"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/af7eb92a0b902.jpg",
-          "alt": "배너 이미지 8"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/20acafda3d0f3.jpg",
-          "alt": "배너 이미지 9"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/950bf6a065f14.jpg",
-          "alt": "배너 이미지 10"
-        }
-      ]
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
+        "active": true
+      }
+    ]
+  },
+  "005": {
+    "name": "하늘공원 봉안당5",
+    "area": "서울",
+    "sub_area": "강남구",
+    "types": [
+      "수목장"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/86179ae8818ad.jpg",
+    "price": "2,410,000",
+    "detailpage_url": "/detail/?id=005",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
     },
     "summary": {
       "title": "장지5",
       "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
-    "detail": {
-      "images": [
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/86179ae8818ad.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/68c26c53c0892.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/b2ed6f4509b7c.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/8348d087d3438.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/0db72e9718601.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/58a13aebb1a11.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/2ccaf3b8b99a7.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/af7eb92a0b902.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/20acafda3d0f3.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/950bf6a065f14.jpg"
-      ],
-      "info": {
-        "지역": "서울 강남구",
-        "운영": "사설",
-        "형태": "봉안당(납골당)",
-        "수용능력": "25,000위",
-        "규모": "2,400평",
-        "주차가능": "2,000대"
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/86179ae8818ad.jpg",
+        "alt": "배너 이미지 1"
       },
-      "price": {
-        "일반실": "500만원~",
-        "특실": "2000만원~"
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/68c26c53c0892.jpg",
+        "alt": "배너 이미지 2"
       },
-      "facilities": [
-        {
-          "name": "주차장",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
-          "active": true
-        },
-        {
-          "name": "매점",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
-          "active": true
-        },
-        {
-          "name": "유족대기실",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
-          "active": false
-        },
-        {
-          "name": "장애인시설",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
-          "active": false
-        }
-      ],
-      "location": {
-        "lat": 37.176241,
-        "lng": 127.211455
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/b2ed6f4509b7c.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/8348d087d3438.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/0db72e9718601.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/58a13aebb1a11.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/2ccaf3b8b99a7.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/af7eb92a0b902.jpg",
+        "alt": "배너 이미지 8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/20acafda3d0f3.jpg",
+        "alt": "배너 이미지 9"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/950bf6a065f14.jpg",
+        "alt": "배너 이미지 10"
       }
-    }
-  },
-  "id=006": {
-    "recommend": {
-      "name": "장지6",
-      "area": "대전",
-      "sub_area": "용인시",
-      "types": [
-        "수목장"
-      ],
-      "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
-      "detailpage_url": "/detail/?id=006",
-      "is_recommended": "Y",
-      "price": "1,690,000",
-      "location": {
-        "lat": 37.4979,
-        "lng": 127.0276
-      }
+    ],
+    "info": {
+      "지역": "서울 강남구",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
     },
-    "banner": {
-      "images": [
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
-          "alt": "배너 이미지 1"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e1762c9b24ccc.jpg",
-          "alt": "배너 이미지 2"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e05f53e9679cc.jpg",
-          "alt": "배너 이미지 3"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3dd834c87168a.jpg",
-          "alt": "배너 이미지 4"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f4d3ff95f15e2.jpg",
-          "alt": "배너 이미지 5"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f8cf447645a86.jpg",
-          "alt": "배너 이미지 6"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/578b9f076127b.jpg",
-          "alt": "배너 이미지 7"
-        },
-        {
-          "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e5dafd8a90692.jpg",
-          "alt": "배너 이미지 8"
-        }
-      ]
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
+        "active": false
+      },
+      {
+        "name": "장애인시설",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
+        "active": false
+      }
+    ]
+  },
+  "006": {
+    "name": "장지6",
+    "area": "대전",
+    "sub_area": "용인시",
+    "types": [
+      "수목장"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
+    "price": "1,690,000",
+    "detailpage_url": "/detail/?id=006",
+    "is_recommended": true,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
     },
     "summary": {
       "title": "장지6",
       "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
-    "detail": {
-      "images": [
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/e1762c9b24ccc.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/e05f53e9679cc.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/3dd834c87168a.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/f4d3ff95f15e2.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/f8cf447645a86.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/578b9f076127b.jpg",
-        "https://cdn.imweb.me/upload/S2025050784215345d6198/e5dafd8a90692.jpg"
-      ],
-      "info": {
-        "지역": "대전 용인시",
-        "운영": "사설",
-        "형태": "봉안당(납골당)",
-        "수용능력": "25,000위",
-        "규모": "2,400평",
-        "주차가능": "2,000대"
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
+        "alt": "배너 이미지 1"
       },
-      "price": {
-        "일반실": "500만원~",
-        "특실": "2000만원~"
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e1762c9b24ccc.jpg",
+        "alt": "배너 이미지 2"
       },
-      "facilities": [
-        {
-          "name": "주차장",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
-          "active": true
-        },
-        {
-          "name": "매점",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
-          "active": true
-        },
-        {
-          "name": "유족대기실",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
-          "active": true
-        },
-        {
-          "name": "장애인시설",
-          "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
-          "active": true
-        }
-      ],
-      "location": {
-        "lat": 37.176241,
-        "lng": 127.211455
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e05f53e9679cc.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3dd834c87168a.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f4d3ff95f15e2.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f8cf447645a86.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/578b9f076127b.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e5dafd8a90692.jpg",
+        "alt": "배너 이미지 8"
       }
-    }
+    ],
+    "info": {
+      "지역": "대전 용인시",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
+    },
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7f0708ee13ee1.png",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/7998678366920.png",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/a3de228fb2279.png",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "icon": "https://cdn.imweb.me/upload/S2025050784215345d6198/bd802f72c8e14.png",
+        "active": true
+      }
+    ]
   }
 }
