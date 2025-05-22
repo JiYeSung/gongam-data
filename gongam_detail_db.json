@@ -805,7 +805,7 @@
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
     "price": "5,000,000원~",
     "detailpage_url": "/detail/?id=008",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": 37.4979,
       "lng": 127.0276
@@ -876,7 +876,7 @@
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
     "price": "2,000,000원~",
     "detailpage_url": "/detail/?id=009",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": 37.4979,
       "lng": 127.0276
@@ -947,7 +947,7 @@
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
     "price": "1,500,000원~",
     "detailpage_url": "/detail/?id=010",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": 37.4979,
       "lng": 127.0276
