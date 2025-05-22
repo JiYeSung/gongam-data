@@ -144,7 +144,7 @@
     "info": {
       "지역": "경기 남양주",
       "운영": "사설",
-      "형태": "봉안당(납골당)",
+      "형태": "봉안당",
       "수용능력": "25,000위",
       "규모": "2,400평",
       "주차가능": "2,000대"
@@ -177,10 +177,10 @@
     "area": "경기도",
     "sub_area": "양평군",
     "types": [
-      "수목장", "잔디장", "봉안당", "봉안묘", "매장묘"
+      "봉안당"
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/3c1fdb6ad805c.jpg",
-    "price": "2,000,000",
+    "price": "1,500,000",
     "detailpage_url": "/detail/?id=002",
     "is_recommended": false,
     "location": {
@@ -188,8 +188,8 @@
       "lng": 127.0276
     },
     "summary": {
-      "title": "장지2",
-      "description": "총면적 33m2(10만평)이상의 넓은 대지에 북한강이 내려다 보이는 수려한 경관과 온종일 해가 드는 최고의 일광조건 서운 동부권에서 30분대 진입 가능한 산좋고 물좋은 명당 중에 명당",
+      "title": "가람추모관",
+      "description": "남한강과 북한강이 만나며 사계절을 바로 느끼는 천혜의 명당.  북한강의 아름다운 물안개와 자연의 운치가 어울어진곳. 서울 강동,송파에서 30-40분대 접근가능",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
     "detail_images": [
@@ -273,15 +273,12 @@
     "info": {
       "지역": "경기 양평군",
       "운영": "사설",
-      "형태": "수목장, 잔디장, 봉안당, 봉안묘(가족형), 매장묘",
+      "형태": "봉안당",
       "규모": "100,000평"
     },
     "price_table": {
-      "수목장" : "700만원~ ",
-      "잔디장" : "200만원~ ",
-      "봉안담" : "300만원~",
-      "봉안묘/매장묘" : "별도문의"
-
+      "개인단": "150만원~ ",
+      "부부단": "300만원~ "
     },
     "facilities": [
       {
@@ -303,14 +300,14 @@
     ]
   },
   "003": {
-    "name": "장지3",
-    "area": "대전",
-    "sub_area": "분당구",
+    "name": "성불사 자인당",
+    "area": "경기도",
+    "sub_area": "가평군",
     "types": [
-      "공원묘지"
+      "봉안당"
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c2413b8a54150.jpg",
-    "price": "2,900,000",
+    "price": "1,500,000",
     "detailpage_url": "/detail/?id=003",
     "is_recommended": true,
     "location": {
@@ -318,8 +315,8 @@
       "lng": 127.0276
     },
     "summary": {
-      "title": "장지3",
-      "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+      "title": "성불사 자인당",
+      "description": "경기도 가평의 운악산 줄기 끝자락에 자리잡은 사찰의 불교식 봉안당으로 모셔진 조상(영가)을 위한 제사를 1년 中 5회 영구적으로(비용무료) 모셔드립니다",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
     "detail_images": [
@@ -401,16 +398,13 @@
       }
     ],
     "info": {
-      "지역": "대전 분당구",
+      "지역": "경기 가평군",
       "운영": "사설",
-      "형태": "봉안당(납골당)",
-      "수용능력": "25,000위",
-      "규모": "2,400평",
-      "주차가능": "2,000대"
+      "형태": "봉안당"
     },
     "price_table": {
-      "일반실": "500만원~",
-      "특실": "2000만원~"
+      "개인단": "150만원~",
+      "부부단": "300만원~"
     },
     "facilities": [
       {
@@ -432,14 +426,14 @@
     ]
   },
   "004": {
-    "name": "장지4",
-    "area": "인천",
-    "sub_area": "서초구",
+    "name": "더포레",
+    "area": "경기",
+    "sub_area": "양평군",
     "types": [
       "봉안당"
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/e91359f39bb30.jpg",
-    "price": "1,860,000",
+    "price": "2,000,000",
     "detailpage_url": "/detail/?id=004",
     "is_recommended": true,
     "location": {
@@ -447,8 +441,8 @@
       "lng": 127.0276
     },
     "summary": {
-      "title": "장지4",
-      "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+      "title": "더포레",
+      "description": "아름다운 자연환경과 최첨단 시설을 갖춘 특급호텔식의 국내 최초 프리미엄 가족봉안당. 총 4개층으로 17,000기 안장가능. 호텔식 로비와 갤러리 운영.  종교별 전용관(기독교, 천주교)및 예배실 운영",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
     "detail_images": [
@@ -522,16 +516,14 @@
       }
     ],
     "info": {
-      "지역": "인천 서초구",
+      "지역": "경기 양평군",
       "운영": "사설",
-      "형태": "봉안당(납골당)",
-      "수용능력": "25,000위",
-      "규모": "2,400평",
-      "주차가능": "2,000대"
+      "형태": "봉안당",
+      "수용능력": "17,000위"
     },
     "price_table": {
-      "일반실": "500만원~",
-      "특실": "2000만원~"
+      "개인단": "200만원~",
+      "부부단": "400만원~"
     },
     "facilities": [
       {
@@ -553,14 +545,18 @@
     ]
   },
   "005": {
-    "name": "하늘공원 봉안당5",
-    "area": "서울",
-    "sub_area": "강남구",
+    "name": "무궁화공원묘원",
+    "area": "경기도",
+    "sub_area": "양평군",
     "types": [
-      "수목장"
+      "수목장",
+      "잔디장",
+      "봉안당",
+      "봉안묘",
+      "매장묘"
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/86179ae8818ad.jpg",
-    "price": "2,410,000",
+    "price": "2,000,000",
     "detailpage_url": "/detail/?id=005",
     "is_recommended": false,
     "location": {
@@ -568,8 +564,8 @@
       "lng": 127.0276
     },
     "summary": {
-      "title": "장지5",
-      "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+      "title": "무궁화공원묘원",
+      "description": "총면적 33m2(10만평)이상의 넓은 대지에 북한강이 내려다 보이는 수려한 경관과 온종일 해가 드는 최고의 일광조건 서운 동부권에서 30분대 진입 가능한 산좋고 물좋은 명당 중에 명당",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
     "detail_images": [
@@ -615,16 +611,16 @@
       }
     ],
     "info": {
-      "지역": "서울 강남구",
+      "지역": "경기 양평군",
       "운영": "사설",
-      "형태": "봉안당(납골당)",
-      "수용능력": "25,000위",
-      "규모": "2,400평",
-      "주차가능": "2,000대"
+      "형태": "수목장, 잔디장, 봉안당, 봉안묘(가족형), 매장묘",
+      "규모": "100,000평"
     },
     "price_table": {
-      "일반실": "500만원~",
-      "특실": "2000만원~"
+      "수목장": "700만원~ ",
+      "잔디장": "200만원~ ",
+      "봉안담": "300만원~",
+      "봉안묘/매장묘": "별도문의"
     },
     "facilities": [
       {
@@ -646,14 +642,15 @@
     ]
   },
   "006": {
-    "name": "장지6",
-    "area": "대전",
-    "sub_area": "용인시",
+    "name": "무량수목장",
+    "area": "경기도",
+    "sub_area": "남양주시",
     "types": [
-      "수목장"
+      "수목장",
+      "잔디장"
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
-    "price": "1,690,000",
+    "price": "2,000,000",
     "detailpage_url": "/detail/?id=006",
     "is_recommended": true,
     "location": {
@@ -661,8 +658,8 @@
       "lng": 127.0276
     },
     "summary": {
-      "title": "장지6",
-      "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+      "title": "무량수목장",
+      "description": "조계종 합천해인사 공찰에서 운영하며, 아름다운 자연환경과 고인과 가족이 편히 쉴수있는곳. 더불어 고급 품종의 수목을 준비하여 더욱 평온한 영혼의 안식처 입니다 (2024년 09월 신규오픈)",
       "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
     },
     "detail_images": [
@@ -700,16 +697,721 @@
       }
     ],
     "info": {
-      "지역": "대전 용인시",
+      "지역": "경기 남양주시",
       "운영": "사설",
-      "형태": "봉안당(납골당)",
-      "수용능력": "25,000위",
-      "규모": "2,400평",
-      "주차가능": "2,000대"
+      "형태": "수목장, 잔디장"
     },
     "price_table": {
-      "일반실": "500만원~",
-      "특실": "2000만원~"
+      "수목장(개인목)": "400만원~",
+      "수목장(부부목)": "750만원~",
+      "잔디장(개인장)": "200만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "007": {
+    "name": "예진추모관",
+    "area": "경기도",
+    "sub_area": "양평군",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "3,000,000",
+    "detailpage_url": "/detail/?id=007",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "예진추모관",
+      "description": "자연 속에서 자연 그 자체가 되는 고품격 추모공간. 사계절을 느끼는 파사드 창문 프레임으로 사계절 채광 효과 탁월함.            \n뒷편에는 산, 앞으로는 물이 흐르는 \"배산임수\"의 명당. 서울-양양간 고속도로 서종IC 10분거리 (구관/만장)",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 양평군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "300만원~(신관)",
+      "부부단": "600만원~(신관)"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "008": {
+    "name": "봉안당 홈",
+    "area": "경기도",
+    "sub_area": "성남시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "5,000,000",
+    "detailpage_url": "/detail/?id=008",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "봉안당 홈",
+      "description": "분당에 자리한 '치유와 휴식'의 공간으로 서재형 안치실과 서적형태의 봉안함은 소중한\n고인의 삶을 더욱 특별하게 추억할수 있도록 도와드립니다. 금계포란 ( 금닭이 알을 품고있는 형세 ) 지형의 영장산 (靈長山 ) 에 \n자리하고 있어 고인의 평안한 안식은 물론, 가족의 안녕과 번영을 기원합니다.",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 성남시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "일반실": "500만원~(서재)"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "009": {
+    "name": "분당추모공원 휴",
+    "area": "경기도",
+    "sub_area": "광주시",
+    "types": [
+      "봉안당",
+      "봉안담",
+      "수목장"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "2,000,000",
+    "detailpage_url": "/detail/?id=009",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "분당추모공원 휴",
+      "description": "예로부터 능을 모실 만한 명당이 많아 왕실에서도 눈 여겨 보았다는 경기 광주 능평리에 위치하고있음\n실내 봉안당, 준실내 및 야외 봉안담, 수목장 그리고 대규모 주차장과 첨단 보안시설 갖춤. ",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 광주시",
+      "운영": "사설",
+      "형태": "봉안당, 봉안담, 수목장"
+    },
+    "price_table": {
+      "봉안당": "200만원~(개인/공동목)",
+      "수목장": "300만원~(개인)",
+      "봉안담": "150만원~(개인)"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "010": {
+    "name": "스카이캐슬",
+    "area": "경기도",
+    "sub_area": "광주시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "1,500,000",
+    "detailpage_url": "/detail/?id=010",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "스카이캐슬",
+      "description": "도심속의 추모공원 형태로 경부고속도로와 외곽순환 고속도로를 축으로 서울, 경기 남부,경기서부에서 30분대로 접근이\n용이 합니다. 영화배우협회 전용 추모관,아름다운 정원,예술과 문화가 같이 숨쉬며 아름다운 기억이 머무는 곳입니다",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 광주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "150만원~",
+      "부부단": "300만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "011": {
+    "name": "미타정사 일만지장전",
+    "area": "경기도",
+    "sub_area": "광주시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "2,000,000",
+    "detailpage_url": "/detail/?id=011",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "미타정사 일만지장전",
+      "description": "경기 광주권의 불교식 봉안당으로 추석,설날 합동제례 및 반혼제를 무료로 매년 진행 합니다. 수도권의 뛰어난 접근성과\n'배산임수'의 명당에 자리하며. 불교문화재급으로 건립한 사찰에 위치한 쾌적한 봉안당(납골당)입니다",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 광주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "200만원~",
+      "부부단": "400만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "012": {
+    "name": "남서울가족공원",
+    "area": "경기도",
+    "sub_area": "광주시",
+    "types": [
+      "봉안당",
+      "수목원"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "4,000,000",
+    "detailpage_url": "/detail/?id=012",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "남서울가족공원",
+      "description": "서울, 수도권 40분대 접근이 용이한 곤지암에 위치한 기독교 전용 예배관을 갖춘 은혜롭고 평안한 가족공원 입니다\n포근하고 아늑한 명당으로 자연친화적으로 조성하여 그리운 님들이 평안하게 영면할수있는 보금자리 입니다.",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 광주시",
+      "운영": "사설",
+      "형태": "봉안당, 수목원"
+    },
+    "price_table": {
+      "봉안당": "400만원~(부부)",
+      "수목장": "600만원~",
+      "잔디장": "250만원~(비석포함)"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "013": {
+    "name": "광릉추모공원",
+    "area": "경기도",
+    "sub_area": "포천시",
+    "types": [
+      "수목장",
+      "봉안묘(가족형)",
+      "매장묘"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "",
+    "detailpage_url": "/detail/?id=013",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "광릉추모공원",
+      "description": "조선 제7대 왕 세조 왕의 무덤과 동일한 능선과 배산임수의 명당에 자리 잡고있어 조상을 모시기에 더없이 좋은 명당 중의 명당\n총 면적 989.761m²(30만평)에 이르는 넓은 자연 환경, 수도권 북부 지역을 대표하는 공원묘원  ",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 포천시",
+      "운영": "사설",
+      "형태": "수목장, 봉안묘(가족형), 매장묘"
+    },
+    "price_table": {
+      "수목장": "별도문의",
+      "봉안묘": "별도문의",
+      "매장묘": "별도문의"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "014": {
+    "name": "광릉더그레스트",
+    "area": "경기도",
+    "sub_area": "포천시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "6,000,000",
+    "detailpage_url": "/detail/?id=014",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "광릉더그레스트",
+      "description": "품격있는 장례문화를 선도하며, 독보적인 헤리티지를 바탕으로 최고의 품격과 자부심을 만족시키는 프리미엄 봉안당.\n천혜의 자연환경과 명당 중에 명당에 자리잡아 최상의 안식을 제공 합니다",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 포천시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "600만원~",
+      "부부단": "1200만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "015": {
+    "name": "추모공원하늘문",
+    "area": "경기도",
+    "sub_area": "고양시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "2,000,000",
+    "detailpage_url": "/detail/?id=015",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "추모공원하늘문",
+      "description": "수도권 최고의 기독교 추모공원을 표방함. 탁월한 접근성과 호텔식 인테리어, 맞춤형 봉안시설로 아늑하고 평온한 분위기\n슬픔을 채우줄 소중한 공간으로 영혼의 평안한 안식처가 되도록 최선을 다합니다.",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "200만원~",
+      "부부단": "400만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "016": {
+    "name": "일산푸른솔",
+    "area": "경기도",
+    "sub_area": "일산동구",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+    "price": "1,500,000",
+    "detailpage_url": "/detail/?id=016",
+    "is_recommended": false,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "일산푸른솔",
+      "description": "경기도 일산 시내권에 자리잡아 뛰어난 접근성을 가진 만큼 유족들이 고인이 그리울 때 언제든지 찾아 뵐 수 있는 장소임. \n믿을 수 있는 관리시스템과 직원들의 마음가짐은 언제나 변함없습니다. 오직 고인과 유족의 마음을 생각하겠습니다",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/4c8753e0fe2a6.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/d5f2c9780fcc4.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/fcc8c43ce570e.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/70ffed524d9a7.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c8515386f2926.jpg",
+        "alt": "배너 이미지 5"
+      }
+    ],
+    "info": {
+      "지역": "경기도 일산동구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "150만원~",
+      "부부단": "300만원~"
     },
     "facilities": [
       {
