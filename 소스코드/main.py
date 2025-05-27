@@ -25,13 +25,13 @@ def main():
         return
 
     # 2️⃣ 이미지 URL 수집
-    run_script("get_image_urls.py", [min_count, max_count])
+    run_script("./소스코드/get_image_urls.py", [min_count, max_count])
 
     # 3️⃣ 이미지 src → 포맷팅된 JSON 저장
-    run_script("data_formatting.py")
+    run_script("./소스코드/data_formatting.py")
 
     # 4️⃣ 업데이트된 JSON → DB 반영 + Git 푸시
-    run_script("git_auto_push.py")
+    run_script("./소스코드/git_auto_push.py")
 
     print("\n✅ Git에 이미지 업데이트 완료!")
 
