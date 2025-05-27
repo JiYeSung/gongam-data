@@ -1,0 +1,172 @@
+{
+  "006": {
+    "name": "장지666",
+    "area": "대전",
+    "sub_area": "용인시",
+    "types": [
+      "수목장"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
+    "price": "1,690,000",
+    "detailpage_url": "/detail/?id=006",
+    "is_recommended": true,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "장지6",
+      "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e1762c9b24ccc.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e05f53e9679cc.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3dd834c87168a.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f4d3ff95f15e2.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f8cf447645a86.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/578b9f076127b.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e5dafd8a90692.jpg",
+        "alt": "배너 이미지 8"
+      }
+    ],
+    "info": {
+      "지역": "대전 용인시",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
+    },
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  },
+  "007": {
+    "name": "장지666",
+    "area": "대전",
+    "sub_area": "용인시",
+    "types": [
+      "수목장"
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
+    "price": "1,690,000",
+    "detailpage_url": "/detail/?id=006",
+    "is_recommended": true,
+    "location": {
+      "lat": 37.4979,
+      "lng": 127.0276
+    },
+    "summary": {
+      "title": "장지6",
+      "description": "수도권 수목장 중 유일하게 허가기준을 통과한 곳입니다.",
+      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+    },
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/c18e06b16f001.jpg",
+        "alt": "배너 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e1762c9b24ccc.jpg",
+        "alt": "배너 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e05f53e9679cc.jpg",
+        "alt": "배너 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/3dd834c87168a.jpg",
+        "alt": "배너 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f4d3ff95f15e2.jpg",
+        "alt": "배너 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/f8cf447645a86.jpg",
+        "alt": "배너 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/578b9f076127b.jpg",
+        "alt": "배너 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025050784215345d6198/e5dafd8a90692.jpg",
+        "alt": "배너 이미지 8"
+      }
+    ],
+    "info": {
+      "지역": "대전 용인시",
+      "운영": "사설",
+      "형태": "봉안당(납골당)",
+      "수용능력": "25,000위",
+      "규모": "2,400평",
+      "주차가능": "2,000대"
+    },
+    "price_table": {
+      "일반실": "500만원~",
+      "특실": "2000만원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ]
+  }
+}
