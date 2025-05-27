@@ -1,0 +1,92 @@
+{
+    "016": {
+        "name": "일산푸른솔",
+        "area": "경기도",
+        "sub_area": "일산동구",
+        "types": [
+            "봉안당"
+        ],
+        "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/cffbb9e084f77.jpg",
+        "price": "1,500,000원~",
+        "detailpage_url": "/detail/?id=016",
+        "is_recommended": false,
+        "location": {
+            "lat": 37.4979,
+            "lng": 127.0276
+        },
+        "summary": {
+            "title": "일산푸른솔",
+            "description": "경기도 일산 시내권에 자리잡아 뛰어난 접근성을 가진 만큼 유족들이 고인이 그리울 때 언제든지 찾아 뵐 수 있는 장소임. \n믿을 수 있는 관리시스템과 직원들의 마음가짐은 언제나 변함없습니다. 오직 고인과 유족의 마음을 생각하겠습니다",
+            "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+        },
+        "detail_images": [
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cffbb9e084f77.jpg",
+                "alt": "일산푸른솔 장지 이미지 1"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1a273921b1fab.jpg",
+                "alt": "일산푸른솔 장지 이미지 2"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/882ed80fc43db.jpg",
+                "alt": "일산푸른솔 장지 이미지 3"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f38e5317ee3a3.jpg",
+                "alt": "일산푸른솔 장지 이미지 4"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c4cfac39e9ff9.jpg",
+                "alt": "일산푸른솔 장지 이미지 5"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5ad817f335873.jpg",
+                "alt": "일산푸른솔 장지 이미지 6"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/be19b84c02250.jpg",
+                "alt": "일산푸른솔 장지 이미지 7"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7ab597b399bf9.jpg",
+                "alt": "일산푸른솔 장지 이미지 8"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/64aab842d1b7d.jpg",
+                "alt": "일산푸른솔 장지 이미지 9"
+            },
+            {
+                "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/589deaee2bb9c.jpg",
+                "alt": "일산푸른솔 장지 이미지 10"
+            }
+        ],
+        "info": {
+            "지역": "경기도 일산동구",
+            "운영": "사설",
+            "형태": "봉안당"
+        },
+        "price_table": {
+            "개인단": "150만원~",
+            "부부단": "300만원~"
+        },
+        "facilities": [
+            {
+                "name": "주차장",
+                "active": true
+            },
+            {
+                "name": "매점",
+                "active": true
+            },
+            {
+                "name": "유족대기실",
+                "active": true
+            },
+            {
+                "name": "장애인시설",
+                "active": true
+            }
+        ]
+    }
+}

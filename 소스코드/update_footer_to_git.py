@@ -4,7 +4,7 @@ from datetime import datetime
 import subprocess
 
 # 경로 설정
-GIT_REPO_DIR = "../"
+GIT_REPO_DIR = "./"
 DB_PATH = os.path.join(GIT_REPO_DIR, "gongam_detail_db.json")
 FOOTER_PATH = os.path.join(GIT_REPO_DIR, "footer.json")
 
