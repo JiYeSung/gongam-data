@@ -11,8 +11,8 @@
     "detailpage_url": "/detail/?id=001",
     "is_recommended": true,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "에덴추모공원",
@@ -104,8 +104,8 @@
     "detailpage_url": "/detail/?id=002",
     "is_recommended": false,
     "location": {
-      "lat": 37.5775,
-      "lng": 127.3495
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "가람추모관",
@@ -183,8 +183,8 @@
     "detailpage_url": "/detail/?id=003",
     "is_recommended": true,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "성불사 자인당",
@@ -265,8 +265,8 @@
     "detailpage_url": "/detail/?id=004",
     "is_recommended": true,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "더포레",
@@ -352,8 +352,8 @@
     "detailpage_url": "/detail/?id=005",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "무궁화공원묘원",
@@ -446,8 +446,8 @@
     "detailpage_url": "/detail/?id=006",
     "is_recommended": true,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "무량수목장",
@@ -529,8 +529,8 @@
     "detailpage_url": "/detail/?id=007",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "예진추모관",
@@ -623,8 +623,8 @@
     "detailpage_url": "/detail/?id=008",
     "is_recommended": true,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "봉안당 홈",
@@ -722,8 +722,8 @@
     "detailpage_url": "/detail/?id=009",
     "is_recommended": true,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "분당추모공원 휴",
@@ -813,8 +813,8 @@
     "detailpage_url": "/detail/?id=010",
     "is_recommended": true,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "스카이캐슬",
@@ -903,8 +903,8 @@
     "detailpage_url": "/detail/?id=011",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "미타정사 일만지장전",
@@ -994,8 +994,8 @@
     "detailpage_url": "/detail/?id=012",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "남서울가족공원",
@@ -1087,8 +1087,8 @@
     "detailpage_url": "/detail/?id=013",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "광릉추모공원",
@@ -1162,8 +1162,8 @@
     "detailpage_url": "/detail/?id=014",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "광릉더그레스트",
@@ -1248,8 +1248,8 @@
     "detailpage_url": "/detail/?id=015",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "추모공원하늘문",
@@ -1338,8 +1338,8 @@
     "detailpage_url": "/detail/?id=016",
     "is_recommended": false,
     "location": {
-      "lat": 37.4979,
-      "lng": 127.0276
+      "lat": "",
+      "lng": ""
     },
     "summary": {
       "title": "일산푸른솔",
