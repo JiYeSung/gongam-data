@@ -1597,7 +1597,7 @@
       "수목장",
       "잔디장"
     ],
-    "thumbnail": "",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/175e649eb95f4.jpg",
     "price": "2,000,000원~",
     "detailpage_url": "",
     "is_recommended": true,
@@ -1606,14 +1606,50 @@
       "lng": ""
     },
     "summary": {
-      "title": "여주세종추모공원 ",
+      "title": "여주세종추모공원",
       "description": "세종대왕릉과 효종왕릉이 자리잡은 전통적인 최고의 명당터 여주에 자리잡고 있으며, 고품격 호텔식 시설로 오동나무 안치단을 사용하여 쾌적한 환경을 유지하고 있습니다. 서울 강남 기준 1시간 이내 접근이 가능한 여주에 위치하고 있습니다",
       "transport": "차량"
     },
     "detail_images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/175e649eb95f4.jpg",
+        "alt": "여주세종추모공원 장지 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/96a43d217adaa.jpg",
+        "alt": "여주세종추모공원 장지 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/00ae10ecdbd32.jpg",
+        "alt": "여주세종추모공원 장지 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ce46affb94bd2.jpg",
+        "alt": "여주세종추모공원 장지 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f353350c0fb73.jpg",
+        "alt": "여주세종추모공원 장지 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4c49305dccf5b.jpg",
+        "alt": "여주세종추모공원 장지 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bff2cfc8a571d.jpg",
+        "alt": "여주세종추모공원 장지 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/17838943716d3.jpg",
+        "alt": "여주세종추모공원 장지 이미지 8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e4d80069eca82.jpg",
+        "alt": "여주세종추모공원 장지 이미지 9"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5c3ca6d6542b8.jpg",
+        "alt": "여주세종추모공원 장지 이미지 10"
       }
     ],
     "info": {
