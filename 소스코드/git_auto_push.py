@@ -37,7 +37,7 @@ def update_detail_db():
         found_key = None
 
         for key, value in db_data.items():
-            if value.get("name") == target_name:
+            if value.get("summary", {}).get("title") == target_name:
                 found_key = key
                 break
 
