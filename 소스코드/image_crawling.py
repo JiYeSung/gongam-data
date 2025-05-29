@@ -14,7 +14,7 @@ HEADERS = {
 }
 
 # ✅ 이미지 저장 기본 폴더
-BASE_SAVE_DIR = "downloaded_images"
+BASE_SAVE_DIR = "../../장지 이미지2/downloaded_images"
 os.makedirs(BASE_SAVE_DIR, exist_ok=True)
 
 # ✅ 이미지 크롤링 함수 (폴더명 커스터마이징 가능)
@@ -67,10 +67,7 @@ def download_images_from_url(url, custom_folder_name=None):
 # ✅ 대상 URL 및 폴더명 목록
 url_list = [
     # ("URL", "폴더이름"),
-    ("http://www.haneulan.co.kr/intro/gallery", "하늘안 추모공원"),
-    ("http://www.xn--vv5bwgo1c.kr/ssb/page.php?puid=3", "약사사 미타전"),
-    ("http://www.xn--vv5bwgo1c.kr/ssb/page.php?puid=9", "약사사 미타전"),
-    ("https://imissu.kr/1-2-1", "약사사 미타전"),
+    ("https://pajupark.com/%EC%B6%94%EB%AA%A8%EA%B3%B5%EC%9B%90%EC%86%8C%EA%B0%9C", "파주추모공원"),
 ]
 
 # ✅ 실행
