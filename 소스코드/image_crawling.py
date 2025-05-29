@@ -17,10 +17,10 @@ HEADERS = {
 BASE_SAVE_DIR = "downloaded_images"
 os.makedirs(BASE_SAVE_DIR, exist_ok=True)
 
-# ✅ 이미지 크롤링 함수
-def download_images_from_url(url):
+# ✅ 이미지 크롤링 함수 (폴더명 커스터마이징 가능)
+def download_images_from_url(url, custom_folder_name=None):
     parsed = urlparse(url)
-    domain_folder = parsed.netloc
+    domain_folder = custom_folder_name if custom_folder_name else parsed.netloc
     save_path = os.path.join(BASE_SAVE_DIR, domain_folder)
     os.makedirs(save_path, exist_ok=True)
 
@@ -32,28 +32,23 @@ def download_images_from_url(url):
         base_name = parsed.path.strip('/').replace('/', '_') or "index"
         img_urls = set()
 
-        # ✅ 1. <img src="...">
         for tag in soup.find_all("img", src=True):
             img_urls.add(urljoin(url, tag['src']))
 
-        # ✅ 2. style="background-image: url(...)"
         for tag in soup.find_all(style=re.compile("background-image")):
             style = tag.get("style", "")
             match = re.search(r"background-image\s*:\s*url\((.*?)\)", style)
             if match:
                 img_urls.add(urljoin(url, match.group(1).strip('"\' ')))
 
-        # ✅ 3. [data-bg="url(...)"]
         for tag in soup.find_all(attrs={"data-bg": True}):
             match = re.search(r"url\((.*?)\)", tag['data-bg'])
             if match:
                 img_urls.add(urljoin(url, match.group(1).strip('"\' ')))
 
-        # ✅ 4. [data-src="..."]
         for tag in soup.find_all(attrs={"data-src": True}):
             img_urls.add(urljoin(url, tag['data-src']))
 
-        # ✅ 이미지 저장
         for idx, img_url in enumerate(img_urls):
             try:
                 img_data = requests.get(img_url, timeout=10, headers=HEADERS).content
@@ -69,20 +64,16 @@ def download_images_from_url(url):
     except Exception as e:
         print(f"❌ {url} → 크롤링 실패: {e}")
 
-# ✅ 대상 URL 목록
+# ✅ 대상 URL 및 폴더명 목록
 url_list = [
-    "http://thecrest.co.kr/?m=art_project",
-    "http://thecrest.co.kr/?m=nobility",
-    "http://www.hi1009.com/renew/sub02/sub_0201.php",
-    "http://www.hi1009.com/renew/sub02/sub_0202.php",
-    "http://www.hi1009.com/renew/sub02/sub_0203.php",
-    "http://www.hi1009.com/renew/sub02/sub_0204.php",
-    "http://www.xn--6w2b15kutaz6o56r.com/intro/sisul.asp",
-    "http://www.xn--6w2b15kutaz6o56r.com/intro/sisul1.asp",
-    "http://www.xn--6w2b15kutaz6o56r.com/intro/other_sisul.asp",
-    "http://www.xn--6w2b15kutaz6o56r.com/album/pds_list.asp?BGNO=2008",
+    # ("URL", "폴더이름"),
+    ("http://www.haneulan.co.kr/intro/gallery", "하늘안 추모공원"),
+    ("http://www.xn--vv5bwgo1c.kr/ssb/page.php?puid=3", "약사사 미타전"),
+    ("http://www.xn--vv5bwgo1c.kr/ssb/page.php?puid=9", "약사사 미타전"),
+    ("https://imissu.kr/1-2-1", "약사사 미타전"),
 ]
 
 # ✅ 실행
-for url in url_list:
-    download_images_from_url(url)
+for url, folder_name in url_list:
+    if url.strip():
+        download_images_from_url(url, folder_name)

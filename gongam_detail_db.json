@@ -1415,5 +1415,1337 @@
         "active": true
       }
     ]
+  },
+  "017": {
+    "name": "정각사 봉안당",
+    "area": "서울시",
+    "sub_area": "서초구",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "정각사",
+      "description": "서울 강남권(남태령)에 위치한 유일한 사찰내 봉안당. 가장 가까운곳에 천하명당 도심속 숲속의 안식처가 준비되어있습니다. 명절(설,추석), 기제사등 합동제사로 평안히 고인의 극락왕생을 기원할수 있습니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "서울시 서초구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
+    }
+  },
+  "018": {
+    "name": "흥창사 서락원",
+    "area": "서울시",
+    "sub_area": "은평구",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "3,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "서락원",
+      "description": "서울시 납골당 1호 허가를 받은 서울시내 북부(은평구)의 유일한 사찰 봉안당 입니다. 접근이 용이한 교통편과 최선의 사후관리가 장점입니다. 합동제, 명절제사로 유족과 고인에게 언제나 평안함을 약속합니다",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "서울시 은평구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "일반실": "3,000,000원~",
+      "고급실": "4,000,000원~"
+    }
+  },
+  "019": {
+    "name": "여주추모공원",
+    "area": "경기도",
+    "sub_area": "여주군",
+    "types": [
+      "봉안당",
+      "수목장",
+      "잔디장"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "여주세종추모공원 ",
+      "description": "세종대왕릉과 효종왕릉이 자리잡은 전통적인 최고의 명당터 여주에 자리잡고 있으며, 고품격 호텔식 시설로 오동나무 안치단을 사용하여 쾌적한 환경을 유지하고 있습니다. 서울 강남 기준 1시간 이내 접근이 가능한 여주에 위치하고 있습니다",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 여주군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~",
+      "잔디장": "4,000,000원~",
+      "개인목": "7,000,000원~",
+      "부부목": "8,000,000원~"
+    }
+  },
+  "020": {
+    "name": "갈월사",
+    "area": "경기도",
+    "sub_area": "양평군",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "양평갈월공원",
+      "description": "양평군 남한강변을 따라 펼쳐진 도심 근교형 불교식 가족추모공원으로 서울 동부에서 40분 이내로 접근이 가능한 곳입니다. 주변 관광지와 명소가 산재하여 고인을 추모하며 나들이도 가능한 곳 입니다",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 양평군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "잔디장": "3,000,000원~",
+      "공동목": "3,000,000원~",
+      "추모목": "6,000,000원~"
+    }
+  },
+  "021": {
+    "name": "유토피아추모관",
+    "area": "경기도",
+    "sub_area": "안성시",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "thumbnail": "",
+    "price": "3,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "유토피아추모관",
+      "description": "국내 최대, 국내 최고의 시설로 자부하는 안성에 위치한 대형 추모관으로 하늘아래 가장 편안한 안식처를 표방 합니다, 2000년도에 시설 개장 되었으며, 언제나 고인이 그리울때 찿아갈수 있는 쉼이있는 안식처 입니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 안성시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "6,000,000원~",
+      "표준가족목": "7,000,000원~",
+      "부부목": "10,000,000원~",
+      "종교실(기독,천주교실)": "8,000,000원~"
+    }
+  },
+  "022": {
+    "name": "서호추모공원",
+    "area": "경기도",
+    "sub_area": "평택시",
+    "types": [
+      "봉안당",
+      "수목장",
+      "잔디장"
+    ],
+    "thumbnail": "",
+    "price": "1,700,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "서호추모공원",
+      "description": "경기도 평택시의 대형 추모공원으로 2006년도에 시설 개장 되었으며, 봉안당,수목장,잔디장을 갖춘 복합추모시설입니다. 호텔식문화시설을 컨셉으로 설립되어 단순한 장묘시설이 아닌 사람들의 삶의 일부에 자연스럽게 스며들고자 합니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 평택시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "1,700,000원~",
+      "부부단": "3,400,000원~",
+      "잔디장": "2,000,000원~",
+      "개인목": "4,000,000원~",
+      "부부목": "6,000,000원~"
+    }
+  },
+  "023": {
+    "name": "오봉정사 봉안당",
+    "area": "경기도",
+    "sub_area": "의왕시",
+    "types": [
+      "봉안당",
+      "봉안담"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "오봉산추모공원",
+      "description": "오봉산은 청풍김씨 5대 정승이 태어난 명당 자리이며, 물 맑고 공기 청정한 오봉산에 위치하여 조상님들의 평안한 마음의 터전입니다. 서울 양재동에서 20분, 사당역에서 15분 거리에 위치한 사찰내 봉안시설입니다. 봉안의식과 삼우재등이 무료 진행 됩니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 의왕시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
+    }
+  },
+  "024": {
+    "name": "용인추모원",
+    "area": "경기도",
+    "sub_area": "용인시",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "thumbnail": "",
+    "price": "1,800,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "용인추모원",
+      "description": "용인시 유일의 재단법인 봉안당으로 편리한 교통편과 접근이 용이하여 고인과 후손이 모두 만족하는 입지조건입니다. 고급스럽고 영구적인 안치단을 사용하며, 아름다운 자연속에 위치하여 조용하고 아늑한 분위기를 느낄수 있습니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 용인시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "1,800,000원~",
+      "잔디장": "3,600,000원~",
+      "공동목": "2,000,000원~",
+      "가족목": "5,000,000원~"
+    }
+  },
+  "025": {
+    "name": "파주추모공원",
+    "area": "경기도",
+    "sub_area": "파주시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "파주추모공원",
+      "description": "파주시의 아름다운 주변경관 속에 자리잡은 추모공원으로 봉안시설에 2중 특수 강화유리를 사용하며 일반실,특별실,VIP실이 있으며, 종교별로 별도의 \"예\"를 갖출수 있는 차별화된 추모공원 입니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 파주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~"
+    }
+  },
+  "026": {
+    "name": "서현",
+    "area": "경기도",
+    "sub_area": "파주시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "서현공원",
+      "description": "수도권 어디서든 빠르게 그리운 마음만큼 가까운 곳 파주시에 위치하고 있습니다. 북한산 줄기가 시작되는 파주는 예로부터 명당중의 명당으로 손꼽혀 왕족의 묘자리로 유명하였습니다. 고인과 모시는 분 모두에게 편안한 곳이 되기 위해 사시사철 푸르고 넓은 자연공원을 마련되어있습니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 파주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
+    }
+  },
+  "027": {
+    "name": "도성사",
+    "area": "경기도",
+    "sub_area": "포천시",
+    "types": [
+      "봉안당",
+      "봉안탑"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "도성사",
+      "description": "포천시 운악산 줄기에 자리 잡고 있는 사찰 봉안당. 풍수지리에 대가 미공 김광제선생(우량풍수지리연구원)이 인정한 풍수지리상 봉황포란형(봉황이 알을 품고 있는 형상의 혈) 명당에 위치한 봉안당 및 봉안탑을 보유한 전국 최고의 납골시설을 갖춘 지장도량입니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 포천시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부단단": "4,000,000원~"
+    }
+  },
+  "028": {
+    "name": "조안공원",
+    "area": "경기도",
+    "sub_area": "양주시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "2,500,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "하늘안 추모공원",
+      "description": "천하명당 불곡산 자락에 조성된 자연속 아름다운 추모공원으로 추모공원내 산책로에서 휴식을 취할 수 있습니다. 불곡산의 아름답고 유명한 등산로에서 건강한 삶의 여유를 누릴 수 있습니다. 비교를 거부하는 최고급 시설로 모신분의 품격까지 돋보입니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 양주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,500,000원~",
+      "부부단": "5,000,000원~"
+    }
+  },
+  "029": {
+    "name": "연천중앙추모공원",
+    "area": "경기도",
+    "sub_area": "연천군",
+    "types": [
+      "봉안당",
+      "수목장",
+      "잔디장"
+    ],
+    "thumbnail": "",
+    "price": "2,500,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "중앙추모공원",
+      "description": "경기도 연천군의 수려한 자연환경속에 자연을 벗삼은 영혼의 안식처를 제공합니다. 사계절 내내 품격있는 호텔식 시설로 모시는분들에게 휴식과 친근감을 선사 합니다. 명당중의 명당에 자리잡고 있는 추모공원 입니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 연천군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,500,000원~"
+    }
+  },
+  "030": {
+    "name": "대원정사",
+    "area": "경기도",
+    "sub_area": "양주시",
+    "types": [
+      "봉안당",
+      "수목장",
+      "봉안담"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "대원정사 장흥수목장 납골당",
+      "description": "사찰에서 운영하는 추모시설로 경기도 양주의 수려한 풍경의 자연환경속에 자리하고 있습니다. 장흥관광지내에 위치하여 두리랜드, 조각공원, 권율장군묘 등 가족끼리 편히 쉬었다 갈 수 있는 휴양시설은 성묘나들이의 즐거운 여유와 휴식을 더해드립니다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 양주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "35,000,000원~",
+      "봉안담": "2,000,000원~",
+      "개인목": "3,000,000원~",
+      "부부목": "5,000,000원~"
+    }
+  },
+  "031": {
+    "name": "연천 동막골추모관",
+    "area": "경기도",
+    "sub_area": "연천군",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "3,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "동막골추모관",
+      "description": "경기도 연천군에 위치한 봉안시설로 ‘외풍을 막아주고 낙엽이 모이는 곳’으로 고인에게는 평안을 후손에게는 재물이 모이고 복이 되는 삼태기형의 명당 자리에 위치한다. 주변에 자연과 계곡등이 아름다운 시설로 모셔진 고인의 평안한 안식처이다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 연천군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "6,000,000원~"
+    }
+  },
+  "032": {
+    "name": "통일로추모공원",
+    "area": "경기도",
+    "sub_area": "파주시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "3,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "통일로추모공원",
+      "description": "임진강과 한강이 만나고, 북한강과 도봉산 줄기를 품고있는 파주지역 천혜의 명당으로 주변에 공릉,순릉,영릉등 고려와 조선의 왕릉 20여곳이 위치한 천혜의 명당. 서울시내에서 한시간 이내로 접근이 가능한 언제나 편리한 고인의 안식처로 자리매김 하고있다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 파주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "6,000,000원~"
+    }
+  },
+  "033": {
+    "name": "청련사 극락원",
+    "area": "경기도",
+    "sub_area": "양주시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "2,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "청련사 극락원 경",
+      "description": "서울 벽제 승화원(화장장)에서 약 15분 거리에 위치한 사찰내 봉안시설이다. 수도권 최고의 위치와 전경을 자랑하며 개명산의 산세가 휘돌고있다. 서울 구파발역 30분 거리에 위치하여 언제든 어디서든 그리우면 바로 고인을 찿아뵐수있는 그리움을 담아낸 봉안시설이다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 양주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
+    }
+  },
+  "034": {
+    "name": "일산장안추모공원",
+    "area": "경기도",
+    "sub_area": "고양시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "2,500,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "장안추모공원",
+      "description": "1988년 고양시로부터 사설납골당 허가를 취득한 전통의 불교 조계종의 사찰내 봉안당이다. 일산 풍동에 위치한 좌호산을 중심으로 뒤로는 왕룡산 줄기가 우로는 정발산, 좌로는 북한산이 둘러싸인 풍수지리학적 명당이다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,500,000원~",
+      "부부단": "5,000,000원~",
+      "잔디장": "4,000,000원~",
+      "개인목": "8,000,000원~"
+    }
+  },
+  "035": {
+    "name": "벽제중앙추모공원",
+    "area": "경기도",
+    "sub_area": "고양시",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "2,300,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "벽제중앙추모공원",
+      "description": "벽제 서울시립승화원(화장장) 바로옆에 자리잡아 수도권에서 가장 가까운 위치와 쾌적한 시설, 경제적인면에서 최고의 납골당임을 자부한다. 중앙원형돔을 설계되어 사시사철 자연의 빛을 고인에게 가득전달하는 섬세한 봉안시설이다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "2,300,000원~",
+      "부부단": "4,600,000원~"
+    }
+  },
+  "036": {
+    "name": "목련공원묘원",
+    "area": "강원도",
+    "sub_area": "철원군",
+    "types": [
+      "봉안담",
+      "수목장",
+      "매장묘"
+    ],
+    "thumbnail": "",
+    "price": "10,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "목련메모리얼파크",
+      "description": "강원도 철원군에 위치한 대형 추모공원으로 수목장,봉안담,봉안묘등 공원묘지 그이상으로 아름다운 자연환경과 관리,보존에 신경쓰는 시설이다. 친환경 힐링묘원 자연과 함께 자연과 상생한다는자연회귀의 섭리를 따르는 추모공원이다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "강원도 철원군",
+      "운영": "사설",
+      "형태": "봉안담"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "잔디장": "2,300,000원~",
+      "수목장": "3,000,000원~",
+      "봉안담": "3,400,000원~",
+      "매장묘": "10,000원~"
+    }
+  },
+  "037": {
+    "name": "오봉산천봉사",
+    "area": "강원도",
+    "sub_area": "홍천군",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "thumbnail": "",
+    "price": "3,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "천봉사(홍천)",
+      "description": "홍천군 서면에 위치한 불교 사찰 내부에서 운영되는 봉안 시설이다. 오봉산이 휘돌며 감아 현세에 보기드믄 명당으로 불리운다. 서울 강일IC 기준으로 50분이내 접근이 가능한 최고의 자연환경을 가진곳이며, 자연과 동행하는 수목장을 유지하는 영혼의 편안한 안식처이다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "강원도 홍천군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "6,000,000원~"
+    }
+  },
+  "038": {
+    "name": "흥륜사 정토원",
+    "area": "인천시",
+    "sub_area": "연수구",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "3,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "정토원",
+      "description": "인천의 도심속 천혜의 자연환경과 최고의 봉안시설을 자랑하는 사찰식 봉안당이다. 바다를 가로지르는 인천대교와 송도신도시가 한눈에 들어오며 서해의 낙조가 비경을 이루는 천하명산에 자리하고있다. 첨단시설 및 다양한 부대시설 구축",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "인천시 연수구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "5,000,000원~"
+    }
+  },
+  "039": {
+    "name": "강화파라다이스",
+    "area": "인천시",
+    "sub_area": "강화군",
+    "types": [
+      "봉안당",
+      "야외봉안당"
+    ],
+    "thumbnail": "",
+    "price": "10,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "파라다이스추모원",
+      "description": "강화군 최고의 대단위 추모시설이며, 호텔급 인테리어의 사방이 트인 갤러리 느낌의 하늘관, 햇빛관 최상의 자연 채광과 최고급 100% 밀폐 특허 안치단과 현대적이고 품격있는 대가족용 야외공원 납골당,실내봉안당 등 넉넉한 안치단과 공원으로 조성된 품격있는 공원형묘역 입니다",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "인천시 강화군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "3,500,000원~",
+      "부부단": "7,000,000원~",
+      "야외봉안당": "10,000원~"
+    }
+  },
+  "040": {
+    "name": "화엄종 약사사",
+    "area": "인천시",
+    "sub_area": "남동구",
+    "types": [
+      "봉안당"
+    ],
+    "thumbnail": "",
+    "price": "4,000,000원~",
+    "detailpage_url": "",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "약사사 미타전",
+      "description": "인천 약산공원내 대한불교 화엄종 사찰 내부에 조성되어진 봉안당으로 유족이 보다 가까운 곳에서 고인이 모실수 있는 영혼의 안식처이며, 천혜의 명당자리로 후손들에게는 만복이 깃들게 하는 기도처로 소문이 나 있는 봉안당이다.",
+      "transport": "차량"
+    },
+    "detail_images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "info": {
+      "지역": "인천시 남동구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "price_table": {
+      "개인단": "4,000,000원~",
+      "부부단": "8,000,000원~"
+    }
   }
 }
