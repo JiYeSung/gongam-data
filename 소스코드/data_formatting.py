@@ -42,7 +42,7 @@ def extract_image_data(url, alt_prefix):
 
 def main():
     # ✅ 자동 수집된 URL 목록 로딩
-    urls_file = "urls_by_pagination.json"  # 경로 조정 가능
+    urls_file = "./소스코드/urls_by_pagination.json"  # 경로 조정 가능
     with open(urls_file, "r", encoding="utf-8") as f:
         urls = json.load(f)
 
