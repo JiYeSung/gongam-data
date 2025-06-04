@@ -5,8 +5,8 @@ import subprocess
 # === 경로 설정 ===
 DB_REPO_DIR = "./"
 DB_FILE_PATH = os.path.join(DB_REPO_DIR, "gongam_detail_db.json")
-UPDATE_FILE_PATH = "./gongam_detail_db_result.json"  # ✅ 크롤링 결과 파일
-GIT_COMMIT_MESSAGE = "Auto update detail DB with new entries"
+UPDATE_FILE_PATH = "./gongam_detail_db_result.json"
+GIT_COMMIT_MESSAGE = "Auto update detail DB with new or updated entries"
 
 def run_git_commands(repo_path, commit_message):
     try:
@@ -40,37 +40,41 @@ def update_detail_db():
 
     is_updated = False
 
-    for new_key_candidate, new_item in update_items.items():
+    for _, new_item in update_items.items():
         new_name = new_item.get("name", "")
         new_title = new_item.get("summary", {}).get("title", "")
 
-        # ✅ 기존 항목과 중복 여부 확인
-        is_duplicate = False
+        matched_key = None
         for key, old_item in db_data.items():
             if old_item.get("name") == new_name and old_item.get("summary", {}).get("title", "") == new_title:
-                print(f"⏩ 중복: '{new_name}' - '{new_title}' (key: {key}) → 추가 생략")
-                is_duplicate = True
+                matched_key = key
+                # ✅ 전체 내용이 같으면 스킵
+                if old_item == new_item:
+                    print(f"⏩ 동일 항목: '{new_name}' (key: {key}) → 건너뜀")
+                    matched_key = None  # 덮어쓰기, 추가 모두 생략
                 break
 
-        if is_duplicate:
-            continue
+        if matched_key:
+            # ✅ 동일 name/title이지만 내용 다르면 덮어쓰기
+            new_item["detailpage_url"] = f"/detail/?id={matched_key}"
+            db_data[matched_key] = new_item
+            print(f"🔄 내용 변경: '{new_name}' (key: {matched_key}) → 덮어쓰기")
+            is_updated = True
+        elif matched_key is None:
+            # ✅ 완전한 신규 항목 → 새 key 발급
+            new_key = generate_next_key(db_data)
+            new_item["detailpage_url"] = f"/detail/?id={new_key}"
+            db_data[new_key] = new_item
+            print(f"🆕 신규 추가: '{new_name}' (key: {new_key})")
+            is_updated = True
 
-        # ✅ 새 키 생성 및 detailpage_url 삽입
-        new_key = generate_next_key(db_data)
-        new_item["detailpage_url"] = f"/detail/?id={new_key}"
-
-        db_data[new_key] = new_item
-        print(f"🆕 신규 추가됨: '{new_name}' (key: {new_key})")
-        is_updated = True
-
-    # ✅ DB 저장 및 Git 처리
     if is_updated:
         with open(DB_FILE_PATH, 'w', encoding='utf-8') as f:
             json.dump(db_data, f, ensure_ascii=False, indent=2)
         print(f"💾 '{DB_FILE_PATH}' 저장 완료")
         run_git_commands(DB_REPO_DIR, GIT_COMMIT_MESSAGE)
     else:
-        print("✅ 변경 사항 없음 → 저장 및 푸시 생략")
+        print("✅ 모든 항목이 동일 → 저장 및 푸시 생략")
 
 if __name__ == "__main__":
     update_detail_db()

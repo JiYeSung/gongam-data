@@ -16,7 +16,7 @@ HEADERS = {
     )
 }
 
-# ✅ 값 파싱
+# ✅ 값 파싱 함수
 def parse_value(key, value):
     value = value.strip()
     if value == "Y":
@@ -27,7 +27,7 @@ def parse_value(key, value):
         return [v.strip() for v in value.split(",") if v.strip()]
     return value
 
-# ✅ 테이블 데이터 추출
+# ✅ 테이블 데이터 추출 함수
 def extract_table_data(table, is_detail_card=False):
     data = {}
     prefix = None
@@ -41,7 +41,7 @@ def extract_table_data(table, is_detail_card=False):
         tds = tr.find_all(["td", "th"])
         if len(tds) < 2:
             if not is_detail_card:
-                continue  # ✅ 일반 테이블: td 없으면 무시
+                continue
             th = tds[0]
             td = None
         else:
@@ -55,16 +55,26 @@ def extract_table_data(table, is_detail_card=False):
             continue
 
         value = td.get_text(strip=True) if td else ""
+
+        # ✅ facilities는 리스트 형태로 가공
         if "." in key:
             part1, part2 = key.split(".", 1)
-            if part1 not in data:
-                data[part1] = {}
-            data[part1][part2] = parse_value(part2, value)
+            if part1 == "facilities":
+                if "facilities" not in data:
+                    data["facilities"] = []
+                data["facilities"].append({
+                    "name": part2,
+                    "active": parse_value(part2, value)
+                })
+            else:
+                if part1 not in data:
+                    data[part1] = {}
+                data[part1][part2] = parse_value(part2, value)
         else:
             data[key] = parse_value(key, value)
     return data
 
-# ✅ 이미지 src + alt 추출
+# ✅ 이미지 src + alt 추출 함수
 def extract_images(td_tag, title_prefix):
     images = []
     for i, img in enumerate(td_tag.find_all("img"), 1):
