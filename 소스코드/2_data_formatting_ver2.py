@@ -2,11 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-# ✅ 크롤링할 URL 리스트
-URLS = [
-    "https://gongamcompany.imweb.me/gongam-imgdb/?bmode=view&idx=164899277&back_url=&t=board&page=1"
-]
-
 # ✅ User-Agent 헤더
 HEADERS = {
     "User-Agent": (
@@ -15,6 +10,10 @@ HEADERS = {
         "Chrome/114.0.0.0 Safari/537.36"
     )
 }
+
+# ✅ URL 목록 파일에서 로드
+with open("./urls_by_pagination.json", "r", encoding="utf-8") as f:
+    url_items = json.load(f)
 
 # ✅ 값 파싱 함수
 def parse_value(key, value):
@@ -43,7 +42,6 @@ def extract_table_data(table, is_detail_card=False):
             if not is_detail_card:
                 continue
 
-        # ✅ <td><td> 구조 대응
         th = tds[0] if len(tds) > 1 else None
         td = tds[1] if len(tds) > 1 else None
 
@@ -56,7 +54,6 @@ def extract_table_data(table, is_detail_card=False):
 
         value = td.get_text(strip=True) if td else ""
 
-        # ✅ facilities는 리스트 형태로 가공
         if "." in key:
             part1, part2 = key.split(".", 1)
             if part1 == "facilities":
@@ -87,7 +84,8 @@ def extract_images(td_tag, title_prefix):
 # ✅ 전체 처리 결과
 final_result = {}
 
-for i, url in enumerate(URLS, start=1):
+for idx, item in enumerate(url_items, start=1):
+    url = item["url"]
     res = requests.get(url, headers=HEADERS)
     soup = BeautifulSoup(res.text, "html.parser")
     detail_data = {}
@@ -98,6 +96,7 @@ for i, url in enumerate(URLS, start=1):
         is_detail_card = (table_id == "detail-card")
         extracted = extract_table_data(table, is_detail_card)
         if table_id == "detail-head":
+            # ✅ 실제 summary.title 추출
             title = extracted.get("summary", {}).get("title", "")
         detail_data.update(extracted)
 
@@ -112,6 +111,16 @@ for i, url in enumerate(URLS, start=1):
                     detail_data["thumbnail"] = images[0]["src"] if images else ""
                 elif td_id == "detail_images":
                     images = extract_images(td, title)
+                    
+                    # ✅ 썸네일이 존재하면 detail_images 맨 앞에 삽입 (중복 방지)
+                    thumbnail_url = detail_data.get("thumbnail")
+                    if thumbnail_url and not any(img["src"] == thumbnail_url for img in images):
+                        images.insert(0, {"src": thumbnail_url, "alt": f"{title} 장지 이미지0"})
+
+                    # ✅ 썸네일이 없으면 detail[0]을 썸네일로 사용
+                    if not thumbnail_url and images:
+                        detail_data["thumbnail"] = images[0]["src"]
+
                     detail_data["detail_images"] = images
 
     # ✅ location 누락 방지
@@ -121,7 +130,7 @@ for i, url in enumerate(URLS, start=1):
         detail_data["location"].setdefault("lat", "")
         detail_data["location"].setdefault("lng", "")
 
-    final_result[f"{i:03}"] = detail_data
+    final_result[f"{idx:03}"] = detail_data
 
 # ✅ JSON 파일로 저장
 with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:

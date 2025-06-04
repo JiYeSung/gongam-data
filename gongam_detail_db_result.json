@@ -1,8 +1,8 @@
 {
   "001": {
-    "name": "테스트 장지실명",
+    "name": "가람추모관",
     "area": "경기도",
-    "sub_area": "남양주시",
+    "sub_area": "양평군",
     "types": [
       "납골당",
       "봉안당",
@@ -15,21 +15,18 @@
       "lng": ""
     },
     "summary": {
-      "title": "테스트 타이틀",
-      "description": "테스트 디스크립션 설명",
-      "transport": "테스트 교통편 50분"
+      "title": "서종추모관",
+      "description": "남한강과 북한강이 만나며 사계절을 바로 느끼는 천혜의 명당. 북한강의 아름다운 물안개와 자연의 운치가 어울어진 곳입니다.",
+      "transport": "차량 : 서울 강동,송파에서 30-40분대 접근가능"
     },
     "info": {
-      "지역": "경기도 남양주시",
+      "지역": "경기도 양평군",
       "운영": "사설",
       "형태": "납골당, 봉안당, 수목장"
     },
     "price_table": {
-      "잔디장": "1,500,000원",
-      "수목장": "2,500,000원",
-      "봉안담": "3,500,000원",
-      "매장묘": "4,500,000원",
-      "추가된 서비스 행": "10,000,000원"
+      "잔디장": "150만원~",
+      "수목장": "300만원~"
     },
     "facilities": [
       {
@@ -38,34 +35,46 @@
       },
       {
         "name": "매점",
-        "active": false
+        "active": true
       },
       {
         "name": "유족대기실",
-        "active": true
+        "active": false
       },
       {
         "name": "장애인시설",
         "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/2cd585ae6f124.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b4b1da57e47d.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/59d59ae14a6d1.jpg",
-        "alt": "테스트 타이틀 장지 이미지1"
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b4b1da57e47d.jpg",
+        "alt": "서종추모관 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8761b10d59982.jpg",
-        "alt": "테스트 타이틀 장지 이미지2"
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6c750816a70fc.jpg",
+        "alt": "서종추모관 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2d4c98d7b96b1.jpg",
-        "alt": "테스트 타이틀 장지 이미지3"
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37f7159d91dc2.jpg",
+        "alt": "서종추모관 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9ffcf9ec85a2e.jpg",
-        "alt": "테스트 타이틀 장지 이미지4"
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/12da03f48a494.jpg",
+        "alt": "서종추모관 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/123b5735cfe18.jpg",
+        "alt": "서종추모관 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/752a75afcc408.jpg",
+        "alt": "서종추모관 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0e92e9e996b7.jpg",
+        "alt": "서종추모관 장지 이미지6"
       }
     ]
   }

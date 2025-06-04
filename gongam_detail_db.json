@@ -90,59 +90,29 @@
     "area": "경기도",
     "sub_area": "양평군",
     "types": [
-      "봉안당"
+      "납골당",
+      "봉안당",
+      "수목장"
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/37f7159d91dc2.jpg",
-    "price": "1,500,000원~",
-    "detailpage_url": "/detail/?id=002",
-    "is_recommended": false,
+    "price": "1,500,000원",
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "서종추모관",
-      "description": "남한강과 북한강이 만나며 사계절을 바로 느끼는 천혜의 명당.  북한강의 아름다운 물안개와 자연의 운치가 어울어진 곳입니다.",
+      "description": "남한강과 북한강이 만나며 사계절을 바로 느끼는 천혜의 명당. 북한강의 아름다운 물안개와 자연의 운치가 어울어진 곳입니다.",
       "transport": "차량 : 서울 강동,송파에서 30-40분대 접근가능"
     },
-    "detail_images": [
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37f7159d91dc2.jpg",
-        "alt": "서종추모관 장지 이미지 1"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6c750816a70fc.jpg",
-        "alt": "서종추모관 장지 이미지 2"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0e92e9e996b7.jpg",
-        "alt": "서종추모관 장지 이미지 3"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/12da03f48a494.jpg",
-        "alt": "서종추모관 장지 이미지 4"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b4b1da57e47d.jpg",
-        "alt": "서종추모관 장지 이미지 5"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/123b5735cfe18.jpg",
-        "alt": "서종추모관 장지 이미지 6"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/752a75afcc408.jpg",
-        "alt": "서종추모관 장지 이미지 7"
-      }
-    ],
     "info": {
-      "지역": "경기 양평군",
+      "지역": "경기도 양평군",
       "운영": "사설",
-      "형태": "봉안당"
+      "형태": "납골당, 봉안당, 수목장"
     },
     "price_table": {
-      "개인단": "150만원~ ",
-      "부부단": "300만원~ "
+      "잔디장": "150만원~",
+      "수목장": "300만원~"
     },
     "facilities": [
       {
@@ -161,7 +131,39 @@
         "name": "장애인시설",
         "active": false
       }
-    ]
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b4b1da57e47d.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b4b1da57e47d.jpg",
+        "alt": "서종추모관 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6c750816a70fc.jpg",
+        "alt": "서종추모관 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37f7159d91dc2.jpg",
+        "alt": "서종추모관 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/12da03f48a494.jpg",
+        "alt": "서종추모관 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/123b5735cfe18.jpg",
+        "alt": "서종추모관 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/752a75afcc408.jpg",
+        "alt": "서종추모관 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0e92e9e996b7.jpg",
+        "alt": "서종추모관 장지 이미지6"
+      }
+    ],
+    "detailpage_url": "/detail/?id=002"
   },
   "003": {
     "name": "성불사 자인당",
