@@ -72,20 +72,29 @@ def update_detail_db():
             else:
                 print(f"⏩ '{target_name}' 항목은 기존과 동일하여 생략됨")
 
-        # ✅ 신규 항목 추가
+        # ✅ 신규 항목 추가 (키는 무조건 있고, 값은 빈 포맷)
         else:
             new_key = generate_next_key(db_data)
-            new_title = update_data.get("title")
-            new_thumbnail = update_data.get("thumbnail")
-            new_detail_images = update_data.get("detail_images")
-
             db_data[new_key] = {
                 "name": target_name,
-                "thumbnail": new_thumbnail,
-                "detail_images": new_detail_images,
+                "thumbnail": update_data.get("thumbnail", ""),
+                "detail_images": update_data.get("detail_images", []),
                 "summary": {
-                    "title": new_title
-                }
+                    "title": update_data.get("title", "")
+                },
+                "area": "",
+                "sub_area": "",
+                "types": [],
+                "price": "",
+                "detailpage_url": "",
+                "is_recommended": False,
+                "location": {
+                    "lat": "",
+                    "lng": ""
+                },
+                "info": {},
+                "price_table": {},
+                "facilities": []
             }
             print(f"🆕 '{target_name}' 항목 신규 추가됨 (key: {new_key})")
             is_updated = True
