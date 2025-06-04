@@ -1,10 +1,10 @@
 import os
 
 # ✅ 기준값: 6.3KB = 6451 bytes
-THRESHOLD_BYTES = 10 * 1024
+THRESHOLD_BYTES = 15 * 1024
 
 # ✅ 메인 폴더 경로
-MAIN_FOLDER = "../../장지 이미지3"  # 예: "./images" 또는 "C:/Users/Me/Pictures"
+MAIN_FOLDER = "../../장지 이미지2"  # 예: "./images" 또는 "C:/Users/Me/Pictures"
 
 # ✅ 이미지 확장자
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".gif", ".webp")

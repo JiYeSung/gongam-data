@@ -1,5 +1,1501 @@
 {
   "001": {
+    "name": "파주추모공원",
+    "area": "경기도",
+    "sub_area": "파주시",
+    "types": [
+      "봉안당"
+    ],
+    "price": "2,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "파주 봉안당",
+      "description": "파주시의 아름다운 주변경관 속에 자리잡은 추모공원으로 봉안시설에 2중 특수 강화유리를 사용하며 일반실,특별실,VIP실이 있으며, 종교별로 별도의 \"예\"를 갖출수 있는 차별화된 추모공원 입니다.",
+      "transport": "차량 : 파주역 15분, 파주시청 20분"
+    },
+    "info": {
+      "지역": "경기도 파주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/cae772590ddb8.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cae772590ddb8.jpg",
+        "alt": "파주 봉안당 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/411501bed4e66.jpg",
+        "alt": "파주 봉안당 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/15d603317ac1f.jpg",
+        "alt": "파주 봉안당 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/aa3b7b2620b78.jpg",
+        "alt": "파주 봉안당 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/29f0d93aecdbb.jpg",
+        "alt": "파주 봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f97401846ca0a.jpg",
+        "alt": "파주 봉안당 장지 이미지5"
+      }
+    ]
+  },
+  "002": {
+    "name": "천봉사",
+    "area": "강원도",
+    "sub_area": "홍천군",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "price": "3,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "홍천 사찰봉안당",
+      "description": "홍천군 서면에 위치한 불교 사찰 내부에서 운영되는 봉안 시설이다. 오봉산이 휘돌며 감아 현세에 보기드믄 명당으로 불리운다. 서울 강일IC 기준으로 50분이내 접근이 가능한 최고의 자연환경을 가진곳이며, 자연과 동행하는 수목장을 유지하는 영혼의 편안한 안식처이다.",
+      "transport": "차량 : 강촌IC 20분, 남춘천IC 20분"
+    },
+    "info": {
+      "지역": "강원도 홍천군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "6,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/cfa887d44cf8e.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cfa887d44cf8e.jpg",
+        "alt": "홍천 사찰봉안당 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8f826fd308e86.jpg",
+        "alt": "홍천 사찰봉안당 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5bb542e32dbc5.jpg",
+        "alt": "홍천 사찰봉안당 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/910e31ff40d7e.jpg",
+        "alt": "홍천 사찰봉안당 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/46e10d1e88213.jpg",
+        "alt": "홍천 사찰봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/faf020dd7608d.jpg",
+        "alt": "홍천 사찰봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/35f0be7594ee0.jpg",
+        "alt": "홍천 사찰봉안당 장지 이미지6"
+      }
+    ]
+  },
+  "003": {
+    "name": "중앙추모공원",
+    "area": "경기도",
+    "sub_area": "연천군",
+    "types": [
+      "봉안당",
+      "수목장",
+      "잔디장"
+    ],
+    "price": "2,500,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "연천 추모공원",
+      "description": "경기도 연천군의 수려한 자연환경속에 자연을 벗삼은 영혼의 안식처를 제공합니다. 사계절 내내 품격있는 호텔식 시설로 모시는분들에게 휴식과 친근감을 선사 합니다. 명당중의 명당에 자리잡고 있는 추모공원 입니다.",
+      "transport": "차량 : 전곡역 15분, 연천군청 20분"
+    },
+    "info": {
+      "지역": "경기도 연천군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,500,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/49d288f5c87be.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/49d288f5c87be.jpg",
+        "alt": "연천 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0b8b978772f5a.jpg",
+        "alt": "연천 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2a7d816d82c8f.jpg",
+        "alt": "연천 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/602ce12f8f89d.jpg",
+        "alt": "연천 추모공원 장지 이미지3"
+      }
+    ]
+  },
+  "004": {
+    "name": "용인추모원",
+    "area": "경기도",
+    "sub_area": "용인시",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "price": "1,800,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "기흥구 추모원",
+      "description": "용인시 유일의 재단법인 봉안당으로 편리한 교통편과 접근이 용이하여 고인과 후손이 모두 만족하는 입지조건입니다. 고급스럽고 영구적인 안치단을 사용하며, 아름다운 자연속에 위치하여 조용하고 아늑한 분위기를 느낄수 있습니다.",
+      "transport": "차량 : 서용인IC 10분, 용인시청 10분"
+    },
+    "info": {
+      "지역": "경기도 용인시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "1,800,000원~",
+      "잔디장": "3,600,000원~",
+      "공동목": "2,000,000원~",
+      "가족목": "5,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/5b2cc9bafae5d.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5b2cc9bafae5d.jpg",
+        "alt": "기흥구 추모원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3a44988d207f5.jpg",
+        "alt": "기흥구 추모원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a3a20445c2bed.jpg",
+        "alt": "기흥구 추모원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/06909b461b789.jpg",
+        "alt": "기흥구 추모원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d3b56a4c28a96.jpg",
+        "alt": "기흥구 추모원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1ebd07b228b68.jpg",
+        "alt": "기흥구 추모원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c1bd2f1be0de9.jpg",
+        "alt": "기흥구 추모원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e3d9c59ba4fe2.jpg",
+        "alt": "기흥구 추모원 장지 이미지7"
+      }
+    ]
+  },
+  "005": {
+    "name": "양평갈월공원",
+    "area": "경기도",
+    "sub_area": "양평군",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "price": "2,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "양평 추모공원",
+      "description": "양평군 남한강변을 따라 펼쳐진 도심 근교형 불교식 가족추모공원으로 서울 동부에서 40분 이내로 접근이 가능한 곳입니다. 주변 관광지와 명소가 산재하여 고인을 추모하며 나들이도 가능한 곳 입니다",
+      "transport": "차량 : 서울 강동IC 40분"
+    },
+    "info": {
+      "지역": "경기도 양평군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "잔디장": "3,000,000원~",
+      "공동목": "3,000,000원~",
+      "추모목": "6,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/46784cea26749.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/46784cea26749.jpg",
+        "alt": "양평 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4fb84bc5f6a88.jpg",
+        "alt": "양평 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8f9db95328dd8.jpg",
+        "alt": "양평 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/50df40c724162.jpg",
+        "alt": "양평 추모공원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/91e165fde2833.jpg",
+        "alt": "양평 추모공원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bfcf9fa9db901.jpg",
+        "alt": "양평 추모공원 장지 이미지5"
+      }
+    ]
+  },
+  "006": {
+    "name": "벽제중앙추모공원",
+    "area": "경기도",
+    "sub_area": "고양시",
+    "types": [
+      "봉안당"
+    ],
+    "price": "2,300,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "벽제 추모공원",
+      "description": "벽제 서울시립승화원(화장장) 바로옆에 자리잡아 수도권에서 가장 가까운 위치와 쾌적한 시설, 경제적인면에서 최고의 납골당임을 자부한다. 중앙원형돔을 설계되어 사시사철 자연의 빛을 고인에게 가득전달하는 섬세한 봉안시설이다.",
+      "transport": "차량 : 통일로IC 5분, 벽제승화장 옆"
+    },
+    "info": {
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,300,000원~",
+      "부부단": "4,600,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/6ae9164eaacdf.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6ae9164eaacdf.jpg",
+        "alt": "벽제 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/92dcb60150549.jpg",
+        "alt": "벽제 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f7906b8442aba.jpg",
+        "alt": "벽제 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3351363770668.jpg",
+        "alt": "벽제 추모공원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b3fc48137fbab.jpg",
+        "alt": "벽제 추모공원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/43d5124579ec9.jpg",
+        "alt": "벽제 추모공원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/88f57f68cde88.jpg",
+        "alt": "벽제 추모공원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b92791989f56d.jpg",
+        "alt": "벽제 추모공원 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3b5576b3647b5.jpg",
+        "alt": "벽제 추모공원 장지 이미지8"
+      }
+    ]
+  },
+  "007": {
+    "name": "하늘안 추모공원",
+    "area": "경기도",
+    "sub_area": "양주시",
+    "types": [
+      "봉안당"
+    ],
+    "price": "2,500,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "양주 추모공원",
+      "description": "천하명당 불곡산 자락에 조성된 자연속 아름다운 추모공원으로 추모공원내 산책로에서 휴식을 취할 수 있습니다. 불곡산의 아름답고 유명한 등산로에서 건강한 삶의 여유를 누릴 수 있습니다. 비교를 거부하는 최고급 시설로 모신분의 품격까지 돋보입니다.",
+      "transport": "차량 : 양주시청 15분. 양주역 20분"
+    },
+    "info": {
+      "지역": "경기도 양주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,500,000원~",
+      "부부단": "5,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/5d1c81b687daa.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5d1c81b687daa.jpg",
+        "alt": "양주 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bc3d5f514d697.jpg",
+        "alt": "양주 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/742a96edb2a3e.jpg",
+        "alt": "양주 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c60310e114eb2.jpg",
+        "alt": "양주 추모공원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bfb707b61d625.jpg",
+        "alt": "양주 추모공원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5d4fe9841ea14.jpg",
+        "alt": "양주 추모공원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/05a30b79adb13.jpg",
+        "alt": "양주 추모공원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ec33b9c634dd1.jpg",
+        "alt": "양주 추모공원 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0b843105185ae.jpg",
+        "alt": "양주 추모공원 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/47f36534d005b.jpg",
+        "alt": "양주 추모공원 장지 이미지9"
+      }
+    ]
+  },
+  "008": {
+    "name": "파라다이스추모관",
+    "area": "인천시",
+    "sub_area": "강화군",
+    "types": [
+      "봉안당",
+      "야외봉안당"
+    ],
+    "price": "3,500,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "강화 추모관",
+      "description": "강화군 최고의 대단위 추모시설이며, 호텔급 인테리어의 사방이 트인 갤러리 느낌의 하늘관, 햇빛관 최상의 자연 채광과 최고급 100% 밀폐 특허 안치단과 현대적이고 품격있는 대가족용 야외공원 납골당,실내봉안당 등 넉넉한 안치단과 공원으로 조성된 품격있는 공원형묘역 입니다",
+      "transport": "차량 : 강화군청 10분, 자유로 이산포IC 30분"
+    },
+    "info": {
+      "지역": "인천시 강화군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "3,500,000원~",
+      "부부단": "7,000,000원~",
+      "야외봉안당": "17,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/e6aef4aa8d5b7.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e6aef4aa8d5b7.jpg",
+        "alt": "강화 추모관 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a857f8be643c0.jpg",
+        "alt": "강화 추모관 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/711cb0a2699ba.jpg",
+        "alt": "강화 추모관 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c567a428fe45f.jpg",
+        "alt": "강화 추모관 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d375f0e73db92.jpg",
+        "alt": "강화 추모관 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d596d13fe44cb.jpg",
+        "alt": "강화 추모관 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3ef906c971507.jpg",
+        "alt": "강화 추모관 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/01f6e6d32b107.jpg",
+        "alt": "강화 추모관 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1bfc53abdeadc.jpg",
+        "alt": "강화 추모관 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cd895e98bcd79.jpg",
+        "alt": "강화 추모관 장지 이미지9"
+      }
+    ]
+  },
+  "009": {
+    "name": "통일로추모공원",
+    "area": "경기도",
+    "sub_area": "파주시",
+    "types": [
+      "봉안당"
+    ],
+    "price": "3,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "파주 추모공원",
+      "description": "임진강과 한강이 만나고, 북한강과 도봉산 줄기를 품고있는 파주지역 천혜의 명당으로 주변에 공릉,순릉,영릉등 고려와 조선의 왕릉 20여곳이 위치한 천혜의 명당. 서울시내에서 한시간 이내로 접근이 가능한 언제나 편리한 고인의 안식처로 자리매김 하고있다.",
+      "transport": "차량 : 통일로IC 20분, 서울 강북 40분대"
+    },
+    "info": {
+      "지역": "경기도 파주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "6,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/8f9f4a19d9cc8.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8f9f4a19d9cc8.jpg",
+        "alt": "파주 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d93e1fd5b914b.jpg",
+        "alt": "파주 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/180bcb05bf15e.jpg",
+        "alt": "파주 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1a84243b070af.jpg",
+        "alt": "파주 추모공원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8f7402e42f97b.jpg",
+        "alt": "파주 추모공원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/02bccc2ff5396.jpg",
+        "alt": "파주 추모공원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e75571c0bb518.jpg",
+        "alt": "파주 추모공원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0f659ade1139e.jpg",
+        "alt": "파주 추모공원 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2fde429f17551.jpg",
+        "alt": "파주 추모공원 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/22e23fc5aa797.jpg",
+        "alt": "파주 추모공원 장지 이미지9"
+      }
+    ]
+  },
+  "010": {
+    "name": "청련사 극락원",
+    "area": "경기도",
+    "sub_area": "양주시",
+    "types": [
+      "봉안당"
+    ],
+    "price": "2,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "장흥 사찰봉안당",
+      "description": "서울 벽제 승화원(화장장)에서 약 15분 거리에 위치한 사찰내 봉안시설이다. 수도권 최고의 위치와 전경을 자랑하며 개명산의 산세가 휘돌고있다. 서울 구파발역 30분 거리에 위치하여 언제든 어디서든 그리우면 바로 고인을 찿아뵐수있는 그리움을 담아낸 봉안시설이다.",
+      "transport": "차량 : 구파발역 30분, 장흥역 5분"
+    },
+    "info": {
+      "지역": "경기도 양주시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/9ad0c7b2a0c2f.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9ad0c7b2a0c2f.jpg",
+        "alt": "장흥 사찰봉안당 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/82f899a9ea903.jpg",
+        "alt": "장흥 사찰봉안당 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/33534d5cc1a9a.png",
+        "alt": "장흥 사찰봉안당 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/57c17aac9547a.png",
+        "alt": "장흥 사찰봉안당 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3ecb6ec2e5282.jpg",
+        "alt": "장흥 사찰봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/fed9751173f10.jpg",
+        "alt": "장흥 사찰봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2f8e01db69ab8.jpg",
+        "alt": "장흥 사찰봉안당 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/353e4f7f95f66.jpg",
+        "alt": "장흥 사찰봉안당 장지 이미지7"
+      }
+    ]
+  },
+  "011": {
+    "name": "정토원",
+    "area": "인천시",
+    "sub_area": "연수구",
+    "types": [
+      "봉안당"
+    ],
+    "price": "3,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "인천송도 봉안당",
+      "description": "인천의 도심속 천혜의 자연환경과 최고의 봉안시설을 자랑하는 사찰식 봉안당이다. 바다를 가로지르는 인천대교와 송도신도시가 한눈에 들어오며 서해의 낙조가 비경을 이루는 천하명산에 자리하고있다. 첨단시설 및 다양한 부대시설 구축",
+      "transport": "차량 : 문학IC 10분, 송도IC 10분"
+    },
+    "info": {
+      "지역": "인천시 연수구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "5,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/6531a8bc14544.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6531a8bc14544.jpg",
+        "alt": "인천송도 봉안당 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ee244ba2ec6ae.jpg",
+        "alt": "인천송도 봉안당 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f633ddeaf6d98.jpg",
+        "alt": "인천송도 봉안당 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c37329614b98e.jpg",
+        "alt": "인천송도 봉안당 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/143ad11693aa4.jpg",
+        "alt": "인천송도 봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ac5bbe8ece300.jpg",
+        "alt": "인천송도 봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3c62d44f3e5f5.jpg",
+        "alt": "인천송도 봉안당 장지 이미지6"
+      }
+    ]
+  },
+  "012": {
+    "name": "정각사",
+    "area": "서울시",
+    "sub_area": "서초구",
+    "types": [
+      "봉안당"
+    ],
+    "price": "2,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "서초 봉안당",
+      "description": "서울 강남권(남태령)에 위치한 유일한 사찰내 봉안당. 가장 가까운곳에 천하명당 도심속 숲속의 안식처가 준비되어있습니다. 명절(설,추석), 기제사등 합동제사로 평안히 고인의 극락왕생을 기원할수 있습니다.",
+      "transport": "차량 : 사당역 5분"
+    },
+    "info": {
+      "지역": "서울시 서초구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/420597d8336cd.png",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/420597d8336cd.png",
+        "alt": "서초 봉안당 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1a819c075de9c.jpg",
+        "alt": "서초 봉안당 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4ea49d5508a41.jpg",
+        "alt": "서초 봉안당 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/25ad7c799873b.jpg",
+        "alt": "서초 봉안당 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/fdf939174ef3e.jpg",
+        "alt": "서초 봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/116f86f00e8c2.jpg",
+        "alt": "서초 봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/240a05a507114.png",
+        "alt": "서초 봉안당 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/729c4aca3dd9c.png",
+        "alt": "서초 봉안당 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/34daa361ccca1.png",
+        "alt": "서초 봉안당 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37cb0e36c3dd1.png",
+        "alt": "서초 봉안당 장지 이미지9"
+      }
+    ]
+  },
+  "013": {
+    "name": "장안추모공원",
+    "area": "경기도",
+    "sub_area": "고양시",
+    "types": [
+      "봉안당"
+    ],
+    "price": "2,500,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "일산 추모공원",
+      "description": "1988년 고양시로부터 사설납골당 허가를 취득한 전통의 불교 조계종의 사찰내 봉안당이다. 일산 풍동에 위치한 좌호산을 중심으로 뒤로는 왕룡산 줄기가 우로는 정발산, 좌로는 북한산이 둘러싸인 풍수지리학적 명당이다.",
+      "transport": "차량 : 백마역 5분, 고양IC 10분"
+    },
+    "info": {
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,500,000원~",
+      "부부단": "5,000,000원~",
+      "잔디장": "4,000,000원~",
+      "개인목": "8,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/74107a737de5e.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/74107a737de5e.jpg",
+        "alt": "일산 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b6907a9e95deb.jpg",
+        "alt": "일산 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8afb6a14c6df8.jpg",
+        "alt": "일산 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f7ddbf029ee0c.jpg",
+        "alt": "일산 추모공원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/51c055363c51d.jpg",
+        "alt": "일산 추모공원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/39351737b2f21.jpg",
+        "alt": "일산 추모공원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0bf4abb751904.jpg",
+        "alt": "일산 추모공원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ccda959ec82b9.jpg",
+        "alt": "일산 추모공원 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/391d70e1e60a2.jpg",
+        "alt": "일산 추모공원 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6adcf1d35c5e5.jpg",
+        "alt": "일산 추모공원 장지 이미지9"
+      }
+    ]
+  },
+  "014": {
+    "name": "유토피아추모관",
+    "area": "경기도",
+    "sub_area": "안성시",
+    "types": [
+      "봉안당",
+      "수목장"
+    ],
+    "price": "3,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "안성 추모관",
+      "description": "국내 최대, 국내 최고의 시설로 자부하는 안성에 위치한 대형 추모관으로 하늘아래 가장 편안한 안식처를 표방 합니다, 2000년도에 시설 개장 되었으며, 언제나 고인이 그리울때 찿아갈수 있는 쉼이있는 안식처 입니다.",
+      "transport": "차량 : 일죽IC 10분, 일죽행정복지센터 10분"
+    },
+    "info": {
+      "지역": "경기도 안성시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "3,000,000원~",
+      "부부단": "6,000,000원~",
+      "표준가족목": "7,000,000원~",
+      "부부목": "10,000,000원~",
+      "종교실(기독,천주교실)": "8,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/65bf7157dcdc7.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/65bf7157dcdc7.jpg",
+        "alt": "안성 추모관 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6136a1c54d5a0.jpg",
+        "alt": "안성 추모관 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d772840678bc2.jpg",
+        "alt": "안성 추모관 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7a806954c675e.jpg",
+        "alt": "안성 추모관 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/adcb2f92c6495.jpg",
+        "alt": "안성 추모관 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d07e5b8bd119f.jpg",
+        "alt": "안성 추모관 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/14d630c626226.jpg",
+        "alt": "안성 추모관 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ee9b3c1303e8d.jpg",
+        "alt": "안성 추모관 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b70781be8a14e.jpg",
+        "alt": "안성 추모관 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1dcda8c27bd07.jpg",
+        "alt": "안성 추모관 장지 이미지9"
+      }
+    ]
+  },
+  "015": {
+    "name": "오봉산 추모공원",
+    "area": "경기도",
+    "sub_area": "의왕시",
+    "types": [
+      "봉안당",
+      "봉안담"
+    ],
+    "price": "2,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "의왕 봉안당",
+      "description": "오봉산은 청풍김씨 5대 정승이 태어난 명당 자리이며, 물 맑고 공기 청정한 오봉산에 위치하여 조상님들의 평안한 마음의 터전입니다. 서울 양재동에서 20분, 사당역에서 15분 거리에 위치한 사찰내 봉안시설입니다. 봉안의식과 삼우재등이 무료 진행 됩니다.",
+      "transport": "차량 : 의왕IC 10분, 의왕시청 5분"
+    },
+    "info": {
+      "지역": "경기도 의왕시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/77369bd23788b.jpeg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/77369bd23788b.jpeg",
+        "alt": "의왕 봉안당 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3f097b5ed8d75.jpeg",
+        "alt": "의왕 봉안당 장지 이미지1"
+      }
+    ]
+  },
+  "016": {
+    "name": "여주세종 추모공원",
+    "area": "경기도",
+    "sub_area": "여주군",
+    "types": [
+      "봉안당",
+      "수목장",
+      "잔디장"
+    ],
+    "price": "2,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "여주 추모공원",
+      "description": "세종대왕릉과 효종왕릉이 자리잡은 전통적인 최고의 명당터 여주에 자리잡고 있으며, 고품격 호텔식 시설로 오동나무 안치단을 사용하여 쾌적한 환경을 유지하고 있습니다. 서울 강남 기준 1시간 이내 접근이 가능한 여주에 위치하고 있습니다",
+      "transport": "차량 : 서울 강남기준 1시간"
+    },
+    "info": {
+      "지역": "경기도 여주군",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~",
+      "잔디장": "4,000,000원~",
+      "개인목": "7,000,000원~",
+      "부부목": "8,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/175e649eb95f4.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/175e649eb95f4.jpg",
+        "alt": "여주 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/96a43d217adaa.jpg",
+        "alt": "여주 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/00ae10ecdbd32.jpg",
+        "alt": "여주 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ce46affb94bd2.jpg",
+        "alt": "여주 추모공원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f353350c0fb73.jpg",
+        "alt": "여주 추모공원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4c49305dccf5b.jpg",
+        "alt": "여주 추모공원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bff2cfc8a571d.jpg",
+        "alt": "여주 추모공원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/17838943716d3.jpg",
+        "alt": "여주 추모공원 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e4d80069eca82.jpg",
+        "alt": "여주 추모공원 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5c3ca6d6542b8.jpg",
+        "alt": "여주 추모공원 장지 이미지9"
+      }
+    ]
+  },
+  "017": {
+    "name": "약사사 미타전",
+    "area": "인천시",
+    "sub_area": "남동구",
+    "types": [
+      "봉안당"
+    ],
+    "price": "4,000,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "약사사 미타전",
+      "description": "인천 약산공원내 대한불교 화엄종 사찰 내부에 조성되어진 봉안당으로 유족이 보다 가까운 곳에서 고인이 모실수 있는 영혼의 안식처이며, 천혜의 명당자리로 후손들에게는 만복이 깃들게 하는 기도처로 소문이 나 있는 봉안당이다.",
+      "transport": "인천 사찰봉안당"
+    },
+    "info": {
+      "지역": "인천시 남동구",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "4,000,000원~",
+      "부부단": "8,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/63708ac6b2ded.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/63708ac6b2ded.jpg",
+        "alt": "약사사 미타전 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/394f52b309ac5.jpg",
+        "alt": "약사사 미타전 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f11e5bb1e67e0.jpg",
+        "alt": "약사사 미타전 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7756ab4d71ea7.jpg",
+        "alt": "약사사 미타전 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9c506cbacaead.jpg",
+        "alt": "약사사 미타전 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b63cb10d8a038.jpg",
+        "alt": "약사사 미타전 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f33e60ec74875.jpg",
+        "alt": "약사사 미타전 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4567a9adbcd45.jpg",
+        "alt": "약사사 미타전 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4dcb01b038d24.jpg",
+        "alt": "약사사 미타전 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b8c0e0547d59d.jpg",
+        "alt": "약사사 미타전 장지 이미지9"
+      }
+    ]
+  },
+  "018": {
+    "name": "서호추모공원",
+    "area": "경기도",
+    "sub_area": "평택시",
+    "types": [
+      "봉안당",
+      "수목장",
+      "잔디장"
+    ],
+    "price": "1,700,000원~",
+    "is_recommended": false,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "평택 추모공원",
+      "description": "경기도 평택시의 대형 추모공원으로 2006년도에 시설 개장 되었으며, 봉안당,수목장,잔디장을 갖춘 복합추모시설입니다. 호텔식문화시설을 컨셉으로 설립되어 단순한 장묘시설이 아닌 사람들의 삶의 일부에 자연스럽게 스며들고자 합니다.",
+      "transport": "차량 : 평택-제천고속도로 청북IC 10분"
+    },
+    "info": {
+      "지역": "경기도 평택시",
+      "운영": "사설",
+      "형태": "봉안당"
+    },
+    "price_table": {
+      "개인단": "1,700,000원~",
+      "부부단": "3,400,000원~",
+      "잔디장": "2,000,000원~",
+      "개인목": "4,000,000원~",
+      "부부목": "6,000,000원~"
+    },
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": true
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/37762d5fd3d86.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37762d5fd3d86.jpg",
+        "alt": "평택 추모공원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3291a60019c3c.jpg",
+        "alt": "평택 추모공원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/55696496747b3.jpg",
+        "alt": "평택 추모공원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/42d6a7673f584.jpg",
+        "alt": "평택 추모공원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/91c78953c257a.jpg",
+        "alt": "평택 추모공원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/85201dc55a8b3.jpg",
+        "alt": "평택 추모공원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f2a48d540411b.jpg",
+        "alt": "평택 추모공원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0defcd79d555.jpg",
+        "alt": "평택 추모공원 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2a34803af3497.jpg",
+        "alt": "평택 추모공원 장지 이미지8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/07d024855e6ef.jpg",
+        "alt": "평택 추모공원 장지 이미지9"
+      }
+    ]
+  },
+  "019": {
     "name": "서현공원",
     "area": "경기도",
     "sub_area": "파주시",
@@ -7,7 +1503,7 @@
       "봉안당"
     ],
     "price": "2,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -88,7 +1584,7 @@
       }
     ]
   },
-  "002": {
+  "020": {
     "name": "서락원",
     "area": "서울시",
     "sub_area": "은평구",
@@ -96,7 +1592,7 @@
       "봉안당"
     ],
     "price": "3,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -169,7 +1665,7 @@
       }
     ]
   },
-  "003": {
+  "021": {
     "name": "목련메모리얼파크",
     "area": "강원도",
     "sub_area": "철원군",
@@ -179,7 +1675,7 @@
       "매장묘"
     ],
     "price": "2,300,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -262,7 +1758,7 @@
       }
     ]
   },
-  "004": {
+  "022": {
     "name": "동막골 추모관",
     "area": "경기도",
     "sub_area": "연천군",
@@ -270,7 +1766,7 @@
       "봉안당"
     ],
     "price": "3,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -335,7 +1831,7 @@
       }
     ]
   },
-  "005": {
+  "023": {
     "name": "도성사",
     "area": "경기도",
     "sub_area": "포천시",
@@ -344,7 +1840,7 @@
       "봉안탑"
     ],
     "price": "2,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -405,7 +1901,7 @@
       }
     ]
   },
-  "006": {
+  "024": {
     "name": "대원정사",
     "area": "경기도",
     "sub_area": "양주시",
@@ -415,7 +1911,7 @@
       "봉안담"
     ],
     "price": "2,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -491,7 +1987,7 @@
       }
     ]
   },
-  "007": {
+  "025": {
     "name": "일산푸른솔",
     "area": "경기도",
     "sub_area": "일산동구",
@@ -499,7 +1995,7 @@
       "봉안당"
     ],
     "price": "1,500,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -580,7 +2076,7 @@
       }
     ]
   },
-  "008": {
+  "026": {
     "name": "추모공원하늘문",
     "area": "경기도",
     "sub_area": "고양시",
@@ -588,7 +2084,7 @@
       "봉안당"
     ],
     "price": "2,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -669,7 +2165,7 @@
       }
     ]
   },
-  "009": {
+  "027": {
     "name": "광릉더그레스트",
     "area": "경기도",
     "sub_area": "포천시",
@@ -677,7 +2173,7 @@
       "봉안당"
     ],
     "price": "6,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -754,7 +2250,7 @@
       }
     ]
   },
-  "010": {
+  "028": {
     "name": "광릉추모공원",
     "area": "경기도",
     "sub_area": "포천시",
@@ -764,7 +2260,7 @@
       "매장묘"
     ],
     "price": "별도문의",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -830,7 +2326,7 @@
       }
     ]
   },
-  "011": {
+  "029": {
     "name": "남서울가족공원",
     "area": "경기도",
     "sub_area": "광주시",
@@ -839,7 +2335,7 @@
       "수목원"
     ],
     "price": "4,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -921,7 +2417,7 @@
       }
     ]
   },
-  "012": {
+  "030": {
     "name": "미타정사 일만지장전",
     "area": "경기도",
     "sub_area": "광주시",
@@ -929,7 +2425,7 @@
       "봉안당"
     ],
     "price": "2,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -1010,7 +2506,7 @@
       }
     ]
   },
-  "013": {
+  "031": {
     "name": "스카이캐슬",
     "area": "경기도",
     "sub_area": "광주시",
@@ -1018,7 +2514,7 @@
       "봉안당"
     ],
     "price": "1,500,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -1099,7 +2595,7 @@
       }
     ]
   },
-  "014": {
+  "032": {
     "name": "분당추모공원 휴",
     "area": "경기도",
     "sub_area": "광주시",
@@ -1109,7 +2605,7 @@
       "수목장"
     ],
     "price": "2,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -1191,7 +2687,7 @@
       }
     ]
   },
-  "015": {
+  "033": {
     "name": "예진 추모관",
     "area": "경기도",
     "sub_area": "양평군",
@@ -1284,7 +2780,7 @@
       }
     ]
   },
-  "016": {
+  "034": {
     "name": "봉안당 홈",
     "area": "경기도",
     "sub_area": "성남시",
@@ -1292,7 +2788,7 @@
       "봉안당"
     ],
     "price": "5,000,000원~",
-    "is_recommended": true,
+    "is_recommended": false,
     "location": {
       "lat": "",
       "lng": ""
@@ -1380,7 +2876,7 @@
       }
     ]
   },
-  "017": {
+  "035": {
     "name": "무량수목장",
     "area": "경기도",
     "sub_area": "남양주시",
@@ -1463,7 +2959,7 @@
       }
     ]
   },
-  "018": {
+  "036": {
     "name": "무궁화공원묘원",
     "area": "경기도",
     "sub_area": "양평군",
@@ -1556,7 +3052,7 @@
       }
     ]
   },
-  "019": {
+  "037": {
     "name": "더포레",
     "area": "경기도",
     "sub_area": "양평군",
@@ -1637,7 +3133,7 @@
       }
     ]
   },
-  "020": {
+  "038": {
     "name": "성불사 자인당",
     "area": "경기도",
     "sub_area": "가평군",
@@ -1718,7 +3214,7 @@
       }
     ]
   },
-  "021": {
+  "039": {
     "name": "에덴추모공원",
     "area": "경기도",
     "sub_area": "남양주시",
@@ -1803,7 +3299,7 @@
       }
     ]
   },
-  "022": {
+  "040": {
     "name": "가람추모관",
     "area": "경기도",
     "sub_area": "양평군",
