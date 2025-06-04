@@ -112,27 +112,27 @@
     "detail_images": [
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6c750816a70fc.jpg",
-        "alt": "가람추모관 장지 이미지 2"
+        "alt": "서종추모관 장지 이미지 2"
       },
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0e92e9e996b7.jpg",
-        "alt": "가람추모관 장지 이미지 3"
+        "alt": "서종추모관 장지 이미지 3"
       },
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/12da03f48a494.jpg",
-        "alt": "가람추모관 장지 이미지 4"
+        "alt": "서종추모관 장지 이미지 4"
       },
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b4b1da57e47d.jpg",
-        "alt": "가람추모관 장지 이미지 5"
+        "alt": "서종추모관 장지 이미지 5"
       },
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/123b5735cfe18.jpg",
-        "alt": "가람추모관 장지 이미지 6"
+        "alt": "서종추모관 장지 이미지 6"
       },
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/752a75afcc408.jpg",
-        "alt": "가람추모관 장지 이미지 7"
+        "alt": "서종추모관 장지 이미지 7"
       }
     ],
     "info": {
@@ -155,11 +155,11 @@
       },
       {
         "name": "유족대기실",
-        "active": true
+        "active": false
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ]
   },
