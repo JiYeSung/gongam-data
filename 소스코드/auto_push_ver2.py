@@ -65,12 +65,14 @@ def update_detail_db():
                 break
 
         if matched_key:
-            # ✅ 덮어쓰기 필요 + 변경 필드 출력
             changed_fields = get_changed_fields(db_data[matched_key], new_item)
-            new_item["detailpage_url"] = f"/detail/?id={matched_key}"
-            db_data[matched_key] = new_item
-            print(f"🔄 내용 변경: '{new_name}' (key: {matched_key}) → 덮어쓰기 → 변경된 필드: {', '.join(changed_fields)}")
-            is_updated = True
+            if changed_fields:
+                new_item["detailpage_url"] = f"/detail/?id={matched_key}"
+                db_data[matched_key] = new_item
+                print(f"🔄 내용 변경: '{new_name}' (key: {matched_key}) → 덮어쓰기 → 변경된 필드: {', '.join(changed_fields)}")
+                is_updated = True
+            else:
+                print(f"⏩ 내용 동일 (변경 없음): '{new_name}' (key: {matched_key}) → 건너뜀")
         elif matched_key is None:
             # ✅ 신규 항목
             new_key = generate_next_key(db_data)

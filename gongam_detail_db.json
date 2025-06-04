@@ -3481,7 +3481,7 @@
       },
       {
         "name": "유족대기실",
-        "active": true
+        "active": false
       },
       {
         "name": "장애인시설",
