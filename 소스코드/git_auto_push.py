@@ -6,7 +6,7 @@ import subprocess
 DB_REPO_DIR = "./"
 DB_FILE_PATH = os.path.join(DB_REPO_DIR, "gongam_detail_db.json")
 UPDATES_FOLDER = "../images_update_data"
-GIT_COMMIT_MESSAGE = "Auto update thumbnails and detail_images"
+GIT_COMMIT_MESSAGE = "Auto update thumbnails, detail_images, and titles"
 
 def run_git_commands(repo_path, commit_message):
     try:
@@ -37,7 +37,7 @@ def update_detail_db():
         found_key = None
 
         for key, value in db_data.items():
-            if value.get("summary", {}).get("title") == target_name:
+            if value.get("name") == target_name:
                 found_key = key
                 break
 
@@ -45,13 +45,24 @@ def update_detail_db():
             current = db_data[found_key]
             new_thumbnail = update_data.get("thumbnail")
             new_detail_images = update_data.get("detail_images")
+            new_title = update_data.get("title")
 
+            # 현재 값 추출
+            current_thumbnail = current.get("thumbnail")
+            current_detail_images = current.get("detail_images")
+            current_title = current.get("summary", {}).get("title")
+
+            # 변경 여부 판단
             if (
-                current.get("thumbnail") != new_thumbnail or
-                current.get("detail_images") != new_detail_images
+                current_thumbnail != new_thumbnail or
+                current_detail_images != new_detail_images or
+                current_title != new_title
             ):
                 db_data[found_key]["thumbnail"] = new_thumbnail
                 db_data[found_key]["detail_images"] = new_detail_images
+                if "summary" not in db_data[found_key]:
+                    db_data[found_key]["summary"] = {}
+                db_data[found_key]["summary"]["title"] = new_title
                 print(f"🔄 '{target_name}' 항목 업데이트 완료 (key: {found_key})")
                 is_updated = True
             else:

@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
-import sys
+import re
 
 BASE_URL = "https://gongamcompany.imweb.me"
 LIST_PAGE = BASE_URL + "/gongam-imgdb"
@@ -11,7 +11,6 @@ HEADERS = {
 }
 
 def get_pagination_links():
-    """첫 게시판 페이지에서 pagination으로부터 모든 page 링크 추출"""
     res = requests.get(LIST_PAGE, headers=HEADERS)
     if res.status_code != 200:
         print("❌ 첫 페이지 요청 실패")
@@ -28,8 +27,17 @@ def get_pagination_links():
 
     return sorted(list(links))
 
-def collect_from_page(url, min_count, max_count):
-    """개별 페이지에서 조건에 맞는 게시글 수집"""
+def extract_title_parts(title_text):
+    match = re.match(r"(.+?)\s*\((.+?)\)", title_text)
+    if match:
+        alt_prefix = match.group(1).strip()
+        name = match.group(2).strip()
+    else:
+        alt_prefix = title_text.strip()
+        name = title_text.strip()
+    return alt_prefix, name
+
+def collect_from_page(url, count_filter_set):
     res = requests.get(url, headers=HEADERS)
     soup = BeautifulSoup(res.text, "html.parser")
     posts = soup.select("ul.li_body.holder")
@@ -48,38 +56,60 @@ def collect_from_page(url, min_count, max_count):
         except ValueError:
             continue
 
-        if not (min_count <= count <= max_count):
+        if count_filter_set is not None and count not in count_filter_set:
             continue
 
         href = title_el.get("href", "")
         title = title_el.text.strip()
+        alt_prefix, name = extract_title_parts(title)
         full_url = BASE_URL + href
+
         result.append({
             "url": full_url,
-            "alt_prefix": title,
+            "alt_prefix": alt_prefix,
+            "name": name,
             "count": count
         })
 
     return result
 
-def collect_all(min_count=1, max_count=999):
+def collect_all(count_filter_set=None):
     page_urls = get_pagination_links()
     print(f"🔍 총 {len(page_urls)} 페이지 수집 예정...")
 
     all_results = []
     for idx, page_url in enumerate(page_urls):
         print(f"📄 {idx + 1}/{len(page_urls)} 페이지 수집 중: {page_url}")
-        data = collect_from_page(page_url, min_count, max_count)
+        data = collect_from_page(page_url, count_filter_set)
         all_results.extend(data)
         time.sleep(0.5)
 
     return all_results
 
-if __name__ == "__main__":
-    min_count = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    max_count = int(sys.argv[2]) if len(sys.argv) > 2 else 999
+def get_count_filter_input():
+    user_input = input("🎯 수집할 count 값을 입력하세요 (예: 10-50 / 5 10 23 / [엔터=전체]): ").strip()
 
-    results = collect_all(min_count=min_count, max_count=max_count)
+    if not user_input:
+        return None  # 전체 수집
+
+    if "-" in user_input:
+        try:
+            min_count, max_count = map(int, user_input.split("-"))
+            return set(range(min_count, max_count + 1))
+        except:
+            print("❌ 범위 입력 오류! 예: 10-30")
+            exit(1)
+    else:
+        try:
+            return set(map(int, user_input.split()))
+        except:
+            print("❌ 숫자 입력 오류! 예: 5 10 23")
+            exit(1)
+
+if __name__ == "__main__":
+    count_filter_set = get_count_filter_input()
+
+    results = collect_all(count_filter_set=count_filter_set)
     with open("urls_by_pagination.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

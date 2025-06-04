@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-def extract_image_data(url, alt_prefix):
+def extract_image_data(url, alt_prefix, title):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     }
@@ -32,6 +32,7 @@ def extract_image_data(url, alt_prefix):
         ]
 
         return {
+            "title": title,
             "thumbnail": thumbnail,
             "detail_images": detail_images
         }
@@ -41,21 +42,18 @@ def extract_image_data(url, alt_prefix):
         return None
 
 def main():
-    # ✅ 자동 수집된 URL 목록 로딩
-    urls_file = "./소스코드/urls_by_pagination.json"  # 경로 조정 가능
+    urls_file = "./urls_by_pagination.json"
     with open(urls_file, "r", encoding="utf-8") as f:
         urls = json.load(f)
 
-    # ✅ 저장 경로 설정
     output_dir = "../images_update_data"
     os.makedirs(output_dir, exist_ok=True)
 
-    # ✅ 각 URL에서 이미지 추출 후 JSON 저장
     for item in urls:
         print(f"\n🌐 처리 중: {item['url']}")
-        result = extract_image_data(item['url'], item['alt_prefix'])
+        result = extract_image_data(item['url'], item['alt_prefix'], item['alt_prefix'])
         if result:
-            filename = os.path.join(output_dir, f"{item['alt_prefix']}.json")
+            filename = os.path.join(output_dir, f"{item['name']}.json")
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
             print(f"✅ 저장 완료: {filename}")
