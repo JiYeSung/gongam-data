@@ -22,6 +22,16 @@ def generate_next_key(db_data):
     next_key = str(max(existing_keys, default=0) + 1).zfill(3)
     return next_key
 
+# ✅ 변경된 필드 확인용 함수
+def get_changed_fields(old_item, new_item):
+    changed = []
+    for key in new_item:
+        if key not in old_item:
+            changed.append(key)
+        elif new_item[key] != old_item[key]:
+            changed.append(key)
+    return changed
+
 def update_detail_db():
     # ✅ 기존 DB 로드
     if os.path.exists(DB_FILE_PATH):
@@ -48,20 +58,21 @@ def update_detail_db():
         for key, old_item in db_data.items():
             if old_item.get("name") == new_name and old_item.get("summary", {}).get("title", "") == new_title:
                 matched_key = key
-                # ✅ 전체 내용이 같으면 스킵
+                # ✅ 전체 내용이 같으면 생략
                 if old_item == new_item:
                     print(f"⏩ 동일 항목: '{new_name}' (key: {key}) → 건너뜀")
-                    matched_key = None  # 덮어쓰기, 추가 모두 생략
+                    matched_key = None
                 break
 
         if matched_key:
-            # ✅ 동일 name/title이지만 내용 다르면 덮어쓰기
+            # ✅ 덮어쓰기 필요 + 변경 필드 출력
+            changed_fields = get_changed_fields(db_data[matched_key], new_item)
             new_item["detailpage_url"] = f"/detail/?id={matched_key}"
             db_data[matched_key] = new_item
-            print(f"🔄 내용 변경: '{new_name}' (key: {matched_key}) → 덮어쓰기")
+            print(f"🔄 내용 변경: '{new_name}' (key: {matched_key}) → 덮어쓰기 → 변경된 필드: {', '.join(changed_fields)}")
             is_updated = True
         elif matched_key is None:
-            # ✅ 완전한 신규 항목 → 새 key 발급
+            # ✅ 신규 항목
             new_key = generate_next_key(db_data)
             new_item["detailpage_url"] = f"/detail/?id={new_key}"
             db_data[new_key] = new_item
