@@ -42,14 +42,14 @@ def extract_table_data(table, is_detail_card=False):
         if len(tds) < 2:
             if not is_detail_card:
                 continue
-            th = tds[0]
-            td = None
-        else:
-            th, td = tds[0], tds[1]
 
-        key = (td.get("id") if td else None) or th.get_text(strip=True)
+        # ✅ <td><td> 구조 대응
+        th = tds[0] if len(tds) > 1 else None
+        td = tds[1] if len(tds) > 1 else None
+
+        key = (td.get("id") if td else None)
         if not key and prefix:
-            label = th.get_text(strip=True)
+            label = (th or td).get_text(strip=True)
             key = f"{prefix}.{label}"
         if not key:
             continue
