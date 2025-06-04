@@ -1,43 +1,72 @@
 {
-  "001": {
-    "name": "장지명",
-    "area": "주소의 맨앞 단위 (예: 경기도 양평군 서종면 잠실2길 134 일 때 경기도)",
-    "sub_area": "주소의 두번째 단위 (예: 경기도 양평군 서종면 잠실2길 134 일 때 양평군)",
+  "034": {
+    "name": "일산장안추모공원",
+    "area": "경기도",
+    "sub_area": "고양시",
     "types": [
-      "타입"
+      "봉안당"
     ],
-    "thumbnail": "빈값",
-    "price": "최저가격 컬럼의 최저 가격 (예: 100만원~ 이라면 1,000,000원~)",
-    "detailpage_url": "빈값",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/74107a737de5e.jpg",
+    "price": "2,500,000원~",
+    "detailpage_url": "/detail/?id=034",
     "is_recommended": true,
     "location": {
-      "lat": "빈값",
-      "lng": "빈값"
+      "lat": "",
+      "lng": ""
     },
     "summary": {
-      "title": "마케팅실명",
-      "description": "관련내용",
-      "transport": "관련내용 컬럼에 오는 방법이 적혀있다면 넣고 아니라면 차량 이라고 넣음"
+      "title": "장안추모공원",
+      "description": "1988년 고양시로부터 사설납골당 허가를 취득한 전통의 불교 조계종의 사찰내 봉안당이다. 일산 풍동에 위치한 좌호산을 중심으로 뒤로는 왕룡산 줄기가 우로는 정발산, 좌로는 북한산이 둘러싸인 풍수지리학적 명당이다.",
+      "transport": "차량"
     },
     "detail_images": [
       {
-        "src": "빈값",
-        "alt": "빈값"
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/74107a737de5e.jpg",
+        "alt": "장안추모공원 장지 이미지 1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b6907a9e95deb.jpg",
+        "alt": "장안추모공원 장지 이미지 2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8afb6a14c6df8.jpg",
+        "alt": "장안추모공원 장지 이미지 3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f7ddbf029ee0c.jpg",
+        "alt": "장안추모공원 장지 이미지 4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/51c055363c51d.jpg",
+        "alt": "장안추모공원 장지 이미지 5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/39351737b2f21.jpg",
+        "alt": "장안추모공원 장지 이미지 6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0bf4abb751904.jpg",
+        "alt": "장안추모공원 장지 이미지 7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ccda959ec82b9.jpg",
+        "alt": "장안추모공원 장지 이미지 8"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/391d70e1e60a2.jpg",
+        "alt": "장안추모공원 장지 이미지 9"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6adcf1d35c5e5.jpg",
+        "alt": "장안추모공원 장지 이미지 10"
       }
     ],
     "info": {
-      "지역": "주소의 맨앞 두개의 단위 (예: 경기도 양평군 서종면 잠실2길 134 일 때 경기도 남양주시)",
-      "운영": "사설 (사설로 고정)",
-      "형태": "타입 컬럼의 내용 (예: 봉안당, 수목장, 잔디장)",
-      "수용능력": "내용이 없다면 키 삭제",
-      "규모": "내용이 없다면 키 삭제",
-      "주차가능": "내용이 없다면 키 삭제"
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "봉안당"
     },
-    "price_table": { 최저 가격 컬럼의 내용을 아래 형식대로 표기
-      "개인단": "250만원~",
-      "부부단": "350만원~"
-    },
-    "facilities": [ 아래 내용 고정
+    "facilities": [
       {
         "name": "주차장",
         "active": true
@@ -54,6 +83,12 @@
         "name": "장애인시설",
         "active": true
       }
-    ]
+    ],
+    "price_table": {
+      "개인단": "2,500,000원~",
+      "부부단": "5,000,000원~",
+      "잔디장": "4,000,000원~",
+      "개인목": "8,000,000원~"
+    }
   }
 }

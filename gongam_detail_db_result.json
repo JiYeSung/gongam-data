@@ -1,0 +1,60 @@
+{
+  "001": {
+    "name": "테스트 장지실명",
+    "area": "경기도",
+    "sub_area": "남양주시",
+    "types": [
+      "납골당",
+      "봉안당",
+      "수목장"
+    ],
+    "price": "1,500,000원",
+    "is_recommended": true,
+    "location": {
+      "lat": "",
+      "lng": ""
+    },
+    "summary": {
+      "title": "테스트 타이틀",
+      "description": "테스트 디스크립션 설명",
+      "transport": "테스트 교통편 50분"
+    },
+    "info": {
+      "지역": "경기도 남양주시",
+      "운영": "사설",
+      "형태": "납골당, 봉안당, 수목장"
+    },
+    "price_table": {
+      "잔디장": "1,500,000원",
+      "수목장": "2,500,000원",
+      "봉안담": "3,500,000원",
+      "매장묘": "4,500,000원"
+    },
+    "추가된 서비스 행": "10,000,000원",
+    "facilities": {
+      "주차장": true,
+      "매점": false,
+      "유족대기실": true,
+      "장애인시설": false
+    },
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/2cd585ae6f124.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/59d59ae14a6d1.jpg",
+        "alt": "테스트 타이틀 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8761b10d59982.jpg",
+        "alt": "테스트 타이틀 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2d4c98d7b96b1.jpg",
+        "alt": "테스트 타이틀 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9ffcf9ec85a2e.jpg",
+        "alt": "테스트 타이틀 장지 이미지4"
+      }
+    ]
+  }
+}
