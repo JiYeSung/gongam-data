@@ -17,6 +17,11 @@ def run_git_commands(repo_path, commit_message):
     except subprocess.CalledProcessError as e:
         print(f"❌ Git 명령 중 오류 발생: {e}")
 
+def generate_next_key(db_data):
+    existing_keys = [int(k) for k in db_data.keys() if k.isdigit()]
+    next_key = str(max(existing_keys, default=0) + 1).zfill(3)
+    return next_key
+
 def update_detail_db():
     # DB 로드
     with open(DB_FILE_PATH, 'r', encoding='utf-8') as f:
@@ -41,18 +46,17 @@ def update_detail_db():
                 found_key = key
                 break
 
+        # ✅ 기존 항목 업데이트
         if found_key:
             current = db_data[found_key]
             new_thumbnail = update_data.get("thumbnail")
             new_detail_images = update_data.get("detail_images")
             new_title = update_data.get("title")
 
-            # 현재 값 추출
             current_thumbnail = current.get("thumbnail")
             current_detail_images = current.get("detail_images")
             current_title = current.get("summary", {}).get("title")
 
-            # 변경 여부 판단
             if (
                 current_thumbnail != new_thumbnail or
                 current_detail_images != new_detail_images or
@@ -67,8 +71,24 @@ def update_detail_db():
                 is_updated = True
             else:
                 print(f"⏩ '{target_name}' 항목은 기존과 동일하여 생략됨")
+
+        # ✅ 신규 항목 추가
         else:
-            print(f"⚠️  '{target_name}' 이름으로 된 항목을 DB에서 찾을 수 없습니다.")
+            new_key = generate_next_key(db_data)
+            new_title = update_data.get("title")
+            new_thumbnail = update_data.get("thumbnail")
+            new_detail_images = update_data.get("detail_images")
+
+            db_data[new_key] = {
+                "name": target_name,
+                "thumbnail": new_thumbnail,
+                "detail_images": new_detail_images,
+                "summary": {
+                    "title": new_title
+                }
+            }
+            print(f"🆕 '{target_name}' 항목 신규 추가됨 (key: {new_key})")
+            is_updated = True
 
     # DB 저장 및 Git 처리
     if is_updated:
