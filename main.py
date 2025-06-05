@@ -1,13 +1,13 @@
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-import subprocess, requests, os
-import logging
+import subprocess, requests, os, logging
 
+# ✅ 로그 설정
 logging.basicConfig(level=logging.INFO)
 
 app = FastAPI()
 
-# ✅ CORS 설정 (아임웹 허용)
+# ✅ CORS 허용
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -38,7 +38,7 @@ def download_file_from_github(file_path):
     }
     response = requests.get(url, headers=headers)
     response.raise_for_status()
-    return response.text  # ✅ 여기서 .json() 금지
+    return response.text
 
 @app.post("/gongam-update-script")
 async def run_script(request: Request):
@@ -47,8 +47,9 @@ async def run_script(request: Request):
     if token != f"Bearer {API_SECRET}":
         raise HTTPException(status_code=403, detail="Unauthorized")
 
-    logging.info(f"GITHUB_TOKEN 길이: {len(GITHUB_TOKEN) if GITHUB_TOKEN else '없음'}")
+    logging.info(f"GITHUB_TOKEN 설정됨: {bool(GITHUB_TOKEN)}")
 
+    # 📥 코드 파일 다운로드
     for file_name in FILES:
         try:
             content = download_file_from_github(file_name)
@@ -59,6 +60,7 @@ async def run_script(request: Request):
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"❌ {file_name} 다운로드 실패: {str(e)}")
 
+    # ▶ Python 스크립트 실행
     try:
         result = subprocess.run(["python", "run_all.py"], capture_output=True, text=True)
         return {

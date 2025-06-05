@@ -1,57 +1,29 @@
-import json
 import os
-import base64
-import httpx
+import subprocess
 
-DB_FILE_PATH = "./gongam_detail_db.json"
-COMMIT_MESSAGE = "자동 업데이트 커밋"
+# ✅ 환경 변수로부터 GitHub 토큰과 레포지토리 정보 불러오기
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+REPO_OWNER = "JiYeSung"
+REPO_NAME = "gongam-data"
+REPO_URL_WITH_TOKEN = f"https://{GITHUB_TOKEN}@github.com/{REPO_OWNER}/{REPO_NAME}.git"
 
-# ✅ GitHub 푸시 함수
-def push_to_github(file_path: str, commit_message: str):
-    owner = "JiYeSung"
-    repo = "gongam-data"
-    branch = "main"
-    github_token = os.getenv("GITHUB_TOKEN")
+def run_git_commands(repo_path="."):
+    try:
+        # ✅ Git 사용자 정보 설정 (커밋할 사용자 이름/이메일)
+        subprocess.run(["git", "config", "--global", "user.name", "Gongam Bot"], check=True)
+        subprocess.run(["git", "config", "--global", "user.email", "bot@gongam.ai"], check=True)
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    content_b64 = base64.b64encode(content.encode()).decode()
+        # ✅ Git remote URL을 토큰 인증 주소로 설정 (푸시를 위해)
+        subprocess.run(["git", "remote", "set-url", "origin", REPO_URL_WITH_TOKEN], cwd=repo_path, check=True)
 
-    api_url = f"https://api.github.com/repos/{owner}/{repo}/contents/{os.path.basename(file_path)}"
-    headers = {
-        "Authorization": f"Bearer {github_token}",
-        "Accept": "application/vnd.github+json"
-    }
+        # ✅ 변경사항을 스테이지에 추가하고 커밋
+        subprocess.run(["git", "add", "."], cwd=repo_path, check=True)
+        subprocess.run(["git", "commit", "-m", "Auto update thumbnails and detail_images"], cwd=repo_path, check=True)
 
-    # 기존 파일의 SHA 필요
-    r_get = httpx.get(api_url, headers=headers)
-    sha = r_get.json().get("sha") if r_get.status_code == 200 else None
+        # ✅ GitHub로 푸시
+        subprocess.run(["git", "push", "origin", "main"], cwd=repo_path, check=True)
 
-    payload = {
-        "message": commit_message,
-        "content": content_b64,
-        "branch": branch
-    }
-    if sha:
-        payload["sha"] = sha
+        print("✅ Git 자동 푸시 완료")
 
-    r_put = httpx.put(api_url, json=payload, headers=headers)
-
-    if r_put.status_code in (200, 201):
-        print("✅ GitHub 푸시 성공")
-    else:
-        print(f"❌ GitHub 푸시 실패: {r_put.status_code} / {r_put.text}")
-
-# ✅ 실제 DB 저장 후 푸시
-def main():
-    # 예시: 로컬에서 어떤 처리 후 DB 저장
-    with open(DB_FILE_PATH, "r", encoding="utf-8") as f:
-        db = json.load(f)
-
-    print(f"💾 '{DB_FILE_PATH}' 저장 완료")
-    
-    # GitHub로 푸시
-    push_to_github(DB_FILE_PATH, COMMIT_MESSAGE)
-
-if __name__ == "__main__":
-    main()
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Git 명령 실행 중 오류 발생: {e}")
