@@ -2,7 +2,6 @@ import os
 import base64
 import json
 import requests
-import shutil
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 REPO_OWNER = "JiYeSung"
@@ -10,7 +9,7 @@ REPO_NAME = "gongam-data"
 BRANCH = "main"
 
 RESULT_FILE = "gongam_detail_db_result.json"  # 크롤링 결과
-MAIN_FILE = "gongam_detail_db.json"           # 서비스용 파일
+MAIN_FILE = "gongam_detail_db.json"           # 실제 사용하는 DB
 GITHUB_API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{MAIN_FILE}"
 
 
@@ -23,32 +22,50 @@ def load_json_file(path):
 
 def update_main_data(result_data, main_data):
     updated = False
+    changed_keys = []
+    deleted_keys = []
+
     existing_keys = list(main_data.keys())
 
     def next_index():
         return f"{max([int(k) for k in existing_keys] + [0]) + 1:03}"
 
+    result_pairs = {
+        (item.get("name"), item.get("summary", {}).get("title")): key
+        for key, item in main_data.items()
+    }
+
+    seen_keys = set()
+
     for _, new_item in result_data.items():
-        matched_key = None
+        name = new_item.get("name")
+        title = new_item.get("summary", {}).get("title")
+        match_key = result_pairs.get((name, title))
 
-        for key, existing_item in main_data.items():
-            if (
-                existing_item.get("name") == new_item.get("name") and
-                existing_item.get("summary", {}).get("title") == new_item.get("summary", {}).get("title")
-            ):
-                matched_key = key
-                if existing_item != new_item:
-                    main_data[key] = new_item
-                    updated = True
-                break
-
-        if not matched_key:
+        if match_key:
+            seen_keys.add(match_key)
+            if main_data[match_key] != new_item:
+                main_data[match_key] = new_item
+                updated = True
+                changed_keys.append(match_key)
+        else:
             new_key = next_index()
             main_data[new_key] = new_item
             existing_keys.append(int(new_key))
             updated = True
+            changed_keys.append(new_key)
 
-    return main_data, updated
+    # 삭제된 키 추적
+    for key in list(main_data.keys()):
+        item = main_data[key]
+        name = item.get("name")
+        title = item.get("summary", {}).get("title")
+        if (name, title) not in [(i.get("name"), i.get("summary", {}).get("title")) for i in result_data.values()]:
+            deleted_keys.append(key)
+            del main_data[key]
+            updated = True
+
+    return main_data, updated, changed_keys, deleted_keys
 
 
 def run_git_api_push():
@@ -56,21 +73,21 @@ def run_git_api_push():
         print("❌ GITHUB_TOKEN 환경변수가 설정되지 않았습니다.")
         return
 
-    # 1️⃣ JSON 파일 비교 및 병합
     result_data = load_json_file(RESULT_FILE)
     main_data = load_json_file(MAIN_FILE)
 
-    updated_data, is_updated = update_main_data(result_data, main_data)
+    updated_data, is_updated, changed_keys, deleted_keys = update_main_data(result_data, main_data)
+
+    print("📊 변경된 키 목록:", changed_keys)
+    print("🗑️ 삭제된 키 목록:", deleted_keys)
 
     if not is_updated:
         print("✅ 변경된 내용이 없어 GitHub 푸시를 생략합니다.")
         return
 
-    # 2️⃣ 파일 저장
     with open(MAIN_FILE, "w", encoding="utf-8") as f:
         json.dump(updated_data, f, ensure_ascii=False, indent=2)
 
-    # 3️⃣ GitHub API를 통한 푸시
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json"
@@ -88,7 +105,6 @@ def run_git_api_push():
         print(f"❌ SHA 조회 실패: {response.status_code} → {response.text}")
         return
 
-    # 파일 인코딩
     with open(MAIN_FILE, "rb") as f:
         content_bytes = f.read()
     encoded_content = base64.b64encode(content_bytes).decode("utf-8")
