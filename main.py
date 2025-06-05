@@ -7,9 +7,9 @@ API_SECRET = os.getenv("SECRET_KEY")
 GITHUB_RAW_BASE = os.getenv("RAW_BASE_URL")  # 마지막에 / 포함
 
 FILES = [
-    "소스코드/1_get_urls_ver2.py",
-    "소스코드/2_data_formatting_ver2.py",
-    "소스코드/3_auto_push_ver2.py",
+    "code/1_get_urls_ver2.py",
+    "code/2_data_formatting_ver2.py",
+    "code/3_auto_push_ver2.py",
     "run_all.py"
 ]
 
