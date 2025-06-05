@@ -29,13 +29,21 @@ def update_main_data(result_data, main_data):
     for _, new_item in result_data.items():
         matched_key = None
         for key, existing_item in main_data.items():
-            if (
-                existing_item.get("name") == new_item.get("name") and
-                existing_item.get("summary", {}).get("title") == new_item.get("summary", {}).get("title")
-            ):
+            same_name = existing_item.get("name") == new_item.get("name")
+            same_title = existing_item.get("summary", {}).get("title") == new_item.get("summary", {}).get("title")
+
+            if same_name and same_title:
                 matched_key = key
+
+                # ✅ detailpage_url이 누락되었을 경우 추가
+                if "detailpage_url" not in existing_item:
+                    existing_item["detailpage_url"] = f"/detail/?id={key}"
+                    main_data[key] = existing_item
+                    updated = True
+
+                # ✅ 내용이 바뀌었을 경우 전체 업데이트
                 if existing_item != new_item:
-                    new_item["detailpage_url"] = f"/detail/?id={key}"  # ✅ URL 추가
+                    new_item["detailpage_url"] = f"/detail/?id={key}"
                     main_data[key] = new_item
                     changed_keys.append((key, new_item["name"], new_item["summary"]["title"]))
                     updated = True
@@ -43,7 +51,7 @@ def update_main_data(result_data, main_data):
 
         if not matched_key:
             new_key = next_index()
-            new_item["detailpage_url"] = f"/detail/?id={new_key}"  # ✅ URL 추가
+            new_item["detailpage_url"] = f"/detail/?id={new_key}"
             main_data[new_key] = new_item
             added_keys.append((new_key, new_item["name"], new_item["summary"]["title"]))
             existing_keys.append(int(new_key))
