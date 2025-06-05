@@ -17,6 +17,12 @@ def load_json_file(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+def normalize_for_comparison(data):
+    """비교 전에 detailpage_url 제거 + 정렬"""
+    clone = dict(data)
+    clone.pop("detailpage_url", None)
+    return json.loads(json.dumps(clone, sort_keys=True, ensure_ascii=False))
+
 def update_main_data(result_data, main_data):
     updated = False
     existing_keys = list(main_data.keys())
@@ -35,16 +41,16 @@ def update_main_data(result_data, main_data):
             if same_name and same_title:
                 matched_key = key
 
-                # ✅ detailpage_url 누락만 처리 (변경 기록은 남기지 않음)
+                # ✅ detailpage_url 누락 시 추가 (비교 대상 아님)
                 if "detailpage_url" not in existing_item:
                     existing_item["detailpage_url"] = f"/detail/?id={key}"
                     main_data[key] = existing_item
                     updated = True
-                    continue  # 변경으로 간주하지 않음
+                    continue  # 변경 로그로 간주하지 않음
 
-                # ✅ 값이 다른 경우만 main_data 갱신
-                if existing_item != new_item:
-                    main_item = dict(new_item)  # 복사해서 main용 데이터 생성
+                # ✅ 실제 데이터 비교 (detailpage_url 제외)
+                if normalize_for_comparison(existing_item) != normalize_for_comparison(new_item):
+                    main_item = dict(new_item)
                     main_item["detailpage_url"] = f"/detail/?id={key}"
                     main_data[key] = main_item
                     changed_keys.append((key, main_item["name"], main_item["summary"]["title"]))
@@ -53,7 +59,7 @@ def update_main_data(result_data, main_data):
 
         if not matched_key:
             new_key = next_index()
-            main_item = dict(new_item)  # 복사해서 main용 데이터 생성
+            main_item = dict(new_item)
             main_item["detailpage_url"] = f"/detail/?id={new_key}"
             main_data[new_key] = main_item
             added_keys.append((new_key, main_item["name"], main_item["summary"]["title"]))
@@ -132,7 +138,7 @@ def run_git_api_push():
     # ✅ DB 병합 및 비교
     updated_data, is_updated, changed_keys, added_keys, deleted_keys = update_main_data(result_data, main_data)
 
-    # ✅ 항상 result 파일 저장 & 푸시 (detailpage_url 없이 저장됨)
+    # ✅ 항상 result 파일 저장 & 푸시 (detailpage_url 없음)
     with open(RESULT_FILE, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
