@@ -2,15 +2,14 @@ import os
 import base64
 import json
 import requests
-import shutil
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 REPO_OWNER = "JiYeSung"
 REPO_NAME = "gongam-data"
 BRANCH = "main"
 
-RESULT_FILE = "gongam_detail_db_result.json"  # 크롤링 결과
-MAIN_FILE = "gongam_detail_db.json"           # 서비스용 파일
+RESULT_FILE = "gongam_detail_db_result.json"
+MAIN_FILE = "gongam_detail_db.json"
 GITHUB_API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{MAIN_FILE}"
 
 def load_json_file(path):
@@ -74,7 +73,6 @@ def run_git_api_push():
         log("❌ GITHUB_TOKEN 환경변수가 설정되지 않았습니다.")
         return "토큰 없음"
 
-    # 1️⃣ JSON 파일 비교 및 병합
     result_data = load_json_file(RESULT_FILE)
     main_data = load_json_file(MAIN_FILE)
 
@@ -84,25 +82,33 @@ def run_git_api_push():
         log("✅ 변경된 내용이 없어 GitHub 푸시를 생략합니다.")
         return "\n".join(log_messages)
 
-    # 2️⃣ 변경/추가/삭제 항목 출력
-    if changed_keys:
-        log("📊 변경된 항목:")
-        for k, name, title in changed_keys:
-            log(f"- {k} | {name} | {title}")
-    if added_keys:
-        log("➕ 추가된 항목:")
-        for k, name, title in added_keys:
-            log(f"- {k} | {name} | {title}")
-    if deleted_keys:
-        log("🗑️ 삭제된 항목:")
-        for k, name, title in deleted_keys:
-            log(f"- {k} | {name} | {title}")
+    # 변경 항목들 JSON 형태로 출력
+    for k, name, title in changed_keys:
+        log("♻️ 변경된 항목:\n" + json.dumps({
+            "key": k,
+            "name": name,
+            "title": title
+        }, ensure_ascii=False, indent=2))
 
-    # 3️⃣ 파일 저장
+    for k, name, title in added_keys:
+        log("🆕 추가된 항목:\n" + json.dumps({
+            "key": k,
+            "name": name,
+            "title": title
+        }, ensure_ascii=False, indent=2))
+
+    for k, name, title in deleted_keys:
+        log("🗑️ 삭제된 항목:\n" + json.dumps({
+            "key": k,
+            "name": name,
+            "title": title
+        }, ensure_ascii=False, indent=2))
+
+    # 저장
     with open(MAIN_FILE, "w", encoding="utf-8") as f:
         json.dump(updated_data, f, ensure_ascii=False, indent=2)
 
-    # 4️⃣ GitHub API를 통한 푸시
+    # GitHub 업로드
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json"
@@ -120,7 +126,6 @@ def run_git_api_push():
         log(f"❌ SHA 조회 실패: {response.status_code} → {response.text}")
         return "SHA 조회 실패"
 
-    # 파일 인코딩 및 업로드
     with open(MAIN_FILE, "rb") as f:
         content_bytes = f.read()
     encoded_content = base64.b64encode(content_bytes).decode("utf-8")
