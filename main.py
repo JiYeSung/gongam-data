@@ -47,6 +47,7 @@ async def run_script(request: Request):
     if token != f"Bearer {API_SECRET}":
         raise HTTPException(status_code=403, detail="Unauthorized")
 
+    logging.info("✅ /gongam-update-script 호출됨")
     logging.info(f"GITHUB_TOKEN 설정됨: {bool(GITHUB_TOKEN)}")
 
     # 📥 코드 파일 다운로드
@@ -63,9 +64,10 @@ async def run_script(request: Request):
     # ▶ Python 스크립트 실행
     try:
         result = subprocess.run(["python", "run_all.py"], capture_output=True, text=True)
+        logging.info("✅ run_all.py 실행 완료")
         return {
-            "output": result.stdout,
-            "error": result.stderr
+            "output": result.stdout.strip(),  # 🔍 .strip()으로 깔끔하게
+            "error": result.stderr.strip()
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"❌ 실행 실패: {str(e)}")

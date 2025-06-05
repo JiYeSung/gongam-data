@@ -30,7 +30,6 @@ def update_main_data(result_data, main_data):
 
     for _, new_item in result_data.items():
         matched_key = None
-
         for key, existing_item in main_data.items():
             if (
                 existing_item.get("name") == new_item.get("name") and
@@ -39,26 +38,28 @@ def update_main_data(result_data, main_data):
                 matched_key = key
                 if existing_item != new_item:
                     main_data[key] = new_item
-                    changed_keys.append(key)
+                    changed_keys.append((key, new_item["name"], new_item["summary"]["title"]))
                     updated = True
                 break
 
         if not matched_key:
             new_key = next_index()
             main_data[new_key] = new_item
-            added_keys.append(new_key)
+            added_keys.append((new_key, new_item["name"], new_item["summary"]["title"]))
             existing_keys.append(int(new_key))
             updated = True
 
     deleted_keys = []
-    result_names_titles = [(v.get("name"), v.get("summary", {}).get("title")) for v in result_data.values()]
-    for key, item in list(main_data.items()):
-        if (item.get("name"), item.get("summary", {}).get("title")) not in result_names_titles:
-            deleted_keys.append(key)
+    result_name_title_set = set(
+        (v.get("name"), v.get("summary", {}).get("title")) for v in result_data.values()
+    )
 
-    for key in deleted_keys:
-        del main_data[key]
-        updated = True
+    for key, item in list(main_data.items()):
+        pair = (item.get("name"), item.get("summary", {}).get("title"))
+        if pair not in result_name_title_set:
+            deleted_keys.append((key, item.get("name"), item.get("summary", {}).get("title")))
+            del main_data[key]
+            updated = True
 
     return main_data, updated, changed_keys, added_keys, deleted_keys
 
@@ -81,15 +82,21 @@ def run_git_api_push():
 
     if not is_updated:
         log("✅ 변경된 내용이 없어 GitHub 푸시를 생략합니다.")
-        return "변경 없음"
+        return "\n".join(log_messages)
 
-    # 2️⃣ 로그 출력
+    # 2️⃣ 변경/추가/삭제 항목 출력
     if changed_keys:
-        log(f"📊 변경된 키 목록: {changed_keys}")
+        log("📊 변경된 항목:")
+        for k, name, title in changed_keys:
+            log(f"- {k} | {name} | {title}")
     if added_keys:
-        log(f"➕ 추가된 키 목록: {added_keys}")
+        log("➕ 추가된 항목:")
+        for k, name, title in added_keys:
+            log(f"- {k} | {name} | {title}")
     if deleted_keys:
-        log(f"🗑️ 삭제된 키 목록: {deleted_keys}")
+        log("🗑️ 삭제된 항목:")
+        for k, name, title in deleted_keys:
+            log(f"- {k} | {name} | {title}")
 
     # 3️⃣ 파일 저장
     with open(MAIN_FILE, "w", encoding="utf-8") as f:
@@ -113,7 +120,7 @@ def run_git_api_push():
         log(f"❌ SHA 조회 실패: {response.status_code} → {response.text}")
         return "SHA 조회 실패"
 
-    # 파일 인코딩
+    # 파일 인코딩 및 업로드
     with open(MAIN_FILE, "rb") as f:
         content_bytes = f.read()
     encoded_content = base64.b64encode(content_bytes).decode("utf-8")
