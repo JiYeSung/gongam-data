@@ -24,9 +24,9 @@ REPO_NAME = "gongam-data"
 BRANCH = "main"
 
 FILES = [
-    "code/1_get_urls_ver2.py",
-    "code/2_data_formatting_ver2.py",
-    "code/3_auto_push_ver2.py",
+    "scripts/1_get_urls_ver2.py",
+    "scripts/2_data_formatting_ver2.py",
+    "scripts/3_auto_push_ver2.py",
     "run_all.py"
 ]
 
