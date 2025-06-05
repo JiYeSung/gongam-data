@@ -138,10 +138,10 @@ def main():
         final_result[f"{idx:03}"] = detail_data
 
     # ✅ JSON 저장
-    with open("gongam_detail_db.json", "w", encoding="utf-8") as f:
+    with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:
         json.dump(final_result, f, ensure_ascii=False, indent=2)
 
-    print("✅ gongam_detail_db.json 파일 생성 완료")
+    print("✅ gongam_detail_db_result.json 파일 생성 완료")
 
 # ✅ 단독 실행
 if __name__ == "__main__":
