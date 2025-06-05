@@ -4,10 +4,10 @@ import subprocess, requests, os
 
 app = FastAPI()
 
-# ✅ CORS 설정 추가 (아임웹에서 호출 가능하게)
+# ✅ CORS 설정 (아임웹 허용)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # 또는 ["https://xxx.imweb.me"] 등 특정 도메인
+    allow_origins=["*"],  # 또는 ["https://xxx.imweb.me"]로 제한 가능
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -15,9 +15,12 @@ app.add_middleware(
 
 # ✅ 환경 변수
 API_SECRET = os.getenv("SECRET_KEY")
-GITHUB_RAW_BASE = os.getenv("RAW_BASE_URL")  # 예: https://raw.githubusercontent.com/JiYeSung/gongam-data/main/
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+REPO_OWNER = "JiYeSung"
+REPO_NAME = "gongam-data"
+BRANCH = "main"
 
-# ✅ 다운로드 대상 파일 목록
+# ✅ 다운로드할 파일 경로
 FILES = [
     "code/1_get_urls_ver2.py",
     "code/2_data_formatting_ver2.py",
@@ -25,26 +28,33 @@ FILES = [
     "run_all.py"
 ]
 
+# ✅ GitHub API로 파일 다운로드 함수
+def download_file_from_github(file_path):
+    url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{file_path}?ref={BRANCH}"
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3.raw"
+    }
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    return response.text
+
+# ✅ 실행 API
 @app.post("/gongam-update-script")
 async def run_script(request: Request):
-    # 🔐 인증 체크
+    # 🔐 인증 확인
     token = request.headers.get("Authorization")
     if token != f"Bearer {API_SECRET}":
         raise HTTPException(status_code=403, detail="Unauthorized")
 
-    # 📥 파일 다운로드
+    # 📥 파일 다운로드 및 저장
     for file_name in FILES:
-        file_url = f"{GITHUB_RAW_BASE}{file_name}"
         try:
-            response = requests.get(file_url)
-            response.raise_for_status()
-
+            content = download_file_from_github(file_name)
             local_path = os.path.join(".", file_name)
             os.makedirs(os.path.dirname(local_path), exist_ok=True)
-
             with open(local_path, "w", encoding="utf-8") as f:
-                f.write(response.text)
-
+                f.write(content)
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"❌ {file_name} 다운로드 실패: {str(e)}")
 
