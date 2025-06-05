@@ -70,7 +70,6 @@ def extract_images(td_tag, title_prefix):
 
 # ✅ 메인 실행 함수
 def main():
-    # ✅ User-Agent 헤더
     HEADERS = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -79,9 +78,11 @@ def main():
         )
     }
 
-    # ✅ URL 목록 파일에서 로드
     with open("./urls_by_pagination.json", "r", encoding="utf-8") as f:
         url_items = json.load(f)
+
+    # ✅ 게시판 count 순서대로 정렬
+    url_items.sort(key=lambda x: int(x.get("count", 0)))
 
     final_result = {}
 
@@ -118,12 +119,9 @@ def main():
                     elif td_id == "detail_images":
                         images = extract_images(td, title)
 
-                        # ✅ 썸네일이 존재하면 detail_images 맨 앞에 삽입 (중복 방지)
                         thumbnail_url = detail_data.get("thumbnail")
                         if thumbnail_url and not any(img["src"] == thumbnail_url for img in images):
                             images.insert(0, {"src": thumbnail_url, "alt": f"{title} 장지 이미지0"})
-
-                        # ✅ 썸네일이 없으면 detail[0]을 썸네일로 사용
                         if not thumbnail_url and images:
                             detail_data["thumbnail"] = images[0]["src"]
 
@@ -137,7 +135,6 @@ def main():
 
         final_result[f"{idx:03}"] = detail_data
 
-    # ✅ JSON 저장
     with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:
         json.dump(final_result, f, ensure_ascii=False, indent=2)
 

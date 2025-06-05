@@ -35,6 +35,7 @@ def update_main_data(result_data, main_data):
             ):
                 matched_key = key
                 if existing_item != new_item:
+                    new_item["detailpage_url"] = f"/detail/?id={key}"  # ✅ URL 추가
                     main_data[key] = new_item
                     changed_keys.append((key, new_item["name"], new_item["summary"]["title"]))
                     updated = True
@@ -42,6 +43,7 @@ def update_main_data(result_data, main_data):
 
         if not matched_key:
             new_key = next_index()
+            new_item["detailpage_url"] = f"/detail/?id={new_key}"  # ✅ URL 추가
             main_data[new_key] = new_item
             added_keys.append((new_key, new_item["name"], new_item["summary"]["title"]))
             existing_keys.append(int(new_key))
