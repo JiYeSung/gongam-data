@@ -4,7 +4,7 @@ import subprocess, requests, os
 app = FastAPI()
 
 API_SECRET = os.getenv("SECRET_KEY")
-GITHUB_RAW_BASE = os.getenv("RAW_BASE_URL")  # 마지막에 / 포함
+GITHUB_RAW_BASE = os.getenv("RAW_BASE_URL")  # 예: https://raw.githubusercontent.com/JiYeSung/gongam-data/main/
 
 FILES = [
     "code/1_get_urls_ver2.py",
@@ -25,7 +25,6 @@ async def run_script(request: Request):
             response = requests.get(file_url)
             response.raise_for_status()
 
-            # 하위 폴더까지 생성하여 저장
             local_path = os.path.join(".", file_name)
             os.makedirs(os.path.dirname(local_path), exist_ok=True)
 
@@ -35,8 +34,7 @@ async def run_script(request: Request):
         except Exception as e:
             return {"error": f"❌ {file_name} 다운로드 실패: {str(e)}"}
 
-    # ✅ 하위 경로 포함된 실행 경로 지정
-    result = subprocess.run(["python", "subfolder/run_all.py"], capture_output=True, text=True)
+    result = subprocess.run(["python", "run_all.py"], capture_output=True, text=True)
 
     return {
         "output": result.stdout,
