@@ -86,25 +86,28 @@ def collect_all(count_filter_set=None):
 
     return all_results
 
+# def get_count_filter_input():
+    # user_input = input("🎯 수집할 count 값을 입력하세요 (예: 10-50 / 5 10 23 / [엔터=전체]): ").strip()
+
+    # if not user_input:
+    #     return None  # 전체 수집
+
+    # if "-" in user_input:
+    #     try:
+    #         min_count, max_count = map(int, user_input.split("-"))
+    #         return set(range(min_count, max_count + 1))
+    #     except:
+    #         print("❌ 범위 입력 오류! 예: 10-30")
+    #         exit(1)
+    # else:
+    #     try:
+    #         return set(map(int, user_input.split()))
+    #     except:
+    #         print("❌ 숫자 입력 오류! 예: 5 10 23")
+    #         exit(1)
 def get_count_filter_input():
-    user_input = input("🎯 수집할 count 값을 입력하세요 (예: 10-50 / 5 10 23 / [엔터=전체]): ").strip()
-
-    if not user_input:
-        return None  # 전체 수집
-
-    if "-" in user_input:
-        try:
-            min_count, max_count = map(int, user_input.split("-"))
-            return set(range(min_count, max_count + 1))
-        except:
-            print("❌ 범위 입력 오류! 예: 10-30")
-            exit(1)
-    else:
-        try:
-            return set(map(int, user_input.split()))
-        except:
-            print("❌ 숫자 입력 오류! 예: 5 10 23")
-            exit(1)
+    # ✅ 사용자 입력 없이 전체 수집
+    return None
 
 if __name__ == "__main__":
     count_filter_set = get_count_filter_input()
