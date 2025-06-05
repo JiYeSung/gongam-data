@@ -18,9 +18,10 @@ def load_json_file(path):
         return json.load(f)
 
 def normalize_for_comparison(data):
-    """비교 전에 detailpage_url 제거 + 정렬"""
+    """비교용: detailpage_url, url 제외 후 정렬"""
     clone = dict(data)
     clone.pop("detailpage_url", None)
+    clone.pop("url", None)
     return json.loads(json.dumps(clone, sort_keys=True, ensure_ascii=False))
 
 def update_main_data(result_data, main_data):
@@ -41,14 +42,14 @@ def update_main_data(result_data, main_data):
             if same_name and same_title:
                 matched_key = key
 
-                # ✅ detailpage_url 누락 시 추가 (비교 대상 아님)
+                # ✅ detailpage_url 누락 시만 추가
                 if "detailpage_url" not in existing_item:
                     existing_item["detailpage_url"] = f"/detail/?id={key}"
                     main_data[key] = existing_item
                     updated = True
-                    continue  # 변경 로그로 간주하지 않음
+                    break
 
-                # ✅ 실제 데이터 비교 (detailpage_url 제외)
+                # ✅ 실제 데이터 변경 비교 (url 포함 안 함)
                 if normalize_for_comparison(existing_item) != normalize_for_comparison(new_item):
                     main_item = dict(new_item)
                     main_item["detailpage_url"] = f"/detail/?id={key}"
@@ -138,14 +139,14 @@ def run_git_api_push():
     # ✅ DB 병합 및 비교
     updated_data, is_updated, changed_keys, added_keys, deleted_keys = update_main_data(result_data, main_data)
 
-    # ✅ 항상 result 파일 저장 & 푸시 (detailpage_url 없음)
+    # ✅ result 파일 저장 (오염 없음)
     with open(RESULT_FILE, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
     log("📤 gongam_detail_db_result.json GitHub에 푸시 시작")
     push_file_to_github(RESULT_FILE, "Auto push result file", RESULT_FILE, log)
 
-    # ✅ 변경된 경우에만 main 파일 저장 & 푸시
+    # ✅ main 파일이 실제로 바뀐 경우만 기록
     if is_updated:
         for k, name, title in changed_keys:
             log("♻️ 변경된 항목:\n" + json.dumps({"key": k, "name": name, "title": title}, ensure_ascii=False, indent=2))
