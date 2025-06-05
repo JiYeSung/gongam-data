@@ -35,25 +35,28 @@ def update_main_data(result_data, main_data):
             if same_name and same_title:
                 matched_key = key
 
-                # ✅ detailpage_url이 누락되었을 경우 추가
+                # ✅ detailpage_url 누락만 처리 (변경 기록은 남기지 않음)
                 if "detailpage_url" not in existing_item:
                     existing_item["detailpage_url"] = f"/detail/?id={key}"
                     main_data[key] = existing_item
                     updated = True
+                    continue  # 변경으로 간주하지 않음
 
-                # ✅ 내용이 바뀌었을 경우 전체 업데이트
+                # ✅ 값이 다른 경우만 main_data 갱신
                 if existing_item != new_item:
-                    new_item["detailpage_url"] = f"/detail/?id={key}"
-                    main_data[key] = new_item
-                    changed_keys.append((key, new_item["name"], new_item["summary"]["title"]))
+                    main_item = dict(new_item)  # 복사해서 main용 데이터 생성
+                    main_item["detailpage_url"] = f"/detail/?id={key}"
+                    main_data[key] = main_item
+                    changed_keys.append((key, main_item["name"], main_item["summary"]["title"]))
                     updated = True
                 break
 
         if not matched_key:
             new_key = next_index()
-            new_item["detailpage_url"] = f"/detail/?id={new_key}"
-            main_data[new_key] = new_item
-            added_keys.append((new_key, new_item["name"], new_item["summary"]["title"]))
+            main_item = dict(new_item)  # 복사해서 main용 데이터 생성
+            main_item["detailpage_url"] = f"/detail/?id={new_key}"
+            main_data[new_key] = main_item
+            added_keys.append((new_key, main_item["name"], main_item["summary"]["title"]))
             existing_keys.append(int(new_key))
             updated = True
 
@@ -129,7 +132,7 @@ def run_git_api_push():
     # ✅ DB 병합 및 비교
     updated_data, is_updated, changed_keys, added_keys, deleted_keys = update_main_data(result_data, main_data)
 
-    # ✅ 항상 result 파일 저장 & 푸시
+    # ✅ 항상 result 파일 저장 & 푸시 (detailpage_url 없이 저장됨)
     with open(RESULT_FILE, "w", encoding="utf-8") as f:
         json.dump(result_data, f, ensure_ascii=False, indent=2)
 
