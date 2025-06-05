@@ -10,7 +10,6 @@ BRANCH = "main"
 
 RESULT_FILE = "gongam_detail_db_result.json"
 MAIN_FILE = "gongam_detail_db.json"
-GITHUB_API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{MAIN_FILE}"
 
 def load_json_file(path):
     if not os.path.exists(path):
@@ -62,6 +61,46 @@ def update_main_data(result_data, main_data):
 
     return main_data, updated, changed_keys, added_keys, deleted_keys
 
+def push_file_to_github(file_path, commit_message, github_file_path, log):
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json"
+    }
+
+    github_api_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{github_file_path}"
+    log(f"🔍 {github_file_path} GitHub SHA 조회 중...")
+    response = requests.get(github_api_url, headers=headers, params={"ref": BRANCH})
+
+    if response.status_code == 200:
+        sha = response.json()["sha"]
+        log("🔄 기존 파일 업데이트 방식으로 진행합니다.")
+    elif response.status_code == 404:
+        sha = None
+        log("🆕 새 파일로 생성합니다.")
+    else:
+        log(f"❌ SHA 조회 실패: {response.status_code} → {response.text}")
+        return False
+
+    with open(file_path, "rb") as f:
+        encoded_content = base64.b64encode(f.read()).decode("utf-8")
+
+    payload = {
+        "message": commit_message,
+        "content": encoded_content,
+        "branch": BRANCH
+    }
+    if sha:
+        payload["sha"] = sha
+
+    log(f"📤 {github_file_path} GitHub에 푸시 중...")
+    put_response = requests.put(github_api_url, headers=headers, data=json.dumps(payload))
+    if put_response.status_code in [200, 201]:
+        log("✅ GitHub API를 통한 푸시 성공!")
+        return True
+    else:
+        log(f"❌ GitHub API 푸시 실패: {put_response.status_code} → {put_response.text}")
+        return False
+
 def run_git_api_push():
     log_messages = []
 
@@ -73,76 +112,35 @@ def run_git_api_push():
         log("❌ GITHUB_TOKEN 환경변수가 설정되지 않았습니다.")
         return "토큰 없음"
 
+    # ✅ JSON 파일 로드
     result_data = load_json_file(RESULT_FILE)
     main_data = load_json_file(MAIN_FILE)
 
+    # ✅ DB 병합 및 비교
     updated_data, is_updated, changed_keys, added_keys, deleted_keys = update_main_data(result_data, main_data)
 
-    if not is_updated:
-        log("✅ 변경된 내용이 없어 GitHub 푸시를 생략합니다.")
-        return "\n".join(log_messages)
+    # ✅ 항상 result 파일 저장 & 푸시
+    with open(RESULT_FILE, "w", encoding="utf-8") as f:
+        json.dump(result_data, f, ensure_ascii=False, indent=2)
 
-    # 변경 항목들 JSON 형태로 출력
-    for k, name, title in changed_keys:
-        log("♻️ 변경된 항목:\n" + json.dumps({
-            "key": k,
-            "name": name,
-            "title": title
-        }, ensure_ascii=False, indent=2))
+    log("📤 gongam_detail_db_result.json GitHub에 푸시 시작")
+    push_file_to_github(RESULT_FILE, "Auto push result file", RESULT_FILE, log)
 
-    for k, name, title in added_keys:
-        log("🆕 추가된 항목:\n" + json.dumps({
-            "key": k,
-            "name": name,
-            "title": title
-        }, ensure_ascii=False, indent=2))
+    # ✅ 변경된 경우에만 main 파일 저장 & 푸시
+    if is_updated:
+        for k, name, title in changed_keys:
+            log("♻️ 변경된 항목:\n" + json.dumps({"key": k, "name": name, "title": title}, ensure_ascii=False, indent=2))
+        for k, name, title in added_keys:
+            log("🆕 추가된 항목:\n" + json.dumps({"key": k, "name": name, "title": title}, ensure_ascii=False, indent=2))
+        for k, name, title in deleted_keys:
+            log("🗑️ 삭제된 항목:\n" + json.dumps({"key": k, "name": name, "title": title}, ensure_ascii=False, indent=2))
 
-    for k, name, title in deleted_keys:
-        log("🗑️ 삭제된 항목:\n" + json.dumps({
-            "key": k,
-            "name": name,
-            "title": title
-        }, ensure_ascii=False, indent=2))
+        with open(MAIN_FILE, "w", encoding="utf-8") as f:
+            json.dump(updated_data, f, ensure_ascii=False, indent=2)
 
-    # 저장
-    with open(MAIN_FILE, "w", encoding="utf-8") as f:
-        json.dump(updated_data, f, ensure_ascii=False, indent=2)
-
-    # GitHub 업로드
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github.v3+json"
-    }
-
-    log("🔍 기존 GitHub 파일 SHA 조회 중...")
-    response = requests.get(GITHUB_API_URL, headers=headers, params={"ref": BRANCH})
-    if response.status_code == 200:
-        sha = response.json()["sha"]
-        log("🔄 기존 파일 업데이트 방식으로 진행합니다.")
-    elif response.status_code == 404:
-        sha = None
-        log("🆕 새 파일로 생성합니다.")
+        log("📤 gongam_detail_db.json GitHub에 푸시 시작")
+        push_file_to_github(MAIN_FILE, "Auto update gongam_detail_db.json", MAIN_FILE, log)
     else:
-        log(f"❌ SHA 조회 실패: {response.status_code} → {response.text}")
-        return "SHA 조회 실패"
-
-    with open(MAIN_FILE, "rb") as f:
-        content_bytes = f.read()
-    encoded_content = base64.b64encode(content_bytes).decode("utf-8")
-
-    payload = {
-        "message": "Auto update gongam_detail_db.json",
-        "content": encoded_content,
-        "branch": BRANCH
-    }
-    if sha:
-        payload["sha"] = sha
-
-    log("📤 GitHub에 파일 푸시 중...")
-    response = requests.put(GITHUB_API_URL, headers=headers, data=json.dumps(payload))
-    if response.status_code in [200, 201]:
-        log("✅ GitHub API를 통한 자동 푸시 성공!")
-    else:
-        log(f"❌ GitHub API 푸시 실패: {response.status_code} → {response.text}")
+        log("✅ 변경된 내용이 없어 gongam_detail_db.json 푸시 생략")
 
     return "\n".join(log_messages)
