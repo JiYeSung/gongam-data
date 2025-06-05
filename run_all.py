@@ -1,7 +1,5 @@
-print("💡 모듈 로딩 테스트")
+import os
 from scripts import get_urls_ver2, data_formatting_ver2, auto_push_ver2
-print("✅ 모듈 로딩 성공")
-
 
 print("✅ 실행 시작")
 
@@ -15,6 +13,7 @@ data_formatting_ver2.main()
 
 # 3단계
 print("\n📌 [3/3] DB 업데이트 및 Git Push 중...")
-auto_push_ver2.run_git_commands()
+repo_root = os.path.dirname(os.path.abspath(__file__))  # run_all.py의 위치
+auto_push_ver2.run_git_commands(repo_path=repo_root)
 
 print("\n✅ 전체 작업 완료!")
