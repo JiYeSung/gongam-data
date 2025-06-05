@@ -1,6 +1,6 @@
 import os
-import base64
 import json
+import base64
 import requests
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -11,156 +11,134 @@ BRANCH = "main"
 RESULT_FILE = "gongam_detail_db_result.json"
 MAIN_FILE = "gongam_detail_db.json"
 
+def log(message):
+    print(message)
+
 def load_json_file(path):
     if not os.path.exists(path):
         return {}
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+def save_json_file(data, path):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
 def normalize_for_comparison(data):
-    """비교용: detailpage_url, url 제외 후 정렬"""
-    clone = dict(data)
-    clone.pop("detailpage_url", None)
-    clone.pop("url", None)
-    return json.loads(json.dumps(clone, sort_keys=True, ensure_ascii=False))
+    ignore_keys = {"url", "detailpage_url"}
+    def recurse(d):
+        if isinstance(d, dict):
+            return {k: recurse(v) for k, v in d.items() if k not in ignore_keys}
+        elif isinstance(d, list):
+            return [recurse(i) for i in d]
+        else:
+            return d
+    return recurse(data)
 
 def update_main_data(result_data, main_data):
     updated = False
-    existing_keys = list(main_data.keys())
     changed_keys = []
     added_keys = []
+    deleted_keys = []
+    processed_keys = set()
 
-    def next_index():
-        return f"{max([int(k) for k in existing_keys] + [0]) + 1:03}"
+    reverse_lookup = {
+        (v.get("name"), v.get("summary", {}).get("title")): k
+        for k, v in main_data.items()
+    }
 
-    for _, new_item in result_data.items():
-        matched_key = None
-        for key, existing_item in main_data.items():
-            same_name = existing_item.get("name") == new_item.get("name")
-            same_title = existing_item.get("summary", {}).get("title") == new_item.get("summary", {}).get("title")
+    for new_key, new_item in result_data.items():
+        new_name = new_item.get("name")
+        new_title = new_item.get("summary", {}).get("title")
+        lookup_key = reverse_lookup.get((new_name, new_title))
 
-            if same_name and same_title:
-                matched_key = key
-
-                # ✅ detailpage_url 누락 시만 추가
-                if "detailpage_url" not in existing_item:
-                    existing_item["detailpage_url"] = f"/detail/?id={key}"
-                    main_data[key] = existing_item
-                    updated = True
-                    break
-
-                # ✅ 실제 데이터 변경 비교 (url 포함 안 함)
-                if normalize_for_comparison(existing_item) != normalize_for_comparison(new_item):
-                    main_item = dict(new_item)
-                    main_item["detailpage_url"] = f"/detail/?id={key}"
-                    main_data[key] = main_item
-                    changed_keys.append((key, main_item["name"], main_item["summary"]["title"]))
-                    updated = True
-                break
-
-        if not matched_key:
-            new_key = next_index()
-            main_item = dict(new_item)
-            main_item["detailpage_url"] = f"/detail/?id={new_key}"
-            main_data[new_key] = main_item
-            added_keys.append((new_key, main_item["name"], main_item["summary"]["title"]))
-            existing_keys.append(int(new_key))
+        if lookup_key:
+            if lookup_key in processed_keys:
+                continue
+            existing_item = main_data[lookup_key]
+            if normalize_for_comparison(existing_item) != normalize_for_comparison(new_item):
+                # 변경된 항목
+                main_item = dict(new_item)
+                main_item["detailpage_url"] = f"/detail/?id={lookup_key}"
+                main_data[lookup_key] = main_item
+                changed_keys.append((lookup_key, main_item["name"], main_item["summary"]["title"]))
+                updated = True
+            processed_keys.add(lookup_key)
+        else:
+            # 추가된 항목
+            main_data[new_key] = dict(new_item)
+            main_data[new_key]["detailpage_url"] = f"/detail/?id={new_key}"
+            added_keys.append((new_key, new_item["name"], new_item["summary"]["title"]))
             updated = True
 
-    deleted_keys = []
-    result_name_title_set = set(
-        (v.get("name"), v.get("summary", {}).get("title")) for v in result_data.values()
-    )
-
-    for key, item in list(main_data.items()):
-        pair = (item.get("name"), item.get("summary", {}).get("title"))
-        if pair not in result_name_title_set:
-            deleted_keys.append((key, item.get("name"), item.get("summary", {}).get("title")))
+    # 삭제된 항목 탐지
+    for key in list(main_data.keys()):
+        if key not in result_data:
+            deleted_keys.append((key, main_data[key].get("name"), main_data[key].get("summary", {}).get("title")))
             del main_data[key]
             updated = True
 
-    return main_data, updated, changed_keys, added_keys, deleted_keys
+    return updated, changed_keys, added_keys, deleted_keys
 
-def push_file_to_github(file_path, commit_message, github_file_path, log):
+def push_to_github(file_path, repo_path):
+    with open(file_path, "rb") as f:
+        content = base64.b64encode(f.read()).decode("utf-8")
+
+    url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{repo_path}"
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github.v3+json"
+        "Content-Type": "application/json",
     }
 
-    github_api_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{github_file_path}"
-    log(f"🔍 {github_file_path} GitHub SHA 조회 중...")
-    response = requests.get(github_api_url, headers=headers, params={"ref": BRANCH})
+    res = requests.get(url, headers=headers)
+    sha = res.json().get("sha") if res.status_code == 200 else None
 
-    if response.status_code == 200:
-        sha = response.json()["sha"]
-        log("🔄 기존 파일 업데이트 방식으로 진행합니다.")
-    elif response.status_code == 404:
-        sha = None
-        log("🆕 새 파일로 생성합니다.")
-    else:
-        log(f"❌ SHA 조회 실패: {response.status_code} → {response.text}")
-        return False
-
-    with open(file_path, "rb") as f:
-        encoded_content = base64.b64encode(f.read()).decode("utf-8")
-
-    payload = {
-        "message": commit_message,
-        "content": encoded_content,
-        "branch": BRANCH
+    message = f"Auto update {repo_path}"
+    data = {
+        "message": message,
+        "content": content,
+        "branch": BRANCH,
     }
     if sha:
-        payload["sha"] = sha
+        data["sha"] = sha
 
-    log(f"📤 {github_file_path} GitHub에 푸시 중...")
-    put_response = requests.put(github_api_url, headers=headers, data=json.dumps(payload))
-    if put_response.status_code in [200, 201]:
-        log("✅ GitHub API를 통한 푸시 성공!")
-        return True
+    res = requests.put(url, headers=headers, json=data)
+    if res.status_code in [200, 201]:
+        log(f"✅ {repo_path} 푸시 완료")
     else:
-        log(f"❌ GitHub API 푸시 실패: {put_response.status_code} → {put_response.text}")
-        return False
+        log(f"❌ {repo_path} 푸시 실패: {res.text}")
 
-def run_git_api_push():
-    log_messages = []
-
-    def log(msg):
-        print(msg)
-        log_messages.append(str(msg))
-
-    if not GITHUB_TOKEN:
-        log("❌ GITHUB_TOKEN 환경변수가 설정되지 않았습니다.")
-        return "토큰 없음"
-
-    # ✅ JSON 파일 로드
+def main():
     result_data = load_json_file(RESULT_FILE)
     main_data = load_json_file(MAIN_FILE)
 
-    # ✅ DB 병합 및 비교
-    updated_data, is_updated, changed_keys, added_keys, deleted_keys = update_main_data(result_data, main_data)
+    updated, changed_keys, added_keys, deleted_keys = update_main_data(result_data, main_data)
 
-    # ✅ result 파일 저장 (오염 없음)
-    with open(RESULT_FILE, "w", encoding="utf-8") as f:
-        json.dump(result_data, f, ensure_ascii=False, indent=2)
-
-    log("📤 gongam_detail_db_result.json GitHub에 푸시 시작")
-    push_file_to_github(RESULT_FILE, "Auto push result file", RESULT_FILE, log)
-
-    # ✅ main 파일이 실제로 바뀐 경우만 기록
-    if is_updated:
-        for k, name, title in changed_keys:
-            log("♻️ 변경된 항목:\n" + json.dumps({"key": k, "name": name, "title": title}, ensure_ascii=False, indent=2))
-        for k, name, title in added_keys:
-            log("🆕 추가된 항목:\n" + json.dumps({"key": k, "name": name, "title": title}, ensure_ascii=False, indent=2))
-        for k, name, title in deleted_keys:
-            log("🗑️ 삭제된 항목:\n" + json.dumps({"key": k, "name": name, "title": title}, ensure_ascii=False, indent=2))
-
-        with open(MAIN_FILE, "w", encoding="utf-8") as f:
-            json.dump(updated_data, f, ensure_ascii=False, indent=2)
-
-        log("📤 gongam_detail_db.json GitHub에 푸시 시작")
-        push_file_to_github(MAIN_FILE, "Auto update gongam_detail_db.json", MAIN_FILE, log)
+    if updated:
+        save_json_file(main_data, MAIN_FILE)
+        push_to_github(RESULT_FILE, RESULT_FILE)
+        push_to_github(MAIN_FILE, MAIN_FILE)
     else:
-        log("✅ 변경된 내용이 없어 gongam_detail_db.json 푸시 생략")
+        log("ℹ️ 변경 사항 없음")
 
-    return "\n".join(log_messages)
+    for k, name, title in changed_keys:
+        log("♻️ 변경된 항목:\n" + json.dumps({
+            "key": k,
+            "name": name,
+            "title": title
+        }, ensure_ascii=False, indent=2))
+    for k, name, title in added_keys:
+        log("🆕 추가된 항목:\n" + json.dumps({
+            "key": k,
+            "name": name,
+            "title": title
+        }, ensure_ascii=False, indent=2))
+    for k, name, title in deleted_keys:
+        log("🗑️ 삭제된 항목:\n" + json.dumps({
+            "key": k,
+            "name": name,
+            "title": title
+        }, ensure_ascii=False, indent=2))
+
+if __name__ == "__main__":
+    main()
