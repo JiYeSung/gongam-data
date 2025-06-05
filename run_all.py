@@ -1,8 +1,7 @@
-from scripts import (
-    get_urls_ver2,
-    data_formatting_ver2,
-    auto_push_ver2
-)
+print("💡 모듈 로딩 테스트")
+from scripts import get_urls_ver2, data_formatting_ver2, auto_push_ver2
+print("✅ 모듈 로딩 성공")
+
 
 print("✅ 실행 시작")
 

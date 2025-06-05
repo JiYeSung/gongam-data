@@ -2,19 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-# ✅ User-Agent 헤더
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/114.0.0.0 Safari/537.36"
-    )
-}
-
-# ✅ URL 목록 파일에서 로드
-with open("./urls_by_pagination.json", "r", encoding="utf-8") as f:
-    url_items = json.load(f)
-
 # ✅ 값 파싱 함수
 def parse_value(key, value):
     value = value.strip()
@@ -81,59 +68,81 @@ def extract_images(td_tag, title_prefix):
             images.append({"src": src, "alt": alt})
     return images
 
-# ✅ 전체 처리 결과
-final_result = {}
+# ✅ 메인 실행 함수
+def main():
+    # ✅ User-Agent 헤더
+    HEADERS = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/114.0.0.0 Safari/537.36"
+        )
+    }
 
-for idx, item in enumerate(url_items, start=1):
-    url = item["url"]
-    res = requests.get(url, headers=HEADERS)
-    soup = BeautifulSoup(res.text, "html.parser")
-    detail_data = {}
-    title = ""
+    # ✅ URL 목록 파일에서 로드
+    with open("./urls_by_pagination.json", "r", encoding="utf-8") as f:
+        url_items = json.load(f)
 
-    for table in soup.select("div.board_txt_area table"):
-        table_id = table.get("id", "")
-        is_detail_card = (table_id == "detail-card")
-        extracted = extract_table_data(table, is_detail_card)
-        if table_id == "detail-head":
-            # ✅ 실제 summary.title 추출
-            title = extracted.get("summary", {}).get("title", "")
-        detail_data.update(extracted)
+    final_result = {}
 
-        if table_id == "detail-images":
-            for tr in table.find_all("tr"):
-                td = tr.find("td")
-                if not td:
-                    continue
-                td_id = td.get("id")
-                if td_id == "thumbnail":
-                    images = extract_images(td, title)
-                    detail_data["thumbnail"] = images[0]["src"] if images else ""
-                elif td_id == "detail_images":
-                    images = extract_images(td, title)
-                    
-                    # ✅ 썸네일이 존재하면 detail_images 맨 앞에 삽입 (중복 방지)
-                    thumbnail_url = detail_data.get("thumbnail")
-                    if thumbnail_url and not any(img["src"] == thumbnail_url for img in images):
-                        images.insert(0, {"src": thumbnail_url, "alt": f"{title} 장지 이미지0"})
+    for idx, item in enumerate(url_items, start=1):
+        url = item["url"]
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=10)
+            res.raise_for_status()
+        except Exception as e:
+            print(f"❌ URL 요청 실패: {url} → {e}")
+            continue
 
-                    # ✅ 썸네일이 없으면 detail[0]을 썸네일로 사용
-                    if not thumbnail_url and images:
-                        detail_data["thumbnail"] = images[0]["src"]
+        soup = BeautifulSoup(res.text, "html.parser")
+        detail_data = {}
+        title = ""
 
-                    detail_data["detail_images"] = images
+        for table in soup.select("div.board_txt_area table"):
+            table_id = table.get("id", "")
+            is_detail_card = (table_id == "detail-card")
+            extracted = extract_table_data(table, is_detail_card)
+            if table_id == "detail-head":
+                title = extracted.get("summary", {}).get("title", "")
+            detail_data.update(extracted)
 
-    # ✅ location 누락 방지
-    if "location" not in detail_data:
-        detail_data["location"] = {"lat": "", "lng": ""}
-    else:
-        detail_data["location"].setdefault("lat", "")
-        detail_data["location"].setdefault("lng", "")
+            if table_id == "detail-images":
+                for tr in table.find_all("tr"):
+                    td = tr.find("td")
+                    if not td:
+                        continue
+                    td_id = td.get("id")
+                    if td_id == "thumbnail":
+                        images = extract_images(td, title)
+                        detail_data["thumbnail"] = images[0]["src"] if images else ""
+                    elif td_id == "detail_images":
+                        images = extract_images(td, title)
 
-    final_result[f"{idx:03}"] = detail_data
+                        # ✅ 썸네일이 존재하면 detail_images 맨 앞에 삽입 (중복 방지)
+                        thumbnail_url = detail_data.get("thumbnail")
+                        if thumbnail_url and not any(img["src"] == thumbnail_url for img in images):
+                            images.insert(0, {"src": thumbnail_url, "alt": f"{title} 장지 이미지0"})
 
-# ✅ JSON 파일로 저장
-with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:
-    json.dump(final_result, f, ensure_ascii=False, indent=2)
+                        # ✅ 썸네일이 없으면 detail[0]을 썸네일로 사용
+                        if not thumbnail_url and images:
+                            detail_data["thumbnail"] = images[0]["src"]
 
-print("✅ gongam_detail_db_result.json 파일 생성 완료")
+                        detail_data["detail_images"] = images
+
+        if "location" not in detail_data:
+            detail_data["location"] = {"lat": "", "lng": ""}
+        else:
+            detail_data["location"].setdefault("lat", "")
+            detail_data["location"].setdefault("lng", "")
+
+        final_result[f"{idx:03}"] = detail_data
+
+    # ✅ JSON 저장
+    with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:
+        json.dump(final_result, f, ensure_ascii=False, indent=2)
+
+    print("✅ gongam_detail_db_result.json 파일 생성 완료")
+
+# ✅ 단독 실행
+if __name__ == "__main__":
+    main()

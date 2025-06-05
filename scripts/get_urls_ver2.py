@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 import re
+from urllib.parse import urljoin
 
 BASE_URL = "https://gongamcompany.imweb.me"
 LIST_PAGE = BASE_URL + "/gongam-imgdb"
@@ -109,11 +110,12 @@ def get_count_filter_input():
     # ✅ 사용자 입력 없이 전체 수집
     return None
 
-if __name__ == "__main__":
+def main():
     count_filter_set = get_count_filter_input()
-
     results = collect_all(count_filter_set=count_filter_set)
     with open("urls_by_pagination.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
-
     print(f"\n✅ 수집 완료: {len(results)}개 → urls_by_pagination.json 저장됨")
+
+if __name__ == "__main__":
+    main()
