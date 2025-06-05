@@ -3345,9 +3345,9 @@
     ],
     "detailpage_url": "/detail/?id=039"
   },
-  "041": {
-    "name": "파주추모공원we",
-    "area": "경기도",
+  "040": {
+    "name": "파주추모공원",
+    "area": "경기도 ww",
     "sub_area": "파주시",
     "types": [
       "봉안당"
@@ -3416,6 +3416,6 @@
         "alt": "파주 봉안당 장지 이미지5"
       }
     ],
-    "detailpage_url": "/detail/?id=041"
+    "detailpage_url": "/detail/?id=040"
   }
 }
