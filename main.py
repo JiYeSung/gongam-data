@@ -1,6 +1,8 @@
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import subprocess, requests, os
+import logging
+logging.basicConfig(level=logging.INFO)
 
 app = FastAPI()
 
@@ -46,7 +48,10 @@ async def run_script(request: Request):
     token = request.headers.get("Authorization")
     if token != f"Bearer {API_SECRET}":
         raise HTTPException(status_code=403, detail="Unauthorized")
-
+    
+    # ✅ 환경변수 확인 로그 (중요!)
+    logging.info(f"GITHUB_TOKEN 길이: {len(GITHUB_TOKEN) if GITHUB_TOKEN else '없음'}")
+    
     # 📥 파일 다운로드 및 저장
     for file_name in FILES:
         try:
