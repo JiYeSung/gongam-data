@@ -896,7 +896,7 @@
     },
     "summary": {
       "title": "광주 사찰봉안당",
-      "description": "경기 광주권의 불교식 봉안당으로 추석,설날 합동제례 및 반혼제를 무료로 매년 진행 합니다. 수도권의 뛰어난 접근성과\r\n'배산임수'의 명당에 자리하며. 불교문화재급으로 건립한 사찰에 위치한 쾌적한 봉안당(납골당)입니다",
+      "description": "경기 광주권의 불교식 봉안당으로 추석,설날 합동제례 및 반혼제를 무료로 매년 진행 합니다. 수도권의 뛰어난 접근성과\r\n'배산임수'의 명당에 자리하며. 불교문화재급으로 건립한 사찰에 위치한 쾌적한 봉안당(납골당)입니다.",
       "transport": "차량 : 경기광주시청 10분, 강동IC 30분"
     },
     "info": {
@@ -905,8 +905,8 @@
       "형태": "봉안당"
     },
     "price_table": {
-      "개인단": "200만원~",
-      "부부단": "400만원~"
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
     },
     "facilities": [
       {
@@ -926,47 +926,35 @@
         "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/5dc2c18c1512b.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/204307ad35439.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5dc2c18c1512b.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/204307ad35439.jpg",
         "alt": "광주 사찰봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/06a0b1ba7fbd8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3e7ebd624393c.jpg",
         "alt": "광주 사찰봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1ea162b87dc28.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/27f4184595aae.jpg",
         "alt": "광주 사찰봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a4680dce90efb.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1ea162b87dc28.jpg",
         "alt": "광주 사찰봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0aac7bfd00354.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a4680dce90efb.jpg",
         "alt": "광주 사찰봉안당 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bc9e578272f09.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/389d7c21fa000.jpg",
         "alt": "광주 사찰봉안당 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b000210843b94.jpg",
-        "alt": "광주 사찰봉안당 장지 이미지6"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/152a64d051990.jpg",
-        "alt": "광주 사찰봉안당 장지 이미지7"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9ed7fbbfdfcf1.jpg",
-        "alt": "광주 사찰봉안당 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/389d7c21fa000.jpg",
-        "alt": "광주 사찰봉안당 장지 이미지9"
+        "alt": "광주 사찰봉안당 장지 이미지6"
       }
     ],
     "detailpage_url": "/detail/?id=011"
@@ -977,9 +965,9 @@
     "sub_area": "광주시",
     "types": [
       "봉안당",
-      "수목원"
+      "수목장"
     ],
-    "price": "4,000,000원~",
+    "price": "2,000,000원~",
     "is_recommended": false,
     "location": {
       "lat": "",
@@ -987,18 +975,18 @@
     },
     "summary": {
       "title": "곤지암 가족공원",
-      "description": "서울, 수도권 40분대 접근이 용이한 곤지암에 위치한 기독교 전용 예배관을 갖춘 은혜롭고 평안한 가족공원 입니다\r\n포근하고 아늑한 명당으로 자연친화적으로 조성하여 그리운 님들이 평안하게 영면할수있는 보금자리 입니다.",
+      "description": "서울, 수도권 40분대 접근이 용이한 곤지암에 위치한 기독교 전용 예배관을 갖춘 은혜롭고 평안한 가족공원입니다.  포근하고 아늑한 명당으로 자연친화적 조성,  그리운 님들이 평안하게 영면할수있는 보금자리 입니다.",
       "transport": "차량 : 곤지암IC 10분, 곤지암역 5분"
     },
     "info": {
       "지역": "경기도 광주시",
       "운영": "사설",
-      "형태": "봉안당, 수목원"
+      "형태": "봉안당, 수목장"
     },
     "price_table": {
-      "봉안당": "400만원~(부부)",
+      "봉안당": "4,000,000원~(부부)",
       "수목장": "600만원~",
-      "잔디장": "250만원~(비석포함)"
+      "잔디장": "250만원~"
     },
     "facilities": [
       {
@@ -1018,10 +1006,10 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/4e0c7227bda70.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/a6de586ccbf14.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4e0c7227bda70.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a6de586ccbf14.jpg",
         "alt": "곤지암 가족공원 장지 이미지0"
       },
       {
@@ -1029,7 +1017,7 @@
         "alt": "곤지암 가족공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a6de586ccbf14.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4e0c7227bda70.jpg",
         "alt": "곤지암 가족공원 장지 이미지2"
       },
       {
@@ -1041,24 +1029,16 @@
         "alt": "곤지암 가족공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e9a0a3ab1a0dd.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7642a2d00d5b0.jpg",
         "alt": "곤지암 가족공원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7642a2d00d5b0.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37aeec28a90c2.jpg",
         "alt": "곤지암 가족공원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37aeec28a90c2.jpg",
-        "alt": "곤지암 가족공원 장지 이미지7"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/be2659bebf1fd.jpg",
-        "alt": "곤지암 가족공원 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/92100b48cfd95.jpg",
-        "alt": "곤지암 가족공원 장지 이미지9"
+        "alt": "곤지암 가족공원 장지 이미지7"
       }
     ],
     "detailpage_url": "/detail/?id=012"
@@ -1108,34 +1088,42 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/85c9375133290.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/ba3ab05f233d1.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/85c9375133290.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ba3ab05f233d1.jpg",
         "alt": "포천 추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/956a8d2c9c838.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/386d26febd063.jpg",
         "alt": "포천 추모공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/386d26febd063.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/547648f9c2d56.jpg",
         "alt": "포천 추모공원 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1036c89ec4f90.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c971a4f860313.jpg",
         "alt": "포천 추모공원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cc1e181cce098.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8bb9c6d1a66e0.jpg",
         "alt": "포천 추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/818220f99e925.gif",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1036c89ec4f90.jpg",
         "alt": "포천 추모공원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1f9bfd7369a5d.jpg",
+        "alt": "포천 추모공원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/85c9375133290.jpg",
+        "alt": "포천 추모공원 장지 이미지7"
       }
     ],
     "detailpage_url": "/detail/?id=013"
@@ -1185,26 +1173,26 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/4025248006cd5.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/16b7823b88a9c.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4025248006cd5.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/16b7823b88a9c.jpg",
         "alt": "포천 봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0eb0fb86927f2.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1bf7caa50b38b.jpg",
         "alt": "포천 봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/666f25918edd3.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d83b8bfaa6b51.jpg",
         "alt": "포천 봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f593807101ddc.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/666f25918edd3.jpg",
         "alt": "포천 봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f53f85bb28b47.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4025248006cd5.jpg",
         "alt": "포천 봉안당 장지 이미지4"
       },
       {
@@ -1218,10 +1206,6 @@
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/706ea6778b8b2.jpg",
         "alt": "포천 봉안당 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/16b7823b88a9c.jpg",
-        "alt": "포천 봉안당 장지 이미지8"
       }
     ],
     "detailpage_url": "/detail/?id=014"
@@ -1241,7 +1225,7 @@
     },
     "summary": {
       "title": "고양시 추모공원",
-      "description": "수도권 최고의 기독교 추모공원을 표방함. 탁월한 접근성과 호텔식 인테리어, 맞춤형 봉안시설로 아늑하고 평온한 분위기\r\n슬픔을 채우줄 소중한 공간으로 영혼의 평안한 안식처가 되도록 최선을 다합니다.",
+      "description": "수도권 최고의 기독교 추모공원을 표방합니다.  탁월한 접근성과 호텔식 인테리어, 맞춤형 봉안시설로 아늑하고 평온한 분위기, 슬픔을 채워줄 소중한 공간으로 영혼의 평안한 안식처가 되도록 최선을 다합니다.",
       "transport": "차량 : 통일로IC 15분"
     },
     "info": {
@@ -1271,14 +1255,14 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/081cf7c638af5.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/c095803dd8900.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/081cf7c638af5.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c095803dd8900.jpg",
         "alt": "고양시 추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/007c2a9e1374d.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/081cf7c638af5.jpg",
         "alt": "고양시 추모공원 장지 이미지1"
       },
       {
@@ -1294,24 +1278,16 @@
         "alt": "고양시 추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c095803dd8900.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8bdde7fdb343f.jpg",
         "alt": "고양시 추모공원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/46d294117da2f.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e824b47ffaa69.jpg",
         "alt": "고양시 추모공원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8bdde7fdb343f.jpg",
-        "alt": "고양시 추모공원 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e824b47ffaa69.jpg",
-        "alt": "고양시 추모공원 장지 이미지8"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/86442fd44b009.jpg",
-        "alt": "고양시 추모공원 장지 이미지9"
+        "alt": "고양시 추모공원 장지 이미지7"
       }
     ],
     "detailpage_url": "/detail/?id=015"
@@ -1324,14 +1300,14 @@
       "봉안당"
     ],
     "price": "1,500,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "일산 봉안당",
-      "description": "경기도 일산 시내권에 자리잡아 뛰어난 접근성을 가진 만큼 유족들이 고인이 그리울 때 언제든지 찾아 뵐 수 있는 장소임. 믿을 수 있는 관리시스템과 직원들의 마음가짐은 언제나 변함없습니다. 오직 고인과 유족의 마음을 생각하겠습니다",
+      "description": "경기도 일산 시내권에 자리잡아 뛰어난 접근성을 가진 만큼 유족들이 고인이 그리울 때 언제든지 찾아 뵐 수 있는 장소입니다.  믿을 수 있는 관리시스템과 직원들의 마음가짐은 언제나 변함없습니다.  오직 고인과 유족의 마음을 생각하는 봉안당입니다.",
       "transport": "차량 : 일산 풍산역 15분"
     },
     "info": {
@@ -1372,36 +1348,24 @@
         "alt": "일산 봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/882ed80fc43db.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a173f6b32f9aa.jpg",
         "alt": "일산 봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f38e5317ee3a3.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3ea65830a0cf2.jpg",
         "alt": "일산 봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c4cfac39e9ff9.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/44b23293eb049.jpg",
         "alt": "일산 봉안당 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5ad817f335873.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8a64c208340f5.jpg",
         "alt": "일산 봉안당 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/be19b84c02250.jpg",
-        "alt": "일산 봉안당 장지 이미지6"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7ab597b399bf9.jpg",
-        "alt": "일산 봉안당 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/64aab842d1b7d.jpg",
-        "alt": "일산 봉안당 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/589deaee2bb9c.jpg",
-        "alt": "일산 봉안당 장지 이미지9"
+        "alt": "일산 봉안당 장지 이미지6"
       }
     ],
     "detailpage_url": "/detail/?id=016"
@@ -1429,11 +1393,11 @@
     "info": {
       "지역": "경기도 양주시",
       "운영": "사설",
-      "형태": "봉안당"
+      "형태": "봉안당, 수목장, 봉안담"
     },
     "price_table": {
       "개인단": "2,000,000원~",
-      "부부단": "35,000,000원~",
+      "부부단": "3,500,000원~",
       "봉안담": "2,000,000원~",
       "개인목": "3,000,000원~",
       "부부목": "5,000,000원~"
@@ -1453,42 +1417,46 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/d1d1cc9d658b8.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/63fc9325ea146.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d1d1cc9d658b8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/63fc9325ea146.jpg",
         "alt": "양주 사찰봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1bcb18574af21.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b01a7a26eb453.png",
         "alt": "양주 사찰봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2eacdc8b4d616.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f9decc6e10d70.jpg",
         "alt": "양주 사찰봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/fdbcbdcbf3d22.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/eb34a1f6aea9d.jpg",
         "alt": "양주 사찰봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1a561f95d3ceb.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cea1b876376bb.jpg",
         "alt": "양주 사찰봉안당 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/488fd5a5e9f50.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6a459c5c88101.jpg",
         "alt": "양주 사찰봉안당 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6782d3594cfc1.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e21e14dd9dde4.jpg",
         "alt": "양주 사찰봉안당 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bfeab8e5c2ac9.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7178a8429d551.png",
         "alt": "양주 사찰봉안당 장지 이미지7"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/48ed15349fb70.png",
+        "alt": "양주 사찰봉안당 장지 이미지8"
       }
     ],
     "detailpage_url": "/detail/?id=017"
@@ -1502,7 +1470,7 @@
       "봉안탑"
     ],
     "price": "2,000,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
@@ -1515,11 +1483,12 @@
     "info": {
       "지역": "경기도 포천시",
       "운영": "사설",
-      "형태": "봉안당"
+      "형태": "봉안당, 봉안탑"
     },
     "price_table": {
       "개인단": "2,000,000원~",
-      "부단단": "4,000,000원~"
+      "부단단": "4,000,000원~",
+      "봉안탑": "현장별도상담"
     },
     "facilities": [
       {
@@ -1536,30 +1505,42 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/a8789d4102f1f.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/c54ef8a68c30f.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a8789d4102f1f.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c54ef8a68c30f.jpg",
         "alt": "포천 사찰봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c65b2a7078e45.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b8c095086c7e6.jpg",
         "alt": "포천 사찰봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4b95338110b67.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2746602b61647.jpeg",
         "alt": "포천 사찰봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d6e0f51f451fb.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/52a3bcad3d6ed.jpeg",
         "alt": "포천 사찰봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d835682738f94.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/095c72015862c.jpeg",
         "alt": "포천 사찰봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9c9282343ce2f.jpg",
+        "alt": "포천 사찰봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/46ccd245b95d4.jpg",
+        "alt": "포천 사찰봉안당 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0a454e2bfc4c5.jpeg",
+        "alt": "포천 사찰봉안당 장지 이미지7"
       }
     ],
     "detailpage_url": "/detail/?id=018"
@@ -1579,7 +1560,7 @@
     },
     "summary": {
       "title": "연천 봉안당",
-      "description": "경기도 연천군에 위치한 봉안시설로 ‘외풍을 막아주고 낙엽이 모이는 곳’으로 고인에게는 평안을 후손에게는 재물이 모이고 복이 되는 삼태기형의 명당 자리에 위치한다. 주변에 자연과 계곡등이 아름다운 시설로 모셔진 고인의 평안한 안식처이다.",
+      "description": "경기도 연천군에 위치한 봉안시설,  ‘외풍을 막아주고 낙엽이 모이는 곳’으로 고인에게는 평안을 후손에게는 재물이 모이고 복이 되는 삼태기형의 명당 자리에 위치합니다. 주변에 자연과 계곡등이 아름다운 시설로 모셔진 고인의 평안한 안식처입니다.",
       "transport": "차량 : 연천역 10분, 연천군청 10분"
     },
     "info": {
@@ -1609,10 +1590,10 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/e0f7d0ac3a5fe.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/977d690301230.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e0f7d0ac3a5fe.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/977d690301230.jpg",
         "alt": "연천 봉안당 장지 이미지0"
       },
       {
@@ -1624,16 +1605,20 @@
         "alt": "연천 봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4bfef00c0cd7c.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/008429a651de9.jpg",
         "alt": "연천 봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/06902891041ab.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4bfef00c0cd7c.jpg",
         "alt": "연천 봉안당 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/16b8ea7510c3a.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/06902891041ab.jpg",
         "alt": "연천 봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/16b8ea7510c3a.jpg",
+        "alt": "연천 봉안당 장지 이미지6"
       }
     ],
     "detailpage_url": "/detail/?id=019"
@@ -1655,19 +1640,20 @@
     },
     "summary": {
       "title": "철원 공원묘원",
-      "description": "강원도 철원군에 위치한 대형 추모공원으로 수목장,봉안담,봉안묘등 공원묘지 그이상으로 아름다운 자연환경과 관리,보존에 신경쓰는 시설이다. 친환경 힐링묘원 자연과 함께 자연과 상생한다는자연회귀의 섭리를 따르는 추모공원이다.",
+      "description": "강원도 철원군에 위치한 대형 추모공원으로 수목장,봉안담,봉안묘등 공원묘지 그이상으로 아름다운 자연환경과 관리,보존에 신경쓰는 시설입니다. 친환경 힐링묘원 자연과 함께 상생한다는 자연회귀의 섭리를 따르는 추모공원입니다.",
       "transport": "차량 : 철원군청 15분"
     },
     "info": {
       "지역": "강원도 철원군",
       "운영": "사설",
-      "형태": "봉안담"
+      "형태": "봉안담, 수목장, 매장묘"
     },
     "price_table": {
       "잔디장": "2,300,000원~",
       "수목장": "3,000,000원~",
       "봉안담": "3,400,000원~",
-      "매장묘": "12,000,000원~"
+      "매장묘": "12,000,000원~(3평이내)",
+      "봉안묘,평장묘": "현장별도상담"
     },
     "facilities": [
       {
@@ -1684,21 +1670,21 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/14b610d256167.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/5970b88b94289.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/14b610d256167.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5970b88b94289.jpg",
         "alt": "철원 공원묘원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7cc1a0ba05e9e.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9b93a7298bf99.jpg",
         "alt": "철원 공원묘원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9b93a7298bf99.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7cc1a0ba05e9e.jpg",
         "alt": "철원 공원묘원 장지 이미지2"
       },
       {
@@ -1710,24 +1696,20 @@
         "alt": "철원 공원묘원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5970b88b94289.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a91d89987dde9.jpg",
         "alt": "철원 공원묘원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a91d89987dde9.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7f4b4402660e6.jpg",
         "alt": "철원 공원묘원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7f4b4402660e6.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8d7cbec4828ed.jpg",
         "alt": "철원 공원묘원 장지 이미지7"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8d7cbec4828ed.jpg",
-        "alt": "철원 공원묘원 장지 이미지8"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cdaa1b57eecaf.jpg",
-        "alt": "철원 공원묘원 장지 이미지9"
+        "alt": "철원 공원묘원 장지 이미지8"
       }
     ],
     "detailpage_url": "/detail/?id=020"
@@ -1766,7 +1748,7 @@
       },
       {
         "name": "매점",
-        "active": true
+        "active": false
       },
       {
         "name": "유족대기실",
@@ -1774,42 +1756,38 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/87ce3e6e0c85b.png",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/2f75bd21a0a43.png",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/87ce3e6e0c85b.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2f75bd21a0a43.png",
         "alt": "은평 봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2f75bd21a0a43.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cd2f0f1dc444a.png",
         "alt": "은평 봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/54e5aa31fb598.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3e6380a9674ee.png",
         "alt": "은평 봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cd2f0f1dc444a.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ebb9533b3b928.png",
         "alt": "은평 봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ebb9533b3b928.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/87ce3e6e0c85b.png",
         "alt": "은평 봉안당 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3e6380a9674ee.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8acf6202bc4f3.png",
         "alt": "은평 봉안당 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/23cdc9ebd2123.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e10e76cb3e994.jpg",
         "alt": "은평 봉안당 장지 이미지6"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8acf6202bc4f3.png",
-        "alt": "은평 봉안당 장지 이미지7"
       }
     ],
     "detailpage_url": "/detail/?id=021"
@@ -1829,7 +1807,7 @@
     },
     "summary": {
       "title": "광탄면 봉안당",
-      "description": "수도권 어디서든 빠르게 그리운 마음만큼 가까운 곳 파주시에 위치하고 있습니다. 북한산 줄기가 시작되는 파주는 예로부터 명당중의 명당으로 손꼽혀 왕족의 묘자리로 유명하였습니다. 고인과 모시는 분 모두에게 편안한 곳이 되기 위해 사시사철 푸르고 넓은 자연공원을 마련되어있습니다.",
+      "description": "수도권 어디서든 빠르게 그리운 마음만큼 가까운 곳 파주시에 위치하고 있습니다. 북한산 줄기가 시작되는 파주는 예로부터 명당중의 명당으로 손꼽혀 왕족의 묘자리로 유명하였습니다. 고인과 모시는 분 모두에게 편안한 곳이 되기 위해 사시사철 푸르고 넓은 자연에 마련되어있습니다.",
       "transport": "차량 : 통일로IC 20분, 서울 강북 40분대"
     },
     "info": {
@@ -1866,40 +1844,32 @@
         "alt": "광탄면 봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/53221078fadcc.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1708b894c4417.jpg",
         "alt": "광탄면 봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1708b894c4417.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/495bec9a24f32.jpg",
         "alt": "광탄면 봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/495bec9a24f32.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/53221078fadcc.jpg",
         "alt": "광탄면 봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b818aa0e1230e.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2a7f8a26aa664.jpg",
         "alt": "광탄면 봉안당 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e3809050a2c04.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ce595e496788c.jpg",
         "alt": "광탄면 봉안당 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ce595e496788c.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b43c683a8b5fa.jpg",
         "alt": "광탄면 봉안당 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2a7f8a26aa664.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b818aa0e1230e.jpg",
         "alt": "광탄면 봉안당 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b43c683a8b5fa.jpg",
-        "alt": "광탄면 봉안당 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/668f0e3b8d1ae.jpg",
-        "alt": "광탄면 봉안당 장지 이미지9"
       }
     ],
     "detailpage_url": "/detail/?id=022"
@@ -1921,13 +1891,13 @@
     },
     "summary": {
       "title": "평택 추모공원",
-      "description": "경기도 평택시의 대형 추모공원으로 2006년도에 시설 개장 되었으며, 봉안당,수목장,잔디장을 갖춘 복합추모시설입니다. 호텔식문화시설을 컨셉으로 설립되어 단순한 장묘시설이 아닌 사람들의 삶의 일부에 자연스럽게 스며들고자 합니다.",
+      "description": "경기도 평택시의 대형 추모공원으로 2006년도에 시설 개장 되었으며, 봉안당,수목장,잔디장을 갖춘 복합추모시설입니다. 호텔식 문화시설을 컨셉으로 설립되어 단순한 장묘시설이 아닌 사람들의 삶의 일부에 자연스럽게 스며들고자 조성되었습니다.",
       "transport": "차량 : 평택-제천고속도로 청북IC 10분"
     },
     "info": {
       "지역": "경기도 평택시",
       "운영": "사설",
-      "형태": "봉안당"
+      "형태": "봉안당, 수목장, 잔디장"
     },
     "price_table": {
       "개인단": "1,700,000원~",
@@ -1954,47 +1924,39 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/37762d5fd3d86.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/217c795b34ccf.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37762d5fd3d86.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/217c795b34ccf.jpg",
         "alt": "평택 추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3291a60019c3c.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/30817fa3a457a.jpg",
         "alt": "평택 추모공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/55696496747b3.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5faf5b1f41e49.jpg",
         "alt": "평택 추모공원 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/42d6a7673f584.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b5ae249ac0bed.jpg",
         "alt": "평택 추모공원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/91c78953c257a.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e2d3f494cb737.jpg",
         "alt": "평택 추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/85201dc55a8b3.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d8127095e42ba.jpg",
         "alt": "평택 추모공원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f2a48d540411b.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/75d21f4d82e27.jpg",
         "alt": "평택 추모공원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0defcd79d555.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/44d986b06fac2.jpg",
         "alt": "평택 추모공원 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2a34803af3497.jpg",
-        "alt": "평택 추모공원 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/07d024855e6ef.jpg",
-        "alt": "평택 추모공원 장지 이미지9"
       }
     ],
     "detailpage_url": "/detail/?id=023"
@@ -2014,8 +1976,8 @@
     },
     "summary": {
       "title": "약사사 미타전",
-      "description": "인천 약산공원내 대한불교 화엄종 사찰 내부에 조성되어진 봉안당으로 유족이 보다 가까운 곳에서 고인이 모실수 있는 영혼의 안식처이며, 천혜의 명당자리로 후손들에게는 만복이 깃들게 하는 기도처로 소문이 나 있는 봉안당이다.",
-      "transport": "인천 사찰봉안당"
+      "description": "인천 약산공원내 대한불교 화엄종 사찰 내부에 조성되어진 봉안당으로 유족이 보다 가까운 곳에서 고인이 모실수 있는 영혼의 안식처이며, 천혜의 명당자리로 후손들에게는 만복이 깃들게 하는 기도처로 소문이 나 있는 봉안당입니다.",
+      "transport": "동암역 5분, 인천시청 10분"
     },
     "info": {
       "지역": "인천시 남동구",
@@ -2033,7 +1995,7 @@
       },
       {
         "name": "매점",
-        "active": true
+        "active": false
       },
       {
         "name": "유족대기실",
@@ -2041,29 +2003,29 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/63708ac6b2ded.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/22551c4eb7596.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/63708ac6b2ded.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/22551c4eb7596.jpg",
         "alt": "약사사 미타전 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/394f52b309ac5.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c70b835b77ada.jpg",
         "alt": "약사사 미타전 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f11e5bb1e67e0.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8e4d488e03abb.jpg",
         "alt": "약사사 미타전 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7756ab4d71ea7.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8997edd779b22.jpg",
         "alt": "약사사 미타전 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9c506cbacaead.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/aed3d0ee34a28.jpg",
         "alt": "약사사 미타전 장지 이미지4"
       },
       {
@@ -2071,20 +2033,12 @@
         "alt": "약사사 미타전 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f33e60ec74875.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/27abb1675cdbf.jpg",
         "alt": "약사사 미타전 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4567a9adbcd45.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/49c9d9b814cd3.jpg",
         "alt": "약사사 미타전 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4dcb01b038d24.jpg",
-        "alt": "약사사 미타전 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b8c0e0547d59d.jpg",
-        "alt": "약사사 미타전 장지 이미지9"
       }
     ],
     "detailpage_url": "/detail/?id=024"
@@ -2107,12 +2061,12 @@
     "summary": {
       "title": "여주 추모공원",
       "description": "세종대왕릉과 효종왕릉이 자리잡은 전통적인 최고의 명당터 여주에 자리잡고 있으며, 고품격 호텔식 시설로 오동나무 안치단을 사용하여 쾌적한 환경을 유지하고 있습니다. 서울 강남 기준 1시간 이내 접근이 가능한 여주에 위치하고 있습니다",
-      "transport": "차량 : 서울 강남기준 1시간"
+      "transport": "차량 : 서울 강남기준 1시간, 백사IC 10분"
     },
     "info": {
       "지역": "경기도 여주군",
       "운영": "사설",
-      "형태": "봉안당"
+      "형태": "봉안당, 수목장, 잔디장"
     },
     "price_table": {
       "개인단": "2,000,000원~",
@@ -2139,47 +2093,35 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/175e649eb95f4.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/4c49305dccf5b.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/175e649eb95f4.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4c49305dccf5b.jpg",
         "alt": "여주 추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/96a43d217adaa.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/175e649eb95f4.jpg",
         "alt": "여주 추모공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/00ae10ecdbd32.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bff2cfc8a571d.jpg",
         "alt": "여주 추모공원 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ce46affb94bd2.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f7d0206c72b64.jpg",
         "alt": "여주 추모공원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f353350c0fb73.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/96a43d217adaa.jpg",
         "alt": "여주 추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4c49305dccf5b.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/00ae10ecdbd32.jpg",
         "alt": "여주 추모공원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/bff2cfc8a571d.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ce46affb94bd2.jpg",
         "alt": "여주 추모공원 장지 이미지6"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/17838943716d3.jpg",
-        "alt": "여주 추모공원 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e4d80069eca82.jpg",
-        "alt": "여주 추모공원 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5c3ca6d6542b8.jpg",
-        "alt": "여주 추모공원 장지 이미지9"
       }
     ],
     "detailpage_url": "/detail/?id=025"
@@ -2200,13 +2142,13 @@
     },
     "summary": {
       "title": "의왕 봉안당",
-      "description": "오봉산은 청풍김씨 5대 정승이 태어난 명당 자리이며, 물 맑고 공기 청정한 오봉산에 위치하여 조상님들의 평안한 마음의 터전입니다. 서울 양재동에서 20분, 사당역에서 15분 거리에 위치한 사찰내 봉안시설입니다. 봉안의식과 삼우재등이 무료 진행 됩니다.",
+      "description": "의왕 오봉산은 청풍김씨 5대 정승이 태어난 명당 자리이며, 물 맑고 공기 청정한 오봉산에 위치하여 조상님들의 평안한 마음의 터전입니다. 서울 양재동에서 20분, 사당역에서 15분 거리에 위치한 사찰내 봉안시설입니다. 봉안의식과 삼우재등이 무료 진행 됩니다.",
       "transport": "차량 : 의왕IC 10분, 의왕시청 5분"
     },
     "info": {
       "지역": "경기도 의왕시",
       "운영": "사설",
-      "형태": "봉안당"
+      "형태": "봉안당, 봉안담"
     },
     "price_table": {
       "개인단": "2,000,000원~",
@@ -2227,18 +2169,42 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/77369bd23788b.jpeg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/eff841204e333.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/77369bd23788b.jpeg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/eff841204e333.jpg",
         "alt": "의왕 봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3f097b5ed8d75.jpeg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/eb5e86ab11af6.jpg",
         "alt": "의왕 봉안당 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ed15169659e26.jpg",
+        "alt": "의왕 봉안당 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/119dc3a17ee6b.jpg",
+        "alt": "의왕 봉안당 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f4e274ea8cf01.jpg",
+        "alt": "의왕 봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/209a8ee8cb8ad.jpg",
+        "alt": "의왕 봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e6a2bf45b5c5b.jpg",
+        "alt": "의왕 봉안당 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/684ff0ed1e6b9.jpg",
+        "alt": "의왕 봉안당 장지 이미지7"
       }
     ],
     "detailpage_url": "/detail/?id=026"
@@ -2265,14 +2231,14 @@
     "info": {
       "지역": "경기도 안성시",
       "운영": "사설",
-      "형태": "봉안당"
+      "형태": "봉안당, 수목장"
     },
     "price_table": {
       "개인단": "3,000,000원~",
       "부부단": "6,000,000원~",
-      "표준가족목": "7,000,000원~",
-      "부부목": "10,000,000원~",
-      "종교실(기독,천주교실)": "8,000,000원~"
+      "표준가족목": "7,000,000원~(일반수목)",
+      "부부목": "10,000,000원~(반송)",
+      "종교실(기독,천주교실)": "8,000,000원~(기독교,천주교실)"
     },
     "facilities": [
       {
@@ -2292,47 +2258,35 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/65bf7157dcdc7.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/14d630c626226.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/65bf7157dcdc7.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/14d630c626226.jpg",
         "alt": "안성 추모관 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6136a1c54d5a0.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d772840678bc2.jpg",
         "alt": "안성 추모관 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d772840678bc2.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/adcb2f92c6495.jpg",
         "alt": "안성 추모관 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7a806954c675e.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d07e5b8bd119f.jpg",
         "alt": "안성 추모관 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/adcb2f92c6495.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ee9b3c1303e8d.jpg",
         "alt": "안성 추모관 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d07e5b8bd119f.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b70781be8a14e.jpg",
         "alt": "안성 추모관 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/14d630c626226.jpg",
-        "alt": "안성 추모관 장지 이미지6"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ee9b3c1303e8d.jpg",
-        "alt": "안성 추모관 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b70781be8a14e.jpg",
-        "alt": "안성 추모관 장지 이미지8"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1dcda8c27bd07.jpg",
-        "alt": "안성 추모관 장지 이미지9"
+        "alt": "안성 추모관 장지 이미지6"
       }
     ],
     "detailpage_url": "/detail/?id=027"
