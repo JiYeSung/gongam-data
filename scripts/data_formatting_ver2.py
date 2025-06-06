@@ -133,6 +133,12 @@ def main():
             detail_data["location"].setdefault("lat", "")
             detail_data["location"].setdefault("lng", "")
 
+        # ✅ 누락 로그 출력
+        required_fields = ["summary", "location", "thumbnail", "detail_images", "info"]
+        for field in required_fields:
+            if field not in detail_data:
+                print(f"⚠️ [누락] {idx:03}번 항목 - '{field}' 필드 없음 → {url}")
+                
         final_result[f"{idx:03}"] = detail_data
 
     with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:
