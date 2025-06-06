@@ -16,10 +16,21 @@ def log(message):
 
 def load_json_file(path):
     if not os.path.exists(path):
+        # 파일이 아예 없으면 빈 JSON 생성
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump({}, f)
         return {}
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read().strip()
+            if not content:
+                # 파일은 존재하지만 내용이 비어있을 경우
+                return {}
+            return json.loads(content)
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"❗ JSON 로드 실패({path}): {e}")
+        return {}
+    
 def save_json_file(data, path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
