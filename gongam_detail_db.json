@@ -2352,7 +2352,7 @@
     },
     "summary": {
       "title": "일산 추모공원",
-      "description": "1988년 고양시로부터 사설납골당 허가를 취득한 전통의 불교 조계종의 사찰내 봉안당이다. 일산 풍동에 위치한 좌호산을 중심으로 뒤로는 왕룡산 줄기가 우로는 정발산, 좌로는 북한산이 둘러싸인 풍수지리학적 명당이다.",
+      "description": "1988년 고양시로부터 사설납골당 허가를 취득한 전통의 불교 조계종의 사찰내 봉안당입니다. 일산 풍동에 위치한 좌호산을 중심으로 뒤로는 왕룡산 줄기가 우로는 정발산, 좌로는 북한산이 둘러싸인 풍수지리학적 최고의 명당터입니다.",
       "transport": "차량 : 백마역 5분, 고양IC 10분"
     },
     "info": {
@@ -2363,8 +2363,8 @@
     "price_table": {
       "개인단": "2,500,000원~",
       "부부단": "5,000,000원~",
-      "잔디장": "4,000,000원~",
-      "개인목": "8,000,000원~"
+      "잔디장": "4,000,000원~(신관)",
+      "개인목": "8,000,000원~(신관)"
     },
     "facilities": [
       {
@@ -2373,7 +2373,7 @@
       },
       {
         "name": "매점",
-        "active": true
+        "active": false
       },
       {
         "name": "유족대기실",
@@ -2381,50 +2381,38 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/74107a737de5e.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/3b6acf0b0a9e5.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/74107a737de5e.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3b6acf0b0a9e5.jpg",
         "alt": "일산 추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b6907a9e95deb.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/08c38eef2e951.jpg",
         "alt": "일산 추모공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8afb6a14c6df8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0a391985d41de.jpg",
         "alt": "일산 추모공원 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f7ddbf029ee0c.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8092256cf84e1.jpg",
         "alt": "일산 추모공원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/51c055363c51d.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9de8387b2efac.jpg",
         "alt": "일산 추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/39351737b2f21.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2705a27e9baa7.jpg",
         "alt": "일산 추모공원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0bf4abb751904.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1f41428594e09.jpg",
         "alt": "일산 추모공원 장지 이미지6"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ccda959ec82b9.jpg",
-        "alt": "일산 추모공원 장지 이미지7"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/391d70e1e60a2.jpg",
-        "alt": "일산 추모공원 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6adcf1d35c5e5.jpg",
-        "alt": "일산 추모공원 장지 이미지9"
       }
     ],
     "detailpage_url": "/detail/?id=028"
@@ -2444,7 +2432,7 @@
     },
     "summary": {
       "title": "서초 봉안당",
-      "description": "서울 강남권(남태령)에 위치한 유일한 사찰내 봉안당. 가장 가까운곳에 천하명당 도심속 숲속의 안식처가 준비되어있습니다. 명절(설,추석), 기제사등 합동제사로 평안히 고인의 극락왕생을 기원할수 있습니다.",
+      "description": "서울 강남권(남태령)에 위치한 유일한 사찰내 봉안당. 가장 가까운곳에 천하명당 도심속 숲속의 안식처가 준비되어있습니다. 명절(설,추석), 기제사등 합동제사로 평안히 고인의 극락왕생을 기원할 수 있습니다.",
       "transport": "차량 : 사당역 5분"
     },
     "info": {
@@ -2471,7 +2459,7 @@
       },
       {
         "name": "장애인시설",
-        "active": true
+        "active": false
       }
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/420597d8336cd.png",
@@ -2505,16 +2493,8 @@
         "alt": "서초 봉안당 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/729c4aca3dd9c.png",
-        "alt": "서초 봉안당 장지 이미지7"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/34daa361ccca1.png",
-        "alt": "서초 봉안당 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37cb0e36c3dd1.png",
-        "alt": "서초 봉안당 장지 이미지9"
+        "alt": "서초 봉안당 장지 이미지7"
       }
     ],
     "detailpage_url": "/detail/?id=029"
@@ -2534,7 +2514,7 @@
     },
     "summary": {
       "title": "인천송도 봉안당",
-      "description": "인천의 도심속 천혜의 자연환경과 최고의 봉안시설을 자랑하는 사찰식 봉안당이다. 바다를 가로지르는 인천대교와 송도신도시가 한눈에 들어오며 서해의 낙조가 비경을 이루는 천하명산에 자리하고있다. 첨단시설 및 다양한 부대시설 구축",
+      "description": "인천의 도심속 천혜의 자연환경과 최고의 봉안시설을 자랑하는 사찰식 봉안당입니다. 바다를 가로지르는 인천대교와 송도신도시가 한눈에 들어오며 서해의 낙조가 비경을 이루는 천하명산에 자리하고있습니다. 첨단시설 및 다양한 부대시설이 마련되어 있습니다.",
       "transport": "차량 : 문학IC 10분, 송도IC 10분"
     },
     "info": {
