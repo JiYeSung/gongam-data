@@ -4,29 +4,27 @@
     "area": "경기도",
     "sub_area": "양평군",
     "types": [
-      "납골당",
-      "봉안당",
-      "수목장"
+      "봉안당"
     ],
     "price": "1,500,000원",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "서종 추모관",
-      "description": "남한강과 북한강이 만나며 사계절을 바로 느끼는 천혜의 명당. 북한강의 아름다운 물안개와 자연의 운치가 어울어진 곳입니다.",
-      "transport": "차량 : 서울 강동,송파에서 30-40분대 접근가능"
+      "description": "남한강과 북한강이 만나며 사계절을 바로 느끼는 천혜의 명당. 북한강의 아름다운 물안개와 자연의 운치가 어울어진 곳입니다. 간결하지만 최첨단의 봉안당으로 설계된 스마트한 봉안당 입니다.",
+      "transport": "강동IC 40분, 서종IC 10분"
     },
     "info": {
       "지역": "경기도 양평군",
       "운영": "사설",
-      "형태": "납골당, 봉안당, 수목장"
+      "형태": "봉안당"
     },
     "price_table": {
-      "잔디장": "150만원~",
-      "수목장": "300만원~"
+      "잔디장": "1,500,000원~",
+      "수목장": "3,000,000원~"
     },
     "facilities": [
       {
@@ -57,23 +55,23 @@
         "alt": "서종 추모관 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37f7159d91dc2.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/123b5735cfe18.jpg",
         "alt": "서종 추모관 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/12da03f48a494.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/752a75afcc408.jpg",
         "alt": "서종 추모관 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/123b5735cfe18.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0e92e9e996b7.jpg",
         "alt": "서종 추모관 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/752a75afcc408.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/12da03f48a494.jpg",
         "alt": "서종 추모관 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c0e92e9e996b7.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/37f7159d91dc2.jpg",
         "alt": "서종 추모관 장지 이미지6"
       }
     ]
@@ -86,7 +84,7 @@
       "봉안당"
     ],
     "price": "2,500,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
@@ -94,7 +92,7 @@
     "summary": {
       "title": "남양주 추모공원",
       "description": "서울과 근접한 남양주시에 위치하여 서울 송파구 기준 30분 이내로 접근이 용이함. 고인을 모신 유가족들이 언제 어디서든 쉽게 찾아뵐 수 있으며, 또한 수려한 자연경관과 맑은 공기와 함께 하는 평안한 영혼의 안식처라 할 수 있습니다.",
-      "transport": "차량 : 서울 송파구에서 차량으로 30분"
+      "transport": "강동 IC 30분, 화도IC 10분"
     },
     "info": {
       "지역": "경기 남양주",
@@ -102,8 +100,8 @@
       "형태": "봉안당"
     },
     "price_table": {
-      "개인단": "250만원~",
-      "부부단": "350만원~"
+      "개인단": "2,500,000원~",
+      "부부단": "3,500,000원~"
     },
     "facilities": [
       {
@@ -112,15 +110,15 @@
       },
       {
         "name": "매점",
-        "active": false
+        "active": true
       },
       {
         "name": "유족대기실",
-        "active": false
+        "active": true
       },
       {
         "name": "장애인시설",
-        "active": false
+        "active": true
       }
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/2d7aaca9ed6c8.jpg",
@@ -130,36 +128,32 @@
         "alt": "남양주 추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d2d149c95bdc4.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/620950d0618ee.jpg",
         "alt": "남양주 추모공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/620950d0618ee.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/efb04e2518963.jpg",
         "alt": "남양주 추모공원 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/efb04e2518963.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ab12d6c1bd4d7.jpg",
         "alt": "남양주 추모공원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ab12d6c1bd4d7.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6a50ff787efd8.jpg",
         "alt": "남양주 추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6a50ff787efd8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3a1d33bcc6bd8.jpg",
         "alt": "남양주 추모공원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3a1d33bcc6bd8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/526b81a8a66d9.jpg",
         "alt": "남양주 추모공원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/526b81a8a66d9.jpg",
-        "alt": "남양주 추모공원 장지 이미지7"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/51be689d435e7.jpg",
-        "alt": "남양주 추모공원 장지 이미지8"
+        "alt": "남양주 추모공원 장지 이미지7"
       }
     ]
   },
@@ -171,7 +165,7 @@
       "봉안당"
     ],
     "price": "1,500,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
@@ -187,8 +181,8 @@
       "형태": "봉안당"
     },
     "price_table": {
-      "개인단": "150만원~",
-      "부부단": "300만원~"
+      "개인단": "1,500,000원~",
+      "부부단": "3,000,000원~"
     },
     "facilities": [
       {
@@ -252,14 +246,14 @@
       "봉안당"
     ],
     "price": "2,000,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "양평 봉안당",
-      "description": "아름다운 자연환경과 최첨단 시설을 갖춘 특급호텔식의 국내 최초 프리미엄 가족봉안당. 총 4개층으로 17,000기 안장가능. 호텔식 로비와 갤러리 운영. 종교별 전용관(기독교, 천주교)및 예배실 운영",
+      "description": "아름다운 자연환경과 최첨단 시설을 갖춘 특급호텔식의 국내 최초 프리미엄 가족봉안당 입니다. 총 4개층으로 17,000기 안장가능하며, 호텔식 로비와 갤러리 운영, 종교별 전용관(기독교, 천주교)을 운영하고 있습니다.",
       "transport": "차량: 동양평IC 10분, 강동IC 1시간"
     },
     "info": {
@@ -268,8 +262,8 @@
       "형태": "봉안당"
     },
     "price_table": {
-      "개인단": "200만원~",
-      "부부단": "400만원~"
+      "개인단": "2,000,000원~",
+      "부부단": "4,000,000원~"
     },
     "facilities": [
       {
@@ -278,15 +272,15 @@
       },
       {
         "name": "매점",
-        "active": false
+        "active": true
       },
       {
         "name": "유족대기실",
-        "active": false
+        "active": true
       },
       {
         "name": "장애인시설",
-        "active": false
+        "active": true
       }
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/e617c6d69b45f.jpg",
@@ -335,20 +329,15 @@
       "매장묘"
     ],
     "price": "2,000,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "서종 공원묘원",
-      "description": "총면적 33m2(10만평)이상의 넓은 대지에 북한강이 내려다 보이는 수려한 경관과 온종일 해가 드는 최고의 일광조건 서운 동부권에서 30분대 진입 가능한 산좋고 물좋은 명당 중에 명당",
+      "description": "총면적 33m2(10만평)이상의 넓은 대지에 북한강이 내려다 보이는 수려한 경관과 온종일 해가 드는 최고의 일광조건의 지역 입니다.  서울 동부권에서 40분대 진입 가능한 산좋고 물좋은 명당 중에 명당 입니다.",
       "transport": "차량 : 서종IC 15분, 강동IC 40분"
-    },
-    "info": {
-      "지역": "경기 양평군",
-      "운영": "사설",
-      "형태": "수목장, 봉안묘(가족형), 매장묘"
     },
     "price_table": {
       "수목장": "700만원~",
@@ -363,11 +352,11 @@
       },
       {
         "name": "매점",
-        "active": false
+        "active": true
       },
       {
         "name": "유족대기실",
-        "active": false
+        "active": true
       },
       {
         "name": "장애인시설",
@@ -393,28 +382,24 @@
         "alt": "서종 공원묘원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c51a7ce8ad977.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b30b61fce6b7.jpg",
         "alt": "서종 공원묘원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b30b61fce6b7.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d7dc2da58829d.jpg",
         "alt": "서종 공원묘원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d7dc2da58829d.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8d79b892b8ffb.jpg",
         "alt": "서종 공원묘원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8d79b892b8ffb.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c5d940c031694.jpg",
         "alt": "서종 공원묘원 장지 이미지7"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c5d940c031694.jpg",
-        "alt": "서종 공원묘원 장지 이미지8"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f1e57f6666cd9.jpg",
-        "alt": "서종 공원묘원 장지 이미지9"
+        "alt": "서종 공원묘원 장지 이미지8"
       }
     ]
   },
@@ -427,15 +412,15 @@
       "잔디장"
     ],
     "price": "2,000,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "남양주 수목장",
-      "description": "조계종 합천해인사 공찰에서 운영하며, 아름다운 자연환경과 고인과 가족이 편히 쉴수있는곳. 더불어 고급 품종의 수목을 준비하여 더욱 평온한 영혼의 안식처 입니다 (2024년 09월 신규오픈)",
-      "transport": "차량 : 화도IC 15분"
+      "description": "조계종 합천해인사 공찰에서 운영하며, 아름다운 자연환경과 고인과 가족이 편히 쉴 수있는 곳입니다. 더불어 고급 품종의 수목을 준비하여 더욱 평온한 영혼의 안식처 입니다. (2024년 09월 신규오픈)",
+      "transport": "강동IC 30분, 화도IC 15분"
     },
     "info": {
       "지역": "경기 남양주시",
@@ -443,9 +428,9 @@
       "형태": "수목장, 잔디장"
     },
     "price_table": {
-      "수목장(개인목)": "400만원~",
-      "수목장(부부목)": "750만원~",
-      "잔디장(개인장)": "200만원~"
+      "수목장(개인목)": "4,000,000원~",
+      "수목장(부부목)": "7,500,000원~",
+      "잔디장(개인장)": "2,000,000원~"
     },
     "facilities": [
       {
@@ -488,16 +473,12 @@
         "alt": "남양주 수목장 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/56c24a1ffa3f6.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e36d0311669c9.jpg",
         "alt": "남양주 수목장 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e36d0311669c9.jpg",
-        "alt": "남양주 수목장 장지 이미지6"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/86a6aea6f15d2.jpg",
-        "alt": "남양주 수목장 장지 이미지7"
+        "alt": "남양주 수목장 장지 이미지6"
       }
     ]
   },
@@ -508,15 +489,15 @@
     "types": [
       "봉안당"
     ],
-    "price": "5,000,000원~",
-    "is_recommended": false,
+    "price": "3,000,000원~",
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "분당 봉안당",
-      "description": "분당에 자리한 '치유와 휴식'의 공간으로 서재형 안치실과 서적형태의 봉안함은 소중한 고인의 삶을 더욱 특별하게 추억할수 있도록 도와드립니다. 금계포란 ( 금닭이 알을 품고있는 형세 ) 지형의 영장산 (靈長山 ) 에 자리하고 있어 고인의 평안한 안식은 물론, 가족의 안녕과 번영을 기원합니다.",
+      "description": "분당에 자리한 '치유와 휴식'의 공간으로 서재형 안치실과 서적형태의 봉안함은 소중한 고인의 삶을 더욱 특별하게 추억할수 있도록 도와드립니다. 금계포란( 금닭이 알을 품고있는 형세  지형의 영장산(靈長山)에 자리하고 있어 고인의 평안한 안식은 물론, 가족의 안녕과 번영을 기원합니다.",
       "transport": "차량 : 분당이매역 5분, 양재IC 30분"
     },
     "info": {
@@ -525,7 +506,7 @@
       "형태": "봉안당"
     },
     "price_table": {
-      "일반실": "500만원~(서재)"
+      "일반실": "5,000,000원~(서재)"
     },
     "facilities": [
       {
@@ -545,10 +526,10 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/90f2fac9913c6.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/d60bf46c9acc8.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/90f2fac9913c6.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d60bf46c9acc8.jpg",
         "alt": "분당 봉안당 장지 이미지0"
       },
       {
@@ -556,7 +537,7 @@
         "alt": "분당 봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d60bf46c9acc8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/90f2fac9913c6.jpg",
         "alt": "분당 봉안당 장지 이미지2"
       },
       {
@@ -586,14 +567,6 @@
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e8897b666a111.jpg",
         "alt": "분당 봉안당 장지 이미지9"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2814450b60075.jpg",
-        "alt": "분당 봉안당 장지 이미지10"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f75a70e0155d3.jpg",
-        "alt": "분당 봉안당 장지 이미지11"
       }
     ]
   },
@@ -605,15 +578,15 @@
       "봉안당"
     ],
     "price": "3,000,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "양수리 추모관",
-      "description": "자연 속에서 자연 그 자체가 되는 고품격 추모공간. 사계절을 느끼는 파사드 창문 프레임으로 사계절 채광 효과 탁월함. 뒷편에는 산, 앞으로는 물이 흐르는 \"배산임수\"의 명당. 서울-양양간 고속도로 서종IC 10분거리 (구관/만장)",
-      "transport": "차량 : 서울역 차량 40분<br> 기타 : 걸어서 1시간"
+      "description": "자연 속에서 자연 그 자체가 되는 고품격 추모공간. 사계절을 느끼는 파사드 창문 프레임으로 사계절 채광 효과가 탁월합니다.  뒷편에는 산, 앞으로는 물이 흐르는 \"배산임수\"의 명당. 서울-양양간 고속도로 서종IC 10분거리에 위치합니다. (구관/만장)",
+      "transport": "강동IC 40분, 서종IC 10분"
     },
     "info": {
       "지역": "경기도 양평군",
@@ -621,8 +594,8 @@
       "형태": "봉안당"
     },
     "price_table": {
-      "개인단": "300만원~(신관)",
-      "부부단": "600만원~(신관)"
+      "개인단": "3,000,000원~(신관)",
+      "부부단": "6,000,000원~(신관)"
     },
     "facilities": [
       {
@@ -631,7 +604,7 @@
       },
       {
         "name": "매점",
-        "active": false
+        "active": true
       },
       {
         "name": "유족대기실",
@@ -639,7 +612,7 @@
       },
       {
         "name": "장애인시설",
-        "active": false
+        "active": true
       }
     ],
     "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/e96c301ff2176.jpg",
@@ -669,24 +642,16 @@
         "alt": "양수리 추모관 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ba4a53f966ec5.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8eab31f123d9b.jpg",
         "alt": "양수리 추모관 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8eab31f123d9b.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/159f2393d335e.jpg",
         "alt": "양수리 추모관 장지 이미지7"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/159f2393d335e.jpg",
-        "alt": "양수리 추모관 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9d090e70113f6.jpg",
-        "alt": "양수리 추모관 장지 이미지9"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b800f9b111315.jpg",
-        "alt": "양수리 추모관 장지 이미지10"
+        "alt": "양수리 추모관 장지 이미지8"
       }
     ]
   },
@@ -700,14 +665,14 @@
       "수목장"
     ],
     "price": "2,000,000원~",
-    "is_recommended": false,
+    "is_recommended": true,
     "location": {
       "lat": "",
       "lng": ""
     },
     "summary": {
       "title": "광주 추모공원",
-      "description": "예로부터 능을 모실 만한 명당이 많아 왕실에서도 눈 여겨 보았다는 경기 광주 능평리에 위치하고있음 실내 봉안당, 준실내 및 야외 봉안담, 수목장 그리고 대규모 주차장과 첨단 보안시설 갖춤.",
+      "description": "예로부터 능을 모실 만한 명당이 많아 왕실에서도 눈 여겨 보았다는 경기 광주 능평리에 위치하고 있습니다.  실내 봉안당, 준실내 및 야외 봉안담, 수목장 그리고 대규모 주차장과 첨단 보안시설 갖추고 있습니다.",
       "transport": "차량 : 능원IC 10분, 강동IC 40분"
     },
     "info": {
@@ -716,9 +681,9 @@
       "형태": "봉안당, 봉안담, 수목장"
     },
     "price_table": {
-      "봉안당": "200만원~(개인/공동목)",
-      "수목장": "300만원~(개인)",
-      "봉안담": "150만원~(개인)"
+      "봉안당": "2,000,000원~(개인)",
+      "수목장": "3,000,000원~(개인)",
+      "봉안담": "1,500,000원~(개인)"
     },
     "facilities": [
       {
@@ -738,30 +703,30 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/abcddfe0b629b.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/e5fbb659bc9a5.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/abcddfe0b629b.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e5fbb659bc9a5.jpg",
         "alt": "광주 추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e5fbb659bc9a5.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/abcddfe0b629b.jpg",
         "alt": "광주 추모공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/dba184cfc6078.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ee22c51fccd71.jpg",
         "alt": "광주 추모공원 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ee22c51fccd71.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c85a180055f61.jpg",
         "alt": "광주 추모공원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c85a180055f61.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/36a1f67200db9.jpg",
         "alt": "광주 추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/36a1f67200db9.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/dba184cfc6078.jpg",
         "alt": "광주 추모공원 장지 이미지5"
       },
       {
@@ -769,16 +734,8 @@
         "alt": "광주 추모공원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d67f0e84e8ea9.jpg",
-        "alt": "광주 추모공원 장지 이미지7"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/52ce098557501.jpg",
-        "alt": "광주 추모공원 장지 이미지8"
-      },
-      {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/47e39fd67bf24.jpg",
-        "alt": "광주 추모공원 장지 이미지9"
+        "alt": "광주 추모공원 장지 이미지7"
       }
     ]
   },
@@ -827,26 +784,26 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/82c6a96dbc7ca.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/e85e632b9b675.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/82c6a96dbc7ca.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e85e632b9b675.jpg",
         "alt": "광주 봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9623b555ba8b9.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/20fb6472c0a2c.jpg",
         "alt": "광주 봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/aca51dcf561f3.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/82c6a96dbc7ca.jpg",
         "alt": "광주 봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a78184fe18e4d.png",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9623b555ba8b9.png",
         "alt": "광주 봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a65dad09fb320.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/aca51dcf561f3.png",
         "alt": "광주 봉안당 장지 이미지4"
       },
       {
@@ -858,16 +815,12 @@
         "alt": "광주 봉안당 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7244e5afa7dbd.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/69ff6d82d343a.jpg",
         "alt": "광주 봉안당 장지 이미지7"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/69ff6d82d343a.jpg",
-        "alt": "광주 봉안당 장지 이미지8"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/fd7cb1b5243b3.jpg",
-        "alt": "광주 봉안당 장지 이미지9"
+        "alt": "광주 봉안당 장지 이미지8"
       }
     ]
   },
