@@ -16,43 +16,39 @@ def parse_value(key, value):
 # ✅ 테이블 데이터 추출 함수
 def extract_table_data(table, is_detail_card=False):
     data = {}
-    prefix = None
     table_id = table.get("id", "")
-    if table_id == "detail-service":
-        prefix = "price_table"
-    elif table_id == "detail-facilities":
-        prefix = "facilities"
+
+    # ✅ 적용 대상 테이블에 대해 prefix 지정
+    table_prefixes = {
+        "detail-service": "price_table",
+        "detail-facilities": "facilities",
+        "detail-basic": "info"
+    }
+    prefix = table_prefixes.get(table_id)
 
     for tr in table.find_all("tr"):
         tds = tr.find_all(["td", "th"])
-
-        # ✅ td 하나만 있는 행도 처리 (서비스 정보 등)
         if len(tds) < 2:
-            if table_id == "detail-service" and len(tds) == 1:
-                label = tds[0].get_text(strip=True)
-                key = f"{prefix}.{label[:10]}"  # 앞 10자 정도만 key로 활용
-                value = label
-                if prefix not in data:
-                    data[prefix] = {}
-                data[prefix][key] = parse_value(key, value)
-            elif not is_detail_card:
+            if not is_detail_card:
                 continue
 
-        th = tds[0] if len(tds) > 1 else None
-        td = tds[1] if len(tds) > 1 else None
+        th_or_td = tds[0] if len(tds) > 1 else None
+        value_td = tds[1] if len(tds) > 1 else None
 
-        key = (td.get("id") if td else None)
+        key = value_td.get("id") if value_td else None
 
-        # ✅ id가 없는 경우 th 또는 td 텍스트를 기반으로 key 생성
-        if not key and prefix:
-            label = (th or td).get_text(strip=True)
-            key = f"{prefix}.{label}"
+        # ✅ id 없고 prefix 있을 때, 첫 번째 칸을 label로 key 생성
+        if not key and prefix and th_or_td:
+            label = th_or_td.get_text(strip=True)
+            if label:
+                key = f"{prefix}.{label}"
 
-        if not key:
+        if not key or not value_td:
             continue
 
-        value = td.get_text(strip=True) if td else ""
+        value = value_td.get_text(strip=True)
 
+        # ✅ facilities 특수 처리 (배열형)
         if "." in key:
             part1, part2 = key.split(".", 1)
             if part1 == "facilities":
@@ -94,9 +90,7 @@ def main():
     with open("./urls_by_pagination.json", "r", encoding="utf-8") as f:
         url_items = json.load(f)
 
-    # ✅ 게시판 count 순서대로 정렬
     url_items.sort(key=lambda x: int(x.get("count", 0)))
-
     final_result = {}
 
     for idx, item in enumerate(url_items, start=1):
@@ -146,12 +140,11 @@ def main():
             detail_data["location"].setdefault("lat", "")
             detail_data["location"].setdefault("lng", "")
 
-        # ✅ 누락 로그 출력
         required_fields = ["summary", "location", "thumbnail", "detail_images", "info"]
         for field in required_fields:
             if field not in detail_data:
                 print(f"⚠️ [누락] {idx:03}번 항목 - '{field}' 필드 없음 → {url}")
-                
+
         final_result[f"{idx:03}"] = detail_data
 
     with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:
@@ -159,6 +152,5 @@ def main():
 
     print("✅ gongam_detail_db_result.json 파일 생성 완료")
 
-# ✅ 단독 실행
 if __name__ == "__main__":
     main()
