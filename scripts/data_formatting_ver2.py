@@ -25,17 +25,29 @@ def extract_table_data(table, is_detail_card=False):
 
     for tr in table.find_all("tr"):
         tds = tr.find_all(["td", "th"])
+
+        # ✅ td 하나만 있는 행도 처리 (서비스 정보 등)
         if len(tds) < 2:
-            if not is_detail_card:
+            if table_id == "detail-service" and len(tds) == 1:
+                label = tds[0].get_text(strip=True)
+                key = f"{prefix}.{label[:10]}"  # 앞 10자 정도만 key로 활용
+                value = label
+                if prefix not in data:
+                    data[prefix] = {}
+                data[prefix][key] = parse_value(key, value)
+            elif not is_detail_card:
                 continue
 
         th = tds[0] if len(tds) > 1 else None
         td = tds[1] if len(tds) > 1 else None
 
         key = (td.get("id") if td else None)
+
+        # ✅ id가 없는 경우 th 또는 td 텍스트를 기반으로 key 생성
         if not key and prefix:
             label = (th or td).get_text(strip=True)
             key = f"{prefix}.{label}"
+
         if not key:
             continue
 
@@ -56,6 +68,7 @@ def extract_table_data(table, is_detail_card=False):
                 data[part1][part2] = parse_value(part2, value)
         else:
             data[key] = parse_value(key, value)
+
     return data
 
 # ✅ 이미지 src + alt 추출 함수
