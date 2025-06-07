@@ -18,7 +18,7 @@ def extract_table_data(table, is_detail_card=False):
     data = {}
     table_id = table.get("id", "")
 
-    # ✅ 적용 대상 테이블에 대해 prefix 지정
+    # ✅ 대상 테이블별 prefix
     table_prefixes = {
         "detail-service": "price_table",
         "detail-facilities": "facilities",
@@ -37,7 +37,6 @@ def extract_table_data(table, is_detail_card=False):
 
         key = value_td.get("id") if value_td else None
 
-        # ✅ id 없고 prefix 있을 때, 첫 번째 칸을 label로 key 생성
         if not key and prefix and th_or_td:
             label = th_or_td.get_text(strip=True)
             if label:
@@ -48,9 +47,10 @@ def extract_table_data(table, is_detail_card=False):
 
         value = value_td.get_text(strip=True)
 
-        # ✅ facilities 특수 처리 (배열형)
+        # ✅ 처리 분기
         if "." in key:
             part1, part2 = key.split(".", 1)
+
             if part1 == "facilities":
                 if "facilities" not in data:
                     data["facilities"] = []
@@ -58,10 +58,20 @@ def extract_table_data(table, is_detail_card=False):
                     "name": part2,
                     "active": parse_value(part2, value)
                 })
+
+            elif part1 == "price_table":
+                if "price_table" not in data:
+                    data["price_table"] = []
+                data["price_table"].append({
+                    "name": part2,
+                    "price": parse_value(part2, value)
+                })
+
             else:
                 if part1 not in data:
                     data[part1] = {}
                 data[part1][part2] = parse_value(part2, value)
+
         else:
             data[key] = parse_value(key, value)
 
