@@ -845,11 +845,11 @@
     "price_table": [
       {
         "name": "개인단",
-        "price": "150만원~"
+        "price": "1,500,000원~"
       },
       {
         "name": "부부단",
-        "price": "300만원~"
+        "price": "3,000,000원~"
       }
     ],
     "facilities": [
