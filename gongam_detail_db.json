@@ -81,7 +81,8 @@
         "alt": "서종 추모관 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=001"
+    "detailpage_url": "/detail/?id=001",
+    "exposure_detailpage_url": "/001/?id=001"
   },
   "002": {
     "name": "에덴추모공원",
@@ -169,7 +170,8 @@
         "alt": "남양주 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=002"
+    "detailpage_url": "/detail/?id=002",
+    "exposure_detailpage_url": "/002/?id=002"
   },
   "003": {
     "name": "성불사 자인당",
@@ -257,7 +259,8 @@
         "alt": "운악산 봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=003"
+    "detailpage_url": "/detail/?id=003",
+    "exposure_detailpage_url": "/003/?id=003"
   },
   "004": {
     "name": "더포레",
@@ -345,7 +348,8 @@
         "alt": "양평 봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=004"
+    "detailpage_url": "/detail/?id=004",
+    "exposure_detailpage_url": "/004/?id=004"
   },
   "005": {
     "name": "무궁화공원묘원",
@@ -447,7 +451,8 @@
         "alt": "서종 공원묘원 장지 이미지8"
       }
     ],
-    "detailpage_url": "/detail/?id=005"
+    "detailpage_url": "/detail/?id=005",
+    "exposure_detailpage_url": "/005/?id=005"
   },
   "006": {
     "name": "무량수목장",
@@ -536,7 +541,8 @@
         "alt": "남양주 수목장 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=006"
+    "detailpage_url": "/detail/?id=006",
+    "exposure_detailpage_url": "/006/?id=006"
   },
   "007": {
     "name": "봉안당 홈",
@@ -640,7 +646,8 @@
         "alt": "분당 봉안당 장지 이미지9"
       }
     ],
-    "detailpage_url": "/detail/?id=007"
+    "detailpage_url": "/detail/?id=007",
+    "exposure_detailpage_url": "/007/?id=007"
   },
   "008": {
     "name": "예진 추모관",
@@ -732,7 +739,8 @@
         "alt": "양수리 추모관 장지 이미지8"
       }
     ],
-    "detailpage_url": "/detail/?id=008"
+    "detailpage_url": "/detail/?id=008",
+    "exposure_detailpage_url": "/008/?id=008"
   },
   "009": {
     "name": "분당추모공원 휴",
@@ -826,7 +834,8 @@
         "alt": "광주 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=009"
+    "detailpage_url": "/detail/?id=009",
+    "exposure_detailpage_url": "/009/?id=009"
   },
   "010": {
     "name": "스카이캐슬",
@@ -918,7 +927,8 @@
         "alt": "광주 봉안당 장지 이미지8"
       }
     ],
-    "detailpage_url": "/detail/?id=010"
+    "detailpage_url": "/detail/?id=010",
+    "exposure_detailpage_url": "/010/?id=010"
   },
   "011": {
     "name": "미타정사 일만지장전",
@@ -1002,7 +1012,8 @@
         "alt": "광주 사찰봉안당 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=011"
+    "detailpage_url": "/detail/?id=011",
+    "exposure_detailpage_url": "/011/?id=011"
   },
   "012": {
     "name": "남서울가족공원",
@@ -1099,7 +1110,8 @@
         "alt": "곤지암 가족공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=012"
+    "detailpage_url": "/detail/?id=012",
+    "exposure_detailpage_url": "/012/?id=012"
   },
   "013": {
     "name": "광릉추모공원",
@@ -1193,7 +1205,8 @@
         "alt": "포천 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=013"
+    "detailpage_url": "/detail/?id=013",
+    "exposure_detailpage_url": "/013/?id=013"
   },
   "014": {
     "name": "광릉더그레스트",
@@ -1281,7 +1294,8 @@
         "alt": "포천 봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=014"
+    "detailpage_url": "/detail/?id=014",
+    "exposure_detailpage_url": "/014/?id=014"
   },
   "015": {
     "name": "추모공원하늘문",
@@ -1369,7 +1383,8 @@
         "alt": "고양 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=015"
+    "detailpage_url": "/detail/?id=015",
+    "exposure_detailpage_url": "/015/?id=015"
   },
   "016": {
     "name": "일산푸른솔",
@@ -1453,7 +1468,8 @@
         "alt": "일산 봉안당 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=016"
+    "detailpage_url": "/detail/?id=016",
+    "exposure_detailpage_url": "/016/?id=016"
   },
   "017": {
     "name": "대원정사",
@@ -1559,7 +1575,8 @@
         "alt": "양주 사찰봉안당 장지 이미지8"
       }
     ],
-    "detailpage_url": "/detail/?id=017"
+    "detailpage_url": "/detail/?id=017",
+    "exposure_detailpage_url": "/017/?id=017"
   },
   "018": {
     "name": "도성사",
@@ -1652,7 +1669,8 @@
         "alt": "포천 사찰봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=018"
+    "detailpage_url": "/detail/?id=018",
+    "exposure_detailpage_url": "/018/?id=018"
   },
   "019": {
     "name": "동막골 추모관",
@@ -1736,7 +1754,8 @@
         "alt": "연천 봉안당 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=019"
+    "detailpage_url": "/detail/?id=019",
+    "exposure_detailpage_url": "/019/?id=019"
   },
   "020": {
     "name": "목련메모리얼파크",
@@ -1842,7 +1861,8 @@
         "alt": "철원 공원묘원 장지 이미지8"
       }
     ],
-    "detailpage_url": "/detail/?id=020"
+    "detailpage_url": "/detail/?id=020",
+    "exposure_detailpage_url": "/020/?id=020"
   },
   "021": {
     "name": "서락원",
@@ -1926,7 +1946,8 @@
         "alt": "은평 봉안당 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=021"
+    "detailpage_url": "/detail/?id=021",
+    "exposure_detailpage_url": "/021/?id=021"
   },
   "022": {
     "name": "서현공원",
@@ -2014,7 +2035,8 @@
         "alt": "파주광탄 봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=022"
+    "detailpage_url": "/detail/?id=022",
+    "exposure_detailpage_url": "/022/?id=022"
   },
   "023": {
     "name": "서호추모공원",
@@ -2116,7 +2138,8 @@
         "alt": "평택 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=023"
+    "detailpage_url": "/detail/?id=023",
+    "exposure_detailpage_url": "/023/?id=023"
   },
   "024": {
     "name": "약사사 미타전",
@@ -2204,7 +2227,8 @@
         "alt": "인천 사찰봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=024"
+    "detailpage_url": "/detail/?id=024",
+    "exposure_detailpage_url": "/024/?id=024"
   },
   "025": {
     "name": "여주세종 추모공원",
@@ -2302,7 +2326,8 @@
         "alt": "여주 추모공원 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=025"
+    "detailpage_url": "/detail/?id=025",
+    "exposure_detailpage_url": "/025/?id=025"
   },
   "026": {
     "name": "오봉산 추모공원",
@@ -2391,7 +2416,8 @@
         "alt": "의왕 봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=026"
+    "detailpage_url": "/detail/?id=026",
+    "exposure_detailpage_url": "/026/?id=026"
   },
   "027": {
     "name": "유토피아추모관",
@@ -2488,7 +2514,8 @@
         "alt": "안성 추모관 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=027"
+    "detailpage_url": "/detail/?id=027",
+    "exposure_detailpage_url": "/027/?id=027"
   },
   "028": {
     "name": "장안추모공원",
@@ -2580,7 +2607,8 @@
         "alt": "일산 추모공원 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=028"
+    "detailpage_url": "/detail/?id=028",
+    "exposure_detailpage_url": "/028/?id=028"
   },
   "029": {
     "name": "정각사",
@@ -2668,7 +2696,8 @@
         "alt": "서초 봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=029"
+    "detailpage_url": "/detail/?id=029",
+    "exposure_detailpage_url": "/029/?id=029"
   },
   "030": {
     "name": "정토원",
@@ -2752,7 +2781,8 @@
         "alt": "인천 송도봉안당 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=030"
+    "detailpage_url": "/detail/?id=030",
+    "exposure_detailpage_url": "/030/?id=030"
   },
   "031": {
     "name": "청련사 극락원",
@@ -2836,7 +2866,8 @@
         "alt": "장흥 사찰봉안당 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=031"
+    "detailpage_url": "/detail/?id=031",
+    "exposure_detailpage_url": "/031/?id=031"
   },
   "032": {
     "name": "통일로추모공원",
@@ -2932,7 +2963,8 @@
         "alt": "파주 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=032"
+    "detailpage_url": "/detail/?id=032",
+    "exposure_detailpage_url": "/032/?id=032"
   },
   "033": {
     "name": "파라다이스추모관",
@@ -3025,7 +3057,8 @@
         "alt": "강화 추모관 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=033"
+    "detailpage_url": "/detail/?id=033",
+    "exposure_detailpage_url": "/033/?id=033"
   },
   "034": {
     "name": "하늘안 추모공원",
@@ -3117,7 +3150,8 @@
         "alt": "양주 추모공원 장지 이미지8"
       }
     ],
-    "detailpage_url": "/detail/?id=034"
+    "detailpage_url": "/detail/?id=034",
+    "exposure_detailpage_url": "/034/?id=034"
   },
   "035": {
     "name": "벽제중앙추모공원",
@@ -3205,7 +3239,8 @@
         "alt": "벽제 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=035"
+    "detailpage_url": "/detail/?id=035",
+    "exposure_detailpage_url": "/035/?id=035"
   },
   "036": {
     "name": "양평갈월공원",
@@ -3302,7 +3337,8 @@
         "alt": "양평 추모공원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=036"
+    "detailpage_url": "/detail/?id=036",
+    "exposure_detailpage_url": "/036/?id=036"
   },
   "037": {
     "name": "용인추모원",
@@ -3399,7 +3435,8 @@
         "alt": "기흥 추모원 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=037"
+    "detailpage_url": "/detail/?id=037",
+    "exposure_detailpage_url": "/037/?id=037"
   },
   "038": {
     "name": "중앙추모공원",
@@ -3493,7 +3530,8 @@
         "alt": "연천 추모공원 장지 이미지5"
       }
     ],
-    "detailpage_url": "/detail/?id=038"
+    "detailpage_url": "/detail/?id=038",
+    "exposure_detailpage_url": "/038/?id=038"
   },
   "039": {
     "name": "천봉사(홍천)",
@@ -3586,7 +3624,8 @@
         "alt": "홍천 사찰봉안당 장지 이미지7"
       }
     ],
-    "detailpage_url": "/detail/?id=039"
+    "detailpage_url": "/detail/?id=039",
+    "exposure_detailpage_url": "/039/?id=039"
   },
   "040": {
     "name": "파주추모공원",
@@ -3670,6 +3709,7 @@
         "alt": "파주 봉안당 장지 이미지6"
       }
     ],
-    "detailpage_url": "/detail/?id=040"
+    "detailpage_url": "/detail/?id=040",
+    "exposure_detailpage_url": "/040/?id=040"
   }
 }
