@@ -16,7 +16,6 @@ def log(message):
 
 def load_json_file(path):
     if not os.path.exists(path):
-        # 파일이 아예 없으면 빈 JSON 생성
         with open(path, "w", encoding="utf-8") as f:
             json.dump({}, f)
         return {}
@@ -24,19 +23,18 @@ def load_json_file(path):
         with open(path, "r", encoding="utf-8") as f:
             content = f.read().strip()
             if not content:
-                # 파일은 존재하지만 내용이 비어있을 경우
                 return {}
             return json.loads(content)
     except (json.JSONDecodeError, IOError) as e:
         print(f"❗ JSON 로드 실패({path}): {e}")
         return {}
-    
+
 def save_json_file(data, path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def normalize_for_comparison(data):
-    ignore_keys = {"url", "detailpage_url"}
+    ignore_keys = {"url", "detailpage_url", "exposure_detailpage_url"}
     def recurse(d):
         if isinstance(d, dict):
             return {k: recurse(v) for k, v in d.items() if k not in ignore_keys}
@@ -68,21 +66,20 @@ def update_main_data(result_data, main_data):
                 continue
             existing_item = main_data[lookup_key]
             if normalize_for_comparison(existing_item) != normalize_for_comparison(new_item):
-                # 변경된 항목
                 main_item = dict(new_item)
                 main_item["detailpage_url"] = f"/detail/?id={lookup_key}"
+                main_item["exposure_detailpage_url"] = f"/{lookup_key}/?id={lookup_key}"
                 main_data[lookup_key] = main_item
                 changed_keys.append((lookup_key, main_item["name"], main_item["summary"]["title"]))
                 updated = True
             processed_keys.add(lookup_key)
         else:
-            # 추가된 항목
             main_data[new_key] = dict(new_item)
             main_data[new_key]["detailpage_url"] = f"/detail/?id={new_key}"
+            main_data[new_key]["exposure_detailpage_url"] = f"/{new_key}/?id={new_key}"
             added_keys.append((new_key, new_item["name"], new_item["summary"]["title"]))
             updated = True
 
-    # 삭제된 항목 탐지
     for key in list(main_data.keys()):
         if key not in result_data:
             deleted_keys.append((key, main_data[key].get("name"), main_data[key].get("summary", {}).get("title")))
