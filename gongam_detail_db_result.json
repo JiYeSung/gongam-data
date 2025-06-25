@@ -14,6 +14,7 @@
     },
     "summary": {
       "title": "서종 추모관",
+      "subtitle": "양평군에 위치한 서종 추모관 입니다.",
       "description": "남한강과 북한강이 만나며 사계절을 바로 느끼는 천혜의 명당으로 북한강의 아름다운 물안개와 자연의 운치가 어울어진 곳입니다. 간결하지만 최첨단의 봉안당으로 설계된 스마트한 봉안당이며, 주변 관광지나 명소가 산재해 고인을 기리고 가족과 함께 나들이도 겸할수있는 봉안당 입니다.",
       "transport": "차량 : 강동IC 40분, 서종IC 10분"
     },
@@ -97,7 +98,8 @@
     },
     "summary": {
       "title": "남양주 추모공원",
-      "description": "서울과 근접한 남양주시에 위치하여 서울 송파구 기준 30분 이내로 접근이 용이합니다. 고인을 모신 유가족들이 언제 어디서든 쉽게 찾아뵐 수 있으며, 푸르른 자연경관,  맑은 공기와 함께 하는 평안한 영혼의 안식처라 할 수 있습니다.",
+      "subtitle": "",
+      "description": "서울과 근접한 남양주시에 위치하여 서울 송파구 기준 30분 이내로 접근이 용이합니다. 고인을 모신 유가족들이 언제 어디서든 쉽게 찾아뵐 수 있으며, 푸르른 자연경관,  맑은 공기와 함께 하는 평안한 영혼의 안식처라 할 수 있습니다.",
       "transport": "차량 : 강동 IC 30분, 화도IC 10분"
     },
     "info": {
@@ -3629,6 +3631,177 @@
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c18283ba3af3b.jpg",
         "alt": "파주 봉안당 장지 이미지6"
+      }
+    ]
+  },
+  "041": {
+    "name": "일산공감수목장",
+    "area": "경기도",
+    "sub_area": "고양시",
+    "types": [
+      "수목장",
+      "잔디장"
+    ],
+    "price": "2,500,000원",
+    "is_recommended": false,
+    "location": {
+      "lat": "37.6588746240831",
+      "lng": "126.775008021538"
+    },
+    "summary": {
+      "title": "일산 수목장",
+      "description": "일산 동구에 위치한 현달산(139m)에 위치하여 있습니다. 10000평 부지의 수도권 기준으로가장 큰 묘역을 갖춘 수목장으로 2021년 시작하여 가장 최근에 허가받아 운영되는 시설입니다.장지에서 바라보는 파주와 일산시내 조망이 탁월한 명당의 수목장지 입니다.",
+      "transport": "차량 : 고양시청 15분, 사리현IC 7분"
+    },
+    "info": {
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "수목장, 잔디장"
+    },
+    "price_table": [
+      {
+        "name": "잔디장",
+        "price": "2,500,000원~"
+      },
+      {
+        "name": "수목장",
+        "price": "4,000,000원~(개인목)"
+      },
+      {
+        "name": "수목장",
+        "price": "6,000,000원~(부부목)"
+      }
+    ],
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": false
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": false
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b6640374196b.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b6640374196b.jpg",
+        "alt": "일산 수목장 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ec7eb7a3c5270.jpg",
+        "alt": "일산 수목장 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/6d5ff3f1df7b6.jpg",
+        "alt": "일산 수목장 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e8819e136b686.jpg",
+        "alt": "일산 수목장 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/dcb1ce27f9cd2.jpg",
+        "alt": "일산 수목장 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/84074be64cc7f.jpg",
+        "alt": "일산 수목장 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/eb8acb292261e.jpg",
+        "alt": "일산 수목장 장지 이미지6"
+      }
+    ]
+  },
+  "042": {
+    "name": "자연애숲",
+    "area": "경기도",
+    "sub_area": "고양시",
+    "types": [
+      "수목장"
+    ],
+    "price": "3,000,000원",
+    "is_recommended": false,
+    "location": {
+      "lat": "37.6588746240831",
+      "lng": "126.775008021538"
+    },
+    "summary": {
+      "title": "일산 자연수목장",
+      "description": "번잡한 도시를 조금만 벗어나면 만날 수 있는 안정적인 곳에 자리하여 그리울때면 언제나 부담없이 찾을 수 있는 수목장지 입니다. 봄, 여름, 가을, 겨울 각 계절마다 가장 아름다운 모습으로 관리되며 깔끔한 사무동과 휴게시설이 마련되어 있습니다.",
+      "transport": "차량 : 고양시청 15분, 사리현IC 7분"
+    },
+    "info": {
+      "지역": "경기도 고양시",
+      "운영": "사설",
+      "형태": "수목장"
+    },
+    "price_table": [
+      {
+        "name": "잔디장",
+        "price": "3,000,000원~"
+      },
+      {
+        "name": "수목장",
+        "price": "8,000,000원~"
+      }
+    ],
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": false
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": false
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/35cc33f41e324.png",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/35cc33f41e324.png",
+        "alt": "일산 자연수목장 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2226473c295ef.png",
+        "alt": "일산 자연수목장 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5ddbc8cf454fb.jpg",
+        "alt": "일산 자연수목장 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9ab286fa7b2fe.jpg",
+        "alt": "일산 자연수목장 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/95fe5ad9bc0c6.jpg",
+        "alt": "일산 자연수목장 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/50926cc50aec7.jpg",
+        "alt": "일산 자연수목장 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/42385196ab718.jpg",
+        "alt": "일산 자연수목장 장지 이미지6"
       }
     ]
   }
