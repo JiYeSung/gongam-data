@@ -120,10 +120,14 @@ def main():
             table_id = table.get("id", "")
             is_detail_card = (table_id == "detail-card")
             extracted = extract_table_data(table, is_detail_card)
+
+            # ✅ summary.title 추출
             if table_id == "detail-head":
                 title = extracted.get("summary", {}).get("title", "")
+
             detail_data.update(extracted)
 
+            # ✅ 이미지 추출
             if table_id == "detail-images":
                 for tr in table.find_all("tr"):
                     td = tr.find("td")
@@ -144,12 +148,14 @@ def main():
 
                         detail_data["detail_images"] = images
 
+        # ✅ 위치 초기화
         if "location" not in detail_data:
             detail_data["location"] = {"lat": "", "lng": ""}
         else:
             detail_data["location"].setdefault("lat", "")
             detail_data["location"].setdefault("lng", "")
 
+        # ✅ 누락 필드 경고
         required_fields = ["summary", "location", "thumbnail", "detail_images", "info"]
         for field in required_fields:
             if field not in detail_data:
@@ -157,6 +163,7 @@ def main():
 
         final_result[f"{idx:03}"] = detail_data
 
+    # ✅ 저장
     with open("gongam_detail_db_result.json", "w", encoding="utf-8") as f:
         json.dump(final_result, f, ensure_ascii=False, indent=2)
 
