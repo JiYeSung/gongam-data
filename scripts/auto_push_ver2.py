@@ -67,16 +67,14 @@ def update_main_data(result_data, main_data):
             existing_item = main_data[lookup_key]
             if normalize_for_comparison(existing_item) != normalize_for_comparison(new_item):
                 main_item = dict(new_item)
-                main_item["detailpage_url"] = f"/detail/?id={lookup_key}"
-                main_item["exposure_detailpage_url"] = f"/{lookup_key}/?id={lookup_key}"
+                main_item["exposure_detailpage_url"] = f"/{lookup_key}"
                 main_data[lookup_key] = main_item
                 changed_keys.append((lookup_key, main_item["name"], main_item["summary"]["title"]))
                 updated = True
             processed_keys.add(lookup_key)
         else:
             main_data[new_key] = dict(new_item)
-            main_data[new_key]["detailpage_url"] = f"/detail/?id={new_key}"
-            main_data[new_key]["exposure_detailpage_url"] = f"/{new_key}/?id={new_key}"
+            main_data[new_key]["exposure_detailpage_url"] = f"/{new_key}"
             added_keys.append((new_key, new_item["name"], new_item["summary"]["title"]))
             updated = True
 
