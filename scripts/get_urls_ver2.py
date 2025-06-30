@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import json
 import time
 import re
-from urllib.parse import urljoin
 
 BASE_URL = "https://gongamcompany.imweb.me"
 LIST_PAGE = BASE_URL + "/gongam-imgdb"
@@ -31,12 +30,10 @@ def get_pagination_links():
 def extract_title_parts(title_text):
     match = re.match(r"(.+?)\s*\((.+?)\)", title_text)
     if match:
-        alt_prefix = match.group(1).strip()
         name = match.group(2).strip()
     else:
-        alt_prefix = title_text.strip()
         name = title_text.strip()
-    return alt_prefix, name
+    return name
 
 def collect_from_page(url, count_filter_set):
     res = requests.get(url, headers=HEADERS)
@@ -60,9 +57,20 @@ def collect_from_page(url, count_filter_set):
         if count_filter_set is not None and count not in count_filter_set:
             continue
 
+        count_str = f"{count:03}"
+        title_url = f"{BASE_URL}/{count_str}"
+        try:
+            title_res = requests.get(title_url, headers=HEADERS, timeout=10)
+            title_soup = BeautifulSoup(title_res.text, "html.parser")
+            title_tag = title_soup.select_one("h1.gongam-funeral-title")
+            alt_prefix = title_tag.get_text(strip=True) if title_tag else ""
+        except Exception as e:
+            print(f"⚠️ 타이틀 수집 실패: {title_url} → {e}")
+            alt_prefix = ""
+
         href = title_el.get("href", "")
-        title = title_el.text.strip()
-        alt_prefix, name = extract_title_parts(title)
+        raw_title = title_el.text.strip()
+        name = extract_title_parts(raw_title)
         full_url = BASE_URL + href
 
         result.append({
@@ -87,27 +95,8 @@ def collect_all(count_filter_set=None):
 
     return all_results
 
-# def get_count_filter_input():
-    # user_input = input("🎯 수집할 count 값을 입력하세요 (예: 10-50 / 5 10 23 / [엔터=전체]): ").strip()
-
-    # if not user_input:
-    #     return None  # 전체 수집
-
-    # if "-" in user_input:
-    #     try:
-    #         min_count, max_count = map(int, user_input.split("-"))
-    #         return set(range(min_count, max_count + 1))
-    #     except:
-    #         print("❌ 범위 입력 오류! 예: 10-30")
-    #         exit(1)
-    # else:
-    #     try:
-    #         return set(map(int, user_input.split()))
-    #     except:
-    #         print("❌ 숫자 입력 오류! 예: 5 10 23")
-    #         exit(1)
 def get_count_filter_input():
-    # ✅ 사용자 입력 없이 전체 수집
+    # ✅ 전체 수집
     return None
 
 def main():
