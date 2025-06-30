@@ -74,8 +74,8 @@ def collect_from_page(url, count_filter_set):
         full_url = BASE_URL + href
 
         result.append({
-            "url": full_url,
-            "alt_prefix": alt_prefix,
+            "url": full_url, 
+            "alt_prefix": alt_prefix, # 실제 페이지 내부에 작성된 title을 수집
             "name": name,
             "count": count
         })
