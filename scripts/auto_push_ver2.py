@@ -75,7 +75,7 @@ def should_push(new_data, old_data):
         if new_title != old_title:
             log(f"🔄 변경 감지: key={key}, old='{old_title}' → new='{new_title}'")
             return True
-    return True
+    return False
 
 def main():
     result_data = load_json_file(RESULT_FILE)
