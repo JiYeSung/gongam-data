@@ -59,24 +59,40 @@ def collect_from_page(url, count_filter_set):
 
         count_str = f"{count:03}"
         title_url = f"{BASE_URL}/{count_str}"
+        title, name, description, addr = "", "", "", ""
+
         try:
             title_res = requests.get(title_url, headers=HEADERS, timeout=10)
             title_soup = BeautifulSoup(title_res.text, "html.parser")
+
+            # ✅ title
             title_tag = title_soup.select_one("h1.gongam-funeral-title")
-            alt_prefix = title_tag.get_text(strip=True) if title_tag else ""
+            title = title_tag.get_text(strip=True) if title_tag else ""
+
+            # ✅ name
+            name_tag = title_soup.select_one("h2.gongam-funeral-subtitle")
+            name = name_tag.get_text(strip=True) if name_tag else ""
+
+            # ✅ description
+            desc_tag = title_soup.select_one("span.gongam-funeral-description")
+            description = desc_tag.get_text(strip=True) if desc_tag else ""
+
+            # ✅ addr
+            addr_tag = title_soup.select_one("span.detail-addr")
+            addr = addr_tag.get_text(strip=True) if addr_tag else ""
+
         except Exception as e:
-            print(f"⚠️ 타이틀 수집 실패: {title_url} → {e}")
-            alt_prefix = ""
+            print(f"⚠️ 상세 수집 실패: {title_url} → {e}")
 
         href = title_el.get("href", "")
-        raw_title = title_el.text.strip()
-        name = extract_title_parts(raw_title)
         full_url = BASE_URL + href
 
         result.append({
-            "url": full_url, 
-            "alt_prefix": alt_prefix, # 실제 페이지 내부에 작성된 title을 수집
+            "url": full_url,
+            "title": title,
             "name": name,
+            "description": description,
+            "addr": addr,
             "count": count
         })
 
@@ -96,8 +112,7 @@ def collect_all(count_filter_set=None):
     return all_results
 
 def get_count_filter_input():
-    # ✅ 전체 수집
-    return None
+    return None  # 전체 수집
 
 def main():
     count_filter_set = get_count_filter_input()

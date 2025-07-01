@@ -50,8 +50,8 @@ def extract_table_data(table, is_detail_card=False):
         if not key or not value_td:
             continue
 
-        # ✅ summary.title 무시
-        if key == "summary.title":
+        # ✅ summary.로 시작하는 키는 무시
+        if key.startswith("summary."):
             continue
 
         value = value_td.get_text(strip=True)
@@ -96,15 +96,19 @@ def main():
     for idx, item in enumerate(url_items, start=1):
         count = int(item["count"])
         detail_url = item["url"]
-        title = item.get("alt_prefix", "").strip()
+        title = item.get("title", "").strip()
         detail_data = {}
-
         headers = {"User-Agent": random.choice(USER_AGENTS)}
 
-        detail_data.setdefault("summary", {})
-        detail_data["summary"]["title"] = title
+        # ✅ summary 항목 구성 (addr → transport)
+        detail_data["summary"] = {
+            "title": item.get("title", "").strip(),
+            "name": item.get("name", "").strip(),
+            "description": item.get("description", "").strip(),
+            "transport": item.get("addr", "").strip()
+        }
 
-        # ✅ 상세 데이터 수집
+        # ✅ 상세 페이지 요청
         try:
             time.sleep(random.uniform(1, 3))
             res_detail = requests.get(detail_url, headers=headers, timeout=10)
@@ -138,16 +142,15 @@ def main():
                         if not thumbnail_url and images:
                             detail_data["thumbnail"] = images[0]["src"]
                         detail_data["detail_images"] = images
-        
-        detail_data.setdefault("summary", {})
-        detail_data["summary"]["title"] = title
-        
+
+        # ✅ location 기본값 보완
         if "location" not in detail_data:
             detail_data["location"] = {"lat": "", "lng": ""}
         else:
             detail_data["location"].setdefault("lat", "")
             detail_data["location"].setdefault("lng", "")
 
+        # ✅ 필수 필드 확인
         for field in ["summary", "location", "thumbnail", "detail_images", "info"]:
             if field not in detail_data:
                 print(f"⚠️ [누락] {idx:03}번 항목 - '{field}' 필드 없음 → {detail_url}")
