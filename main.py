@@ -42,7 +42,7 @@ def download_file_from_github(file_path):
 
 @app.post("/gongam-update-script")
 async def run_script(request: Request):
-    # 🔐 인증 확인
+    # 인증 확인
     token = request.headers.get("Authorization")
     if token != f"Bearer {API_SECRET}":
         raise HTTPException(status_code=403, detail="Unauthorized")
@@ -50,7 +50,7 @@ async def run_script(request: Request):
     logging.info("✅ /gongam-update-script 호출됨")
     logging.info(f"GITHUB_TOKEN 설정됨: {bool(GITHUB_TOKEN)}")
 
-    # 📥 코드 파일 다운로드
+    # 코드 파일 다운로드
     for file_name in FILES:
         try:
             content = download_file_from_github(file_name)
@@ -61,12 +61,12 @@ async def run_script(request: Request):
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"❌ {file_name} 다운로드 실패: {str(e)}")
 
-    # ▶ Python 스크립트 실행
+    # Python 스크립트 실행
     try:
         result = subprocess.run(["python", "run_all.py"], capture_output=True, text=True)
         logging.info("✅ run_all.py 실행 완료")
         return {
-            "output": result.stdout.strip(),  # 🔍 .strip()으로 깔끔하게
+            "output": result.stdout.strip(),
             "error": result.stderr.strip()
         }
     except Exception as e:

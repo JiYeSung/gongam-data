@@ -12,7 +12,7 @@ data_formatting_ver2.main()
 
 # 3단계
 print("\n📌 [3/3] DB 업데이트 및 Git Push 중...")
-auto_push_ver2.main()  # run_git_api_push는 존재하지 않음
+auto_push_ver2.main()  
 
 # 클라이언트 전용 로그 메시지
 print("\n✅ 모든 스크립트 실행이 완료되었습니다.")
