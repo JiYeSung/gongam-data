@@ -11,7 +11,6 @@ USER_AGENTS = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
 ]
 
-# ✅ 값 파싱 함수
 def parse_value(key, value):
     value = value.strip()
     if value == "Y":
@@ -22,7 +21,6 @@ def parse_value(key, value):
         return [v.strip() for v in value.split(",") if v.strip()]
     return value
 
-# ✅ 테이블 데이터 파싱
 def extract_table_data(table, is_detail_card=False):
     data = {}
     table_id = table.get("id", "")
@@ -50,7 +48,6 @@ def extract_table_data(table, is_detail_card=False):
         if not key or not value_td:
             continue
 
-        # ✅ summary.로 시작하는 키는 무시
         if key.startswith("summary."):
             continue
 
@@ -65,7 +62,7 @@ def extract_table_data(table, is_detail_card=False):
                 })
             elif part1 == "price_table":
                 data.setdefault("price_table", []).append({
-                    "name": part2,
+                    "name": th_or_td.get_text(strip=True),
                     "price": parse_value(part2, value)
                 })
             else:
@@ -75,7 +72,6 @@ def extract_table_data(table, is_detail_card=False):
 
     return data
 
-# ✅ 이미지 수집
 def extract_images(td_tag, title_prefix):
     images = []
     for i, img in enumerate(td_tag.find_all("img"), 1):
@@ -85,7 +81,6 @@ def extract_images(td_tag, title_prefix):
             images.append({"src": src, "alt": alt})
     return images
 
-# ✅ 메인 로직
 def main():
     with open("./urls_by_pagination.json", "r", encoding="utf-8") as f:
         url_items = json.load(f)
@@ -100,7 +95,6 @@ def main():
         detail_data = {}
         headers = {"User-Agent": random.choice(USER_AGENTS)}
 
-        # ✅ summary 항목 구성 (addr → transport)
         detail_data["summary"] = {
             "title": item.get("title", "").strip(),
             "name": item.get("name", "").strip(),
@@ -108,7 +102,6 @@ def main():
             "transport": item.get("addr", "").strip()
         }
 
-        # ✅ 상세 페이지 요청
         try:
             time.sleep(random.uniform(1, 3))
             res_detail = requests.get(detail_url, headers=headers, timeout=10)
@@ -143,14 +136,12 @@ def main():
                             detail_data["thumbnail"] = images[0]["src"]
                         detail_data["detail_images"] = images
 
-        # ✅ location 기본값 보완
         if "location" not in detail_data:
             detail_data["location"] = {"lat": "", "lng": ""}
         else:
             detail_data["location"].setdefault("lat", "")
             detail_data["location"].setdefault("lng", "")
 
-        # ✅ 필수 필드 확인
         for field in ["summary", "location", "thumbnail", "detail_images", "info"]:
             if field not in detail_data:
                 print(f"⚠️ [누락] {idx:03}번 항목 - '{field}' 필드 없음 → {detail_url}")
