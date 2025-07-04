@@ -3844,5 +3844,101 @@
         "alt": "일산 자연수목장 장지 이미지6"
       }
     ]
+  },
+  "043": {
+    "summary": {
+      "title": "충주 공원묘원",
+      "name": "충청북도 충주시에 위치한 대형 메모리얼파크 공원묘원 입니다",
+      "description": "아름다운 자연속에 자리한 공원묘원으로 명성왕후가 나라의 안위를 빌던 국망산 명당에 자리 잡은 대형 메모리얼파크 입니다. 서울 강남 및 경기 남부 접근성이 편리하며 다양한 분묘 형태 이용 가능합니다.  천주교식 합장이 가능한 묘원으로 고객님들의 관심도가 높은 장지입니다.",
+      "transport": "차량 : 강동IC 60분, 앙성온천역 8분, 감곡IC 7분"
+    },
+    "name": "진달래메모리얼파크",
+    "area": "충청북도",
+    "sub_area": "충주시",
+    "types": [
+      "공원묘원"
+    ],
+    "price": "13,200,000원",
+    "is_recommended": false,
+    "location": {
+      "lat": "37.1091674050489",
+      "lng": "127.750768224757"
+    },
+    "info": {
+      "지역": "충청북도 충주시",
+      "운영": "사설",
+      "형태": "봉안묘,평장묘,매장묘"
+    },
+    "price_table": [
+      {
+        "name": "잔디장",
+        "price": "13,200,000원~ (3평)"
+      },
+      {
+        "name": "수목장",
+        "price": "22,500,000원~ (6평)"
+      },
+      {
+        "name": "봉안담",
+        "price": "23,700,000원~ (6평)"
+      },
+      {
+        "name": "매장묘",
+        "price": "31,200,000원~ (8평)"
+      }
+    ],
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": false
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/5745ecce65d21.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5745ecce65d21.jpg",
+        "alt": "충주 공원묘원 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f64b67f319d10.jpg",
+        "alt": "충주 공원묘원 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4bedf561b7a1b.jpg",
+        "alt": "충주 공원묘원 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/017f56aa678ad.jpg",
+        "alt": "충주 공원묘원 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/803ae45d3665e.jpg",
+        "alt": "충주 공원묘원 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/787a8f0b6b786.jpg",
+        "alt": "충주 공원묘원 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e1e0ca4a6f85e.jpg",
+        "alt": "충주 공원묘원 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9cbecf1b308f4.jpg",
+        "alt": "충주 공원묘원 장지 이미지7"
+      }
+    ]
   }
 }
