@@ -4058,5 +4058,106 @@
         "alt": "횡성 수목장 장지 이미지8"
       }
     ]
+  },
+  "045": {
+    "summary": {
+      "title": "용인 수목장",
+      "name": "경기도 용인시에 위치한 아름다운 수목장지 입니다.",
+      "description": "자연이 변치 않는 것처럼 고인에 대한 마음이 변치 않기를, 자연의 아름다움과 고인이 평안하고 안정된 쉼터 입니다. \n\t  넓은 공간과 공원 느낌의 수목장, 자손 발복의 명당자리 추모목, 공원같은 전경의 수목장으로 편안하고 안락함을 \n\t  안겨줍니다. 경기 남부권의 1등 수목장임을 자부 합니다.",
+      "transport": "차량 : 송파,강남권 30분대, 서울강북 50분대, 백암면사무소 5분"
+    },
+    "name": "불광사 양지수목장",
+    "area": "경기도",
+    "sub_area": "용인시 처인구 백암면",
+    "types": [
+      "수목장",
+      "잔디장"
+    ],
+    "price": "1,500,000원",
+    "is_recommended": true,
+    "location": {
+      "lat": "37.1634709899499",
+      "lng": "127.375348473818"
+    },
+    "info": {
+      "지역": "경기도 용인시",
+      "운영": "사설",
+      "형태": "수목장,잔디장"
+    },
+    "price_table": [
+      {
+        "name": "잔디장",
+        "price": "1,500,000원 ~"
+      },
+      {
+        "name": "수목장(공동목)",
+        "price": "2,000,000원 ~"
+      },
+      {
+        "name": "수목장(개인목)",
+        "price": "3,000,000원 ~"
+      },
+      {
+        "name": "수목장(부부목)",
+        "price": "6,000,000원 ~"
+      },
+      {
+        "name": "수목장(가족목_4위~12위)",
+        "price": "9,000,000원 ~ 30,000,000원"
+      }
+    ],
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": false
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/4ab5b6ee87623.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4ab5b6ee87623.jpg",
+        "alt": "용인 수목장 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5009b9821cff7.jpg",
+        "alt": "용인 수목장 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2c34a24c3d72e.jpg",
+        "alt": "용인 수목장 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1a9fc4ff5f5b4.jpg",
+        "alt": "용인 수목장 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1f24663676878.jpg",
+        "alt": "용인 수목장 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d101a20feb67d.jpg",
+        "alt": "용인 수목장 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/3197f07c02a76.jpg",
+        "alt": "용인 수목장 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/aa3fa72f80adb.jpg",
+        "alt": "용인 수목장 장지 이미지7"
+      }
+    ]
   }
 }
