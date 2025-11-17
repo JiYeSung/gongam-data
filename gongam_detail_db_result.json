@@ -598,47 +598,43 @@
         "active": true
       }
     ],
-    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/d60bf46c9acc8.jpg",
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/de10bb8e9d1e5.jpg",
     "detail_images": [
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d60bf46c9acc8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/de10bb8e9d1e5.jpg",
         "alt": "분당봉안당 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2a251a8790b89.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/a1e3f40a5eed5.jpg",
         "alt": "분당봉안당 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/90f2fac9913c6.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1cf52e57ef307.jpg",
         "alt": "분당봉안당 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/88bf67643aee2.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/2c8608a6e6833.jpg",
         "alt": "분당봉안당 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/1b788a192afa8.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/5c82c10af7ca2.jpg",
         "alt": "분당봉안당 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7b6c080550d85.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/af9a491b58e44.jpg",
         "alt": "분당봉안당 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/72632c5d2f593.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b05616f1ebe45.jpg",
         "alt": "분당봉안당 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/d14e2c84614a9.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/889c629cb9166.jpg",
         "alt": "분당봉안당 장지 이미지7"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/889c629cb9166.jpg",
-        "alt": "분당봉안당 장지 이미지8"
-      },
-      {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/e8897b666a111.jpg",
-        "alt": "분당봉안당 장지 이미지9"
+        "alt": "분당봉안당 장지 이미지8"
       }
     ]
   },
@@ -799,31 +795,31 @@
         "alt": "분당추모공원 장지 이미지0"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/abcddfe0b629b.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b3a703a2b5e6b.jpg",
         "alt": "분당추모공원 장지 이미지1"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ee22c51fccd71.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8b03fd03d235b.jpg",
         "alt": "분당추모공원 장지 이미지2"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/c85a180055f61.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f3ec6fb3538f5.jpg",
         "alt": "분당추모공원 장지 이미지3"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/36a1f67200db9.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0f33fa5fc57db.jpg",
         "alt": "분당추모공원 장지 이미지4"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/dba184cfc6078.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/cf8c3eec8d9f9.jpg",
         "alt": "분당추모공원 장지 이미지5"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/95b42a855fae1.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/4334671b6080f.jpg",
         "alt": "분당추모공원 장지 이미지6"
       },
       {
-        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/52ce098557501.jpg",
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/19bb3f3d4957c.jpg",
         "alt": "분당추모공원 장지 이미지7"
       }
     ]
@@ -1129,15 +1125,19 @@
     },
     "price_table": [
       {
-        "name": "수목장",
-        "price": "별도문의"
+        "name": "가족목 (4위)",
+        "price": "6,500,000원 ~"
       },
       {
-        "name": "봉안묘",
-        "price": "별도문의"
+        "name": "가족목 (5위)",
+        "price": "10,000,000원 ~ (추가안치 1위당 173만원)"
       },
       {
-        "name": "매장묘",
+        "name": "가족목 (9위)",
+        "price": "20,000,000원 ~ (추가안치 1위당 173만원)"
+      },
+      {
+        "name": "매장묘, 봉안묘 등",
         "price": "별도문의"
       }
     ],
@@ -1384,8 +1384,8 @@
     "types": [
       "봉안당"
     ],
-    "price": "1,500,000원~",
-    "is_recommended": true,
+    "price": "7,000,000원~",
+    "is_recommended": false,
     "location": {
       "lat": "37.6588746240831",
       "lng": "126.775008021538"
@@ -1398,11 +1398,11 @@
     "price_table": [
       {
         "name": "개인단",
-        "price": "1,500,000원~"
+        "price": "7,000,000원~ (신관_고급실) / 구관 만장"
       },
       {
         "name": "부부단",
-        "price": "3,000,000원~"
+        "price": "14,000,000원~ (신관_고급실) / 구관 만장"
       }
     ],
     "facilities": [
@@ -4062,8 +4062,8 @@
   "045": {
     "summary": {
       "title": "용인 수목장",
-      "name": "경기도 용인시에 위치한 아름다운 수목장지 입니다.",
-      "description": "자연이 변치 않는 것처럼 고인에 대한 마음이 변치 않기를, 자연의 아름다움과 고인이 평안하고 안정된 쉼터 입니다. \n\t  넓은 공간과 공원 느낌의 수목장, 자손 발복의 명당자리 추모목, 공원같은 전경의 수목장으로 편안하고 안락함을 \n\t  안겨줍니다. 경기 남부권의 1등 수목장임을 자부 합니다.",
+      "name": "경기도 용인시 처인구에 위치한 아름다운 수목장지 입니다.",
+      "description": "자연이 변치 않는 것처럼 고인에 대한 마음이 변치 않기를, 자연의 아름다움과 고인이 평안하고 안정된 쉼터 입니다. \n\t  넓은 공간과 공원 느낌의 수목장, 자손 발복의 명당자리 추모목, 공원같은 전경의 수목장으로 편안하고 안락함을 \n\t  안겨줍니다. 경기 남부권 최고의 수목장임을 자부 합니다.",
       "transport": "차량 : 송파,강남권 30분대, 서울강북 50분대, 백암면사무소 5분"
     },
     "name": "불광사 양지수목장",
@@ -4157,6 +4157,190 @@
       {
         "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/aa3fa72f80adb.jpg",
         "alt": "용인 수목장 장지 이미지7"
+      }
+    ]
+  },
+  "046": {
+    "summary": {
+      "title": "양주 봉안당",
+      "name": "경기도 양주시 옥정신도시의 도심근교형 가족추모공원 입니다.",
+      "description": "양주봉안당은 경기도 양주시에 위치한 안락한 공원형태의 납골 시설인 벽체식봉안담으로써 선대와 우리와 후손이 함께 공유할 수 있는 공간이며, 영원한 안식처로서 따뜻한 햇살 속에서 쾌적하고 안락한 환경이 조성되어 있으며, 후손들에게도 아름다운 자연속에서 위안과 희망을 얻을 수 있는 공원임을 자부 합니다.",
+      "transport": "차량 : 서울 강남권 50분, 강동에서 40분, 덕정역 10분"
+    },
+    "name": "양주추모공원",
+    "area": "경기도",
+    "sub_area": "양주시",
+    "types": [
+      "봉안당"
+    ],
+    "price": "3,500,000원",
+    "is_recommended": false,
+    "location": {
+      "lat": "37.8250791385474",
+      "lng": "127.10332302174"
+    },
+    "info": {
+      "지역": "경기도 양주시",
+      "운영": "사설",
+      "형태": "납골당, 납골담"
+    },
+    "price_table": [
+      {
+        "name": "납골담 (개인형)",
+        "price": "3,500,000원 ~"
+      },
+      {
+        "name": "납골담 (부부형)",
+        "price": "5,500,000원 ~"
+      }
+    ],
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": false
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": false
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/7fc4e30e886a3.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/7fc4e30e886a3.jpg",
+        "alt": "양주 봉안당 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/8d6f3299c58b5.jpg",
+        "alt": "양주 봉안당 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9c684845ffc7c.jpg",
+        "alt": "양주 봉안당 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/dacb84c8dc3b6.jpg",
+        "alt": "양주 봉안당 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/9af3a477ed008.jpg",
+        "alt": "양주 봉안당 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ca9345f79e7e9.jpg",
+        "alt": "양주 봉안당 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/239999a91670f.jpg",
+        "alt": "양주 봉안당 장지 이미지6"
+      }
+    ]
+  },
+  "047": {
+    "summary": {
+      "title": "김포 수목장",
+      "name": "경기도 김포시 월곶면 전통의 자연장지(수목장) 입니다.",
+      "description": "자연속에서 자연과 하나되는 아름다운 수목장지 입니다. 아름답고 품위있는 숲을 통해 자연으로 회귀할 수 있습니다. 명산으로 유명한 애기봉이 둘러싸고 있으며, 앞으로는 한강과 바다가 만나는 최고의 명당 수목장지 입니다. 고인게는 위엄있는 장지를 제공하며 후손에겐 아름다운 쉼터인 숲을 가꾸어 되돌려주는 진정한 자연장지 입니다.",
+      "transport": "차량 : 서울 강남권 50분, 강북/일산권 30분, 김포시내 15분"
+    },
+    "name": "청솔수목장",
+    "area": "경기도",
+    "sub_area": "김포시",
+    "types": [
+      "수목장"
+    ],
+    "price": "2,000,000원",
+    "is_recommended": false,
+    "location": {
+      "lat": "37.7150895643421",
+      "lng": "126.552911756013"
+    },
+    "info": {
+      "지역": "경기도 김포시",
+      "운영": "사설",
+      "형태": "수목장"
+    },
+    "price_table": [
+      {
+        "name": "수목장 (개인)",
+        "price": "2,000,000원 ~ 8,000,000원"
+      },
+      {
+        "name": "부부목",
+        "price": "6,000,000원 ~ 18,000,000원"
+      },
+      {
+        "name": "가족목 (4위)",
+        "price": "14,000,000원 ~"
+      },
+      {
+        "name": "가족목 (6위)",
+        "price": "20,000,000원 ~"
+      },
+      {
+        "name": "가족목 (8위~)",
+        "price": "24,000,000원 ~"
+      }
+    ],
+    "facilities": [
+      {
+        "name": "주차장",
+        "active": true
+      },
+      {
+        "name": "매점",
+        "active": true
+      },
+      {
+        "name": "유족대기실",
+        "active": true
+      },
+      {
+        "name": "장애인시설",
+        "active": false
+      }
+    ],
+    "thumbnail": "https://cdn.imweb.me/upload/S2025052741b140da69846/52479cc1a8008.jpg",
+    "detail_images": [
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/52479cc1a8008.jpg",
+        "alt": "김포 수목장 장지 이미지0"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/ce81fffb71657.jpg",
+        "alt": "김포 수목장 장지 이미지1"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/f315841f10104.jpg",
+        "alt": "김포 수목장 장지 이미지2"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/95d92d7b38773.jpg",
+        "alt": "김포 수목장 장지 이미지3"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/b87862b7c58d0.jpg",
+        "alt": "김포 수목장 장지 이미지4"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/795c3f013afa0.jpg",
+        "alt": "김포 수목장 장지 이미지5"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/635687ca5eb2a.jpg",
+        "alt": "김포 수목장 장지 이미지6"
+      },
+      {
+        "src": "https://cdn.imweb.me/upload/S2025052741b140da69846/0a138d178eebc.jpg",
+        "alt": "김포 수목장 장지 이미지7"
       }
     ]
   }
